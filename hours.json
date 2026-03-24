@@ -1,0 +1,14 @@
+{
+  "hours": {
+    "timezone": "America/New_York",
+    "weekly_hours": {
+      "monday": { "open": "07:00", "close": "14:45" },
+      "tuesday": { "open": "07:00", "close": "14:45" },
+      "wednesday": { "open": "07:00", "close": "14:45" },
+      "thursday": { "open": "07:00", "close": "14:45" },
+      "friday": { "open": "07:00", "close": "14:45" },
+      "saturday": { "open": "07:00", "close": "14:45" },
+      "sunday": { "open": null, "close": null, "closed": true }
+    }
+  }
+}

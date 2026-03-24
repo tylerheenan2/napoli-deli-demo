@@ -1,0 +1,1607 @@
+{
+  "schema_version": "1.0",
+  "menu_id": "menu_breakfast",
+  "items": [
+    {
+      "id": "breakfast.bacon_egg_cheese",
+      "name": "Bacon Egg & Cheese",
+      "category": "breakfast_sandwich",
+      "allowed_formats": [
+        "roll",
+        "sub",
+        "wrap",
+        "small_dish",
+        "large_dish",
+        "mini_sub"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": true,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": null,
+      "price_by_format": {
+        "roll": 3.5,
+        "wrap": 3.5,
+        "small_dish": 3.5,
+        "sub": 7.0,
+        "large_dish": 7.0,
+        "mini_sub": 3.5
+      },
+      "portion_sizes_by_format": {
+        "roll": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        },
+        "wrap": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        },
+        "small_dish": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        },
+        "sub": {
+          "eggs": 2,
+          "meat_portion": "4 slices"
+        },
+        "large_dish": {
+          "eggs": 2,
+          "meat_portion": "4 slices"
+        },
+        "mini_sub": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        }
+      },
+      "ingredient_ids": {
+        "meats": [
+          "meat.bacon"
+        ],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Bacon, Egg, American Cheese"
+    },
+    {
+      "id": "breakfast.sausage_egg_cheese",
+      "name": "Sausage Egg & Cheese",
+      "category": "breakfast_sandwich",
+      "allowed_formats": [
+        "roll",
+        "sub",
+        "wrap",
+        "small_dish",
+        "large_dish",
+        "mini_sub"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": true,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": null,
+      "price_by_format": {
+        "roll": 3.5,
+        "wrap": 3.5,
+        "small_dish": 3.5,
+        "sub": 7.0,
+        "large_dish": 7.0,
+        "mini_sub": 3.5
+      },
+      "portion_sizes_by_format": {
+        "roll": {
+          "eggs": 1,
+          "meat_portion": "1 patty"
+        },
+        "wrap": {
+          "eggs": 1,
+          "meat_portion": "1 patty"
+        },
+        "small_dish": {
+          "eggs": 1,
+          "meat_portion": "1 patty"
+        },
+        "sub": {
+          "eggs": 2,
+          "meat_portion": "2 patties"
+        },
+        "large_dish": {
+          "eggs": 2,
+          "meat_portion": "2 patties"
+        },
+        "mini_sub": {
+          "eggs": 1,
+          "meat_portion": "1 patty"
+        }
+      },
+      "ingredient_ids": {
+        "meats": [
+          "meat.sausage"
+        ],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Sausage Patty, Egg, American Cheese"
+    },
+    {
+      "id": "breakfast.ham_egg_cheese",
+      "name": "Ham Egg & Cheese",
+      "category": "breakfast_sandwich",
+      "allowed_formats": [
+        "roll",
+        "sub",
+        "wrap",
+        "small_dish",
+        "large_dish",
+        "mini_sub"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": true,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": null,
+      "price_by_format": {
+        "roll": 3.5,
+        "wrap": 3.5,
+        "small_dish": 3.5,
+        "sub": 7.0,
+        "large_dish": 7.0,
+        "mini_sub": 3.5
+      },
+      "portion_sizes_by_format": {
+        "roll": {
+          "eggs": 1,
+          "meat_portion": "1 slice"
+        },
+        "wrap": {
+          "eggs": 1,
+          "meat_portion": "1 slice"
+        },
+        "small_dish": {
+          "eggs": 1,
+          "meat_portion": "1 slice"
+        },
+        "sub": {
+          "eggs": 2,
+          "meat_portion": "2 slices"
+        },
+        "large_dish": {
+          "eggs": 2,
+          "meat_portion": "2 slices"
+        },
+        "mini_sub": {
+          "eggs": 1,
+          "meat_portion": "1 slice"
+        }
+      },
+      "ingredient_ids": {
+        "meats": [
+          "meat.ham"
+        ],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Ham, Egg, American Cheese"
+    },
+    {
+      "id": "breakfast.turkey_bacon_egg_cheese",
+      "name": "Turkey Bacon Egg & Cheese",
+      "category": "breakfast_sandwich",
+      "allowed_formats": [
+        "roll",
+        "sub",
+        "wrap",
+        "small_dish",
+        "large_dish",
+        "mini_sub"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": true,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": null,
+      "price_by_format": {
+        "roll": 3.5,
+        "wrap": 3.5,
+        "small_dish": 3.5,
+        "sub": 7.0,
+        "large_dish": 7.0,
+        "mini_sub": 3.5
+      },
+      "portion_sizes_by_format": {
+        "roll": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        },
+        "wrap": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        },
+        "small_dish": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        },
+        "sub": {
+          "eggs": 2,
+          "meat_portion": "4 slices"
+        },
+        "large_dish": {
+          "eggs": 2,
+          "meat_portion": "4 slices"
+        },
+        "mini_sub": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        }
+      },
+      "ingredient_ids": {
+        "meats": [
+          "meat.turkey_bacon"
+        ],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Turkey Bacon, Egg, American Cheese"
+    },
+    {
+      "id": "breakfast.steak_egg_cheese",
+      "name": "Steak Egg & Cheese",
+      "category": "breakfast_sandwich",
+      "allowed_formats": [
+        "roll",
+        "sub",
+        "wrap",
+        "small_dish",
+        "large_dish",
+        "mini_sub"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": true,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": null,
+      "price_by_format": {
+        "roll": 4.5,
+        "wrap": 4.5,
+        "small_dish": 4.5,
+        "sub": 9.0,
+        "large_dish": 9.0,
+        "mini_sub": 4.5
+      },
+      "portion_sizes_by_format": {
+        "roll": {
+          "eggs": 1,
+          "meat_portion": "1/2 steak"
+        },
+        "wrap": {
+          "eggs": 1,
+          "meat_portion": "1/2 steak"
+        },
+        "small_dish": {
+          "eggs": 1,
+          "meat_portion": "1/2 steak"
+        },
+        "sub": {
+          "eggs": 2,
+          "meat_portion": "1 steak"
+        },
+        "large_dish": {
+          "eggs": 3,
+          "meat_portion": "1 steak"
+        },
+        "mini_sub": {
+          "eggs": 1,
+          "meat_portion": "1/2 steak"
+        }
+      },
+      "ingredient_ids": {
+        "meats": [
+          "meat.steak"
+        ],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Steak, Egg, American Cheese"
+    },
+    {
+      "id": "breakfast.pastrami_egg_cheese",
+      "name": "Pastrami Egg & Cheese",
+      "category": "breakfast_sandwich",
+      "allowed_formats": [
+        "roll",
+        "sub",
+        "wrap",
+        "small_dish",
+        "large_dish",
+        "mini_sub"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": true,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": null,
+      "price_by_format": {
+        "roll": 3.5,
+        "wrap": 3.5,
+        "small_dish": 3.5,
+        "sub": 7.0,
+        "large_dish": 7.0,
+        "mini_sub": 3.5
+      },
+      "portion_sizes_by_format": {
+        "roll": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        },
+        "wrap": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        },
+        "small_dish": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        },
+        "sub": {
+          "eggs": 2,
+          "meat_portion": "4 slices"
+        },
+        "large_dish": {
+          "eggs": 2,
+          "meat_portion": "4 slices"
+        },
+        "mini_sub": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        }
+      },
+      "ingredient_ids": {
+        "meats": [
+          "meat.pastrami"
+        ],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Pastrami, Egg, American Cheese"
+    },
+    {
+      "id": "breakfast.turkey_pastrami_egg_cheese",
+      "name": "Turkey Pastrami Egg & Cheese",
+      "category": "breakfast_sandwich",
+      "allowed_formats": [
+        "roll",
+        "sub",
+        "wrap",
+        "small_dish",
+        "large_dish",
+        "mini_sub"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": true,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": null,
+      "price_by_format": {
+        "roll": 3.5,
+        "wrap": 3.5,
+        "small_dish": 3.5,
+        "sub": 7.0,
+        "large_dish": 7.0,
+        "mini_sub": 3.5
+      },
+      "portion_sizes_by_format": {
+        "roll": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        },
+        "wrap": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        },
+        "small_dish": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        },
+        "sub": {
+          "eggs": 2,
+          "meat_portion": "4 slices"
+        },
+        "large_dish": {
+          "eggs": 2,
+          "meat_portion": "4 slices"
+        },
+        "mini_sub": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        }
+      },
+      "ingredient_ids": {
+        "meats": [
+          "meat.turkey_pastrami"
+        ],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "not listed on printed menu; per instruction copy pastrami and swap meat to turkey pastrami"
+        ]
+      },
+      "ingredients_text": "Turkey Pastrami, Egg, American Cheese"
+    },
+    {
+      "id": "breakfast.turkey_pastrami_egg",
+      "name": "Turkey Pastrami & Egg ",
+      "category": "breakfast_sandwich",
+      "allowed_formats": [
+        "roll",
+        "sub",
+        "wrap",
+        "small_dish",
+        "large_dish",
+        "mini_sub"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": true,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": null,
+      "price_by_format": {
+        "roll": 3.5,
+        "wrap": 3.5,
+        "small_dish": 3.5,
+        "sub": 7.0,
+        "large_dish": 7.0,
+        "mini_sub": 3.5
+      },
+      "portion_sizes_by_format": {
+        "roll": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        },
+        "wrap": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        },
+        "small_dish": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        },
+        "sub": {
+          "eggs": 2,
+          "meat_portion": "4 slices"
+        },
+        "large_dish": {
+          "eggs": 2,
+          "meat_portion": "4 slices"
+        },
+        "mini_sub": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        }
+      },
+      "ingredient_ids": {
+        "meats": [
+          "meat.turkey_pastrami"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Turkey Pastrami, Egg,"
+    },
+    {
+      "id": "breakfast.egg_cheese",
+      "name": "Egg & Cheese",
+      "category": "breakfast_sandwich",
+      "allowed_formats": [
+        "roll",
+        "sub",
+        "wrap",
+        "small_dish",
+        "large_dish",
+        "mini_sub"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": true,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": null,
+      "price_by_format": {
+        "roll": 2.75,
+        "wrap": 2.75,
+        "small_dish": 2.75,
+        "sub": 5.5,
+        "large_dish": 5.5,
+        "mini_sub": 2.75
+      },
+      "portion_sizes_by_format": {
+        "roll": {
+          "eggs": 1,
+          "meat_portion": "none"
+        },
+        "wrap": {
+          "eggs": 1,
+          "meat_portion": "none"
+        },
+        "small_dish": {
+          "eggs": 1,
+          "meat_portion": "none"
+        },
+        "sub": {
+          "eggs": 2,
+          "meat_portion": "none"
+        },
+        "large_dish": {
+          "eggs": 2,
+          "meat_portion": "none"
+        },
+        "mini_sub": {
+          "eggs": 1,
+          "meat_portion": "none"
+        }
+      },
+      "ingredient_ids": {
+        "meats": [],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Egg, American Cheese"
+    },
+    {
+      "id": "breakfast.turkey_egg_cheese",
+      "name": "Turkey Egg & Cheese",
+      "category": "breakfast_sandwich",
+      "allowed_formats": [
+        "roll",
+        "sub",
+        "wrap",
+        "small_dish",
+        "large_dish",
+        "mini_sub"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": true,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": null,
+      "price_by_format": {
+        "roll": 3.5,
+        "wrap": 3.5,
+        "small_dish": 3.5,
+        "sub": 7.0,
+        "large_dish": 7.0,
+        "mini_sub": 3.5
+      },
+      "portion_sizes_by_format": {
+        "roll": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        },
+        "wrap": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        },
+        "small_dish": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        },
+        "sub": {
+          "eggs": 2,
+          "meat_portion": "4 slices"
+        },
+        "large_dish": {
+          "eggs": 2,
+          "meat_portion": "4 slices"
+        },
+        "mini_sub": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        }
+      },
+      "ingredient_ids": {
+        "meats": [
+          "meat.turkey"
+        ],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "not listed on printed menu; per instruction set same price as pastrami egg & cheese",
+          "meat portion not specified in PDF for turkey egg & cheese"
+        ]
+      },
+      "ingredients_text": "Turkey, Egg, American Cheese"
+    },
+    {
+      "id": "breakfast.bacon_egg",
+      "name": "Bacon & Egg",
+      "category": "breakfast_sandwich",
+      "allowed_formats": [
+        "roll",
+        "sub",
+        "wrap",
+        "small_dish",
+        "large_dish",
+        "mini_sub"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": true,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": null,
+      "price_by_format": {
+        "roll": 2.95,
+        "wrap": 2.95,
+        "small_dish": 2.95,
+        "sub": 5.9,
+        "large_dish": 5.9,
+        "mini_sub": 2.95
+      },
+      "portion_sizes_by_format": {
+        "roll": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        },
+        "wrap": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        },
+        "small_dish": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        },
+        "sub": {
+          "eggs": 2,
+          "meat_portion": "4 slices"
+        },
+        "large_dish": {
+          "eggs": 2,
+          "meat_portion": "4 slices"
+        },
+        "mini_sub": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        }
+      },
+      "ingredient_ids": {
+        "meats": [
+          "meat.bacon"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Bacon, Egg"
+    },
+    {
+      "id": "breakfast.sausage_egg",
+      "name": "Sausage & Egg",
+      "category": "breakfast_sandwich",
+      "allowed_formats": [
+        "roll",
+        "sub",
+        "wrap",
+        "small_dish",
+        "large_dish",
+        "mini_sub"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": true,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": null,
+      "price_by_format": {
+        "roll": 2.95,
+        "wrap": 2.95,
+        "small_dish": 2.95,
+        "sub": 5.9,
+        "large_dish": 5.9,
+        "mini_sub": 2.95
+      },
+      "portion_sizes_by_format": {
+        "roll": {
+          "eggs": 1,
+          "meat_portion": "1 patty"
+        },
+        "wrap": {
+          "eggs": 1,
+          "meat_portion": "1 patty"
+        },
+        "small_dish": {
+          "eggs": 1,
+          "meat_portion": "1 patty"
+        },
+        "sub": {
+          "eggs": 2,
+          "meat_portion": "2 patties"
+        },
+        "large_dish": {
+          "eggs": 2,
+          "meat_portion": "2 patties"
+        },
+        "mini_sub": {
+          "eggs": 1,
+          "meat_portion": "1 patty"
+        }
+      },
+      "ingredient_ids": {
+        "meats": [
+          "meat.sausage"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Sausage, Egg"
+    },
+    {
+      "id": "breakfast.ham_egg",
+      "name": "Ham & Egg",
+      "category": "breakfast_sandwich",
+      "allowed_formats": [
+        "roll",
+        "sub",
+        "wrap",
+        "small_dish",
+        "large_dish",
+        "mini_sub"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": true,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": null,
+      "price_by_format": {
+        "roll": 2.95,
+        "wrap": 2.95,
+        "small_dish": 2.95,
+        "sub": 5.9,
+        "large_dish": 5.9,
+        "mini_sub": 2.95
+      },
+      "portion_sizes_by_format": {
+        "roll": {
+          "eggs": 1,
+          "meat_portion": "1 slice"
+        },
+        "wrap": {
+          "eggs": 1,
+          "meat_portion": "1 slice"
+        },
+        "small_dish": {
+          "eggs": 1,
+          "meat_portion": "1 slice"
+        },
+        "sub": {
+          "eggs": 2,
+          "meat_portion": "2 slices"
+        },
+        "large_dish": {
+          "eggs": 2,
+          "meat_portion": "2 slices"
+        },
+        "mini_sub": {
+          "eggs": 1,
+          "meat_portion": "1 slice"
+        }
+      },
+      "ingredient_ids": {
+        "meats": [
+          "meat.ham"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Ham, Egg"
+    },
+    {
+      "id": "breakfast.turkey_bacon_egg",
+      "name": "Turkey Bacon & Egg",
+      "category": "breakfast_sandwich",
+      "allowed_formats": [
+        "roll",
+        "sub",
+        "wrap",
+        "small_dish",
+        "large_dish",
+        "mini_sub"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": true,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": null,
+      "price_by_format": {
+        "roll": 2.95,
+        "wrap": 2.95,
+        "small_dish": 2.95,
+        "sub": 5.9,
+        "large_dish": 5.9,
+        "mini_sub": 2.95
+      },
+      "portion_sizes_by_format": {
+        "roll": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        },
+        "wrap": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        },
+        "small_dish": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        },
+        "sub": {
+          "eggs": 2,
+          "meat_portion": "4 slices"
+        },
+        "large_dish": {
+          "eggs": 2,
+          "meat_portion": "4 slices"
+        },
+        "mini_sub": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        }
+      },
+      "ingredient_ids": {
+        "meats": [
+          "meat.turkey_bacon"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Turkey Bacon, Egg"
+    },
+    {
+      "id": "breakfast.steak_egg",
+      "name": "Steak & Egg",
+      "category": "breakfast_sandwich",
+      "allowed_formats": [
+        "roll",
+        "sub",
+        "wrap",
+        "small_dish",
+        "large_dish",
+        "mini_sub"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": true,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": null,
+      "price_by_format": {
+        "roll": 2.95,
+        "wrap": 2.95,
+        "small_dish": 2.95,
+        "sub": 5.9,
+        "large_dish": 5.9,
+        "mini_sub": 2.95
+      },
+      "portion_sizes_by_format": {
+        "roll": {
+          "eggs": 1,
+          "meat_portion": "1/2 steak"
+        },
+        "wrap": {
+          "eggs": 1,
+          "meat_portion": "1/2 steak"
+        },
+        "small_dish": {
+          "eggs": 1,
+          "meat_portion": "1/2 steak"
+        },
+        "sub": {
+          "eggs": 2,
+          "meat_portion": "1 steak"
+        },
+        "large_dish": {
+          "eggs": 2,
+          "meat_portion": "1 steak"
+        },
+        "mini_sub": {
+          "eggs": 1,
+          "meat_portion": "1/2 steak"
+        }
+      },
+      "ingredient_ids": {
+        "meats": [
+          "meat.steak"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Steak, Egg"
+    },
+    {
+      "id": "breakfast.turkey_egg",
+      "name": "Turkey & Egg",
+      "category": "breakfast_sandwich",
+      "allowed_formats": [
+        "roll",
+        "sub",
+        "wrap",
+        "small_dish",
+        "large_dish",
+        "mini_sub"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": true,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": null,
+      "price_by_format": {
+        "roll": 3.5,
+        "wrap": 3.5,
+        "small_dish": 3.5,
+        "sub": 6.9,
+        "large_dish": 6.9,
+        "mini_sub": 3.5
+      },
+      "portion_sizes_by_format": {
+        "roll": {
+          "eggs": 1,
+          "meat_portion": "1 slice"
+        },
+        "wrap": {
+          "eggs": 1,
+          "meat_portion": "1 slice"
+        },
+        "small_dish": {
+          "eggs": 1,
+          "meat_portion": "1 slice"
+        },
+        "sub": {
+          "eggs": 2,
+          "meat_portion": "2 slices"
+        },
+        "large_dish": {
+          "eggs": 2,
+          "meat_portion": "2 slices"
+        },
+        "mini_sub": {
+          "eggs": 1,
+          "meat_portion": "1 slice"
+        }
+      },
+      "ingredient_ids": {
+        "meats": [
+          "meat.turkey"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Turkey, Egg"
+    },
+    {
+      "id": "breakfast.pastrami_egg",
+      "name": "Pastrami & Egg",
+      "category": "breakfast_sandwich",
+      "allowed_formats": [
+        "roll",
+        "sub",
+        "wrap",
+        "small_dish",
+        "large_dish",
+        "mini_sub"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": true,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": null,
+      "price_by_format": {
+        "roll": 2.95,
+        "wrap": 2.95,
+        "small_dish": 2.95,
+        "sub": 5.9,
+        "large_dish": 5.9,
+        "mini_sub": 2.95
+      },
+      "portion_sizes_by_format": {
+        "roll": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        },
+        "wrap": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        },
+        "small_dish": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        },
+        "sub": {
+          "eggs": 2,
+          "meat_portion": "4 slices"
+        },
+        "large_dish": {
+          "eggs": 2,
+          "meat_portion": "4 slices"
+        },
+        "mini_sub": {
+          "eggs": 1,
+          "meat_portion": "2 slices"
+        }
+      },
+      "ingredient_ids": {
+        "meats": [
+          "meat.pastrami"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Pastrami, Egg"
+    },
+    {
+      "id": "breakfast.french_toast",
+      "name": "French Toast",
+      "category": "dish",
+      "allowed_formats": [
+        "small_dish"
+      ],
+      "default_format": "small_dish",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": 7.5,
+      "price_by_format": {
+        "small_dish": 7.5
+      },
+      "portion_sizes_by_format": {
+        "small_dish": {
+          "qty": "3 pieces"
+        }
+      },
+      "ingredient_ids": {
+        "meats": [
+          "meat.bacon"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [
+          "condiment.butter"
+        ],
+        "unmapped": [
+          "powdered sugar"
+        ]
+      },
+      "ingredients_text": "3 pieces French Toast, Butter, Powdered Sugar, Bacon"
+    },
+    {
+      "id": "breakfast.omelet_2_egg",
+      "name": "2 Egg Omelet",
+      "category": "dish",
+      "allowed_formats": [
+        "small_dish"
+      ],
+      "default_format": "small_dish",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": 6.75,
+      "price_by_format": {
+        "small_dish": 6.75
+      },
+      "portion_sizes_by_format": {
+        "small_dish": {
+          "eggs": 2
+        }
+      },
+      "ingredient_ids": {
+        "meats": [],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "Sub amount of meat choice (per menu note)"
+        ]
+      },
+      "ingredients_text": "2 Eggs, American Cheese"
+    },
+    {
+      "id": "breakfast.western_omelet",
+      "name": "Western Omelet",
+      "category": "dish",
+      "allowed_formats": [
+        "small_dish"
+      ],
+      "default_format": "small_dish",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": 7.5,
+      "price_by_format": {
+        "small_dish": 7.5
+      },
+      "portion_sizes_by_format": {
+        "small_dish": {
+          "eggs": 2
+        }
+      },
+      "ingredient_ids": {
+        "meats": [
+          "meat.ham"
+        ],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [
+          "topping.onion",
+          "topping.spinach",
+          "topping.sweet_peppers"
+        ],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "2 Eggs, Ham, Peppers, Onion, Spinach, American Cheese"
+    },
+    {
+      "id": "breakfast.veggie_omelet",
+      "name": "Veggie Omelet",
+      "category": "dish",
+      "allowed_formats": [
+        "small_dish"
+      ],
+      "default_format": "small_dish",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": 6.75,
+      "price_by_format": {
+        "small_dish": 6.75
+      },
+      "portion_sizes_by_format": {
+        "small_dish": {
+          "eggs": 2
+        }
+      },
+      "ingredient_ids": {
+        "meats": [],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [
+          "topping.onion",
+          "topping.spinach",
+          "topping.sweet_peppers"
+        ],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "2 Eggs, Spinach, Peppers, Onion, American Cheese"
+    },
+    {
+      "id": "breakfast.bacon_sausage_egg_cheese",
+      "name": "Bacon Sausage Egg & Cheese",
+      "category": "breakfast_sandwich",
+      "allowed_formats": ["roll", "sub", "wrap", "small_dish", "large_dish", "mini_sub"],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": ["hot"],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": true,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": null,
+      "price_by_format": {
+        "roll": 5.0,
+        "wrap": 5.0,
+        "small_dish": 5.0,
+        "mini_sub": 5.0,
+        "sub": 8.5,
+        "large_dish": 8.5
+      },
+      "portion_sizes_by_format": {
+        "roll": { "eggs": 1, "meat_portion": "2 slices each" },
+        "wrap": { "eggs": 1, "meat_portion": "2 slices each" },
+        "small_dish": { "eggs": 1, "meat_portion": "2 slices each" },
+        "sub": { "eggs": 2, "meat_portion": "4 slices each" },
+        "large_dish": { "eggs": 2, "meat_portion": "4 slices each" },
+        "mini_sub": { "eggs": 1, "meat_portion": "2 slices each" }
+      },
+      "normVariants": ["sausage bacon egg and cheese", "bacon and sausage egg and cheese"],
+      "ingredient_ids": {
+        "meats": ["meat.bacon", "meat.sausage"],
+        "cheeses": ["cheese.american"],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Bacon, Sausage, Egg, American Cheese"
+    },
+    {
+      "id": "breakfast.ham_bacon_egg_cheese",
+      "name": "Ham Bacon Egg & Cheese",
+      "category": "breakfast_sandwich",
+      "allowed_formats": ["roll", "sub", "wrap", "small_dish", "large_dish", "mini_sub"],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": ["hot"],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": true,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": null,
+      "price_by_format": {
+        "roll": 5.0,
+        "wrap": 5.0,
+        "small_dish": 5.0,
+        "mini_sub": 5.0,
+        "sub": 8.5,
+        "large_dish": 8.5
+      },
+      "portion_sizes_by_format": {
+        "roll": { "eggs": 1, "meat_portion": "2 slices each" },
+        "wrap": { "eggs": 1, "meat_portion": "2 slices each" },
+        "small_dish": { "eggs": 1, "meat_portion": "2 slices each" },
+        "sub": { "eggs": 2, "meat_portion": "4 slices each" },
+        "large_dish": { "eggs": 2, "meat_portion": "4 slices each" },
+        "mini_sub": { "eggs": 1, "meat_portion": "2 slices each" }
+      },
+      "normVariants": ["bacon ham egg and cheese", "ham and bacon egg and cheese"],
+      "ingredient_ids": {
+        "meats": ["meat.ham", "meat.bacon"],
+        "cheeses": ["cheese.american"],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Ham, Bacon, Egg, American Cheese"
+    },
+    {
+      "id": "breakfast.ham_sausage_egg_cheese",
+      "name": "Ham Sausage Egg & Cheese",
+      "category": "breakfast_sandwich",
+      "allowed_formats": ["roll", "sub", "wrap", "small_dish", "large_dish", "mini_sub"],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": ["hot"],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": true,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": null,
+      "price_by_format": {
+        "roll": 5.0,
+        "wrap": 5.0,
+        "small_dish": 5.0,
+        "mini_sub": 5.0,
+        "sub": 8.5,
+        "large_dish": 8.5
+      },
+      "portion_sizes_by_format": {
+        "roll": { "eggs": 1, "meat_portion": "2 slices each" },
+        "wrap": { "eggs": 1, "meat_portion": "2 slices each" },
+        "small_dish": { "eggs": 1, "meat_portion": "2 slices each" },
+        "sub": { "eggs": 2, "meat_portion": "4 slices each" },
+        "large_dish": { "eggs": 2, "meat_portion": "4 slices each" },
+        "mini_sub": { "eggs": 1, "meat_portion": "2 slices each" }
+      },
+      "normVariants": ["sausage ham egg and cheese", "ham and sausage egg and cheese"],
+      "ingredient_ids": {
+        "meats": ["meat.ham", "meat.sausage"],
+        "cheeses": ["cheese.american"],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Ham, Sausage, Egg, American Cheese"
+    }
+  ]
+}

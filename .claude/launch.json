@@ -1,0 +1,24 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "napoli-web",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["server/server.js"],
+      "port": 3000,
+      "autoPort": true
+    },
+    {
+      "name": "ordering-cli",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["tools/run-cli.cjs"],
+      "port": 0
+    },
+    {
+      "name": "validate-configs",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["tools/validate-configs.js"],
+      "port": 0
+    }
+  ]
+}

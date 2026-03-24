@@ -1,0 +1,651 @@
+{
+  "schema_version": "1.0",
+  "menu_id": "menu_sides_dishes",
+  "items": [
+    {
+      "id": "sides.mtb",
+      "name": "Side of Meatballs",
+      "category": "side_dish",
+      "allowed_formats": [
+        "small_dish"
+      ],
+      "default_format": "small_dish",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "price_by_format": {
+        "small_dish": 3.5
+      },
+      "ingredient_ids": {
+        "meats": [
+          "meat.meatball"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Meatball",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "meta": {
+        "portion_description": "1 Meatball"
+      }
+    },
+    {
+      "id": "sides.saus",
+      "name": "Sausage",
+      "category": "side_dish",
+      "allowed_formats": [
+        "small_dish"
+      ],
+      "default_format": "small_dish",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "price_by_format": {
+        "small_dish": 3.5
+      },
+      "ingredient_ids": {
+        "meats": [
+          "meat.italian_sausage"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Sausage",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "meta": {
+        "portion_description": "1/4 pound"
+      }
+    },
+    {
+      "id": "sides.stuffsh",
+      "name": "Stuffed Shells",
+      "category": "side_dish",
+      "allowed_formats": [
+        "small_dish"
+      ],
+      "default_format": "small_dish",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "price_by_format": {
+        "small_dish": 4.5
+      },
+      "ingredient_ids": {
+        "meats": [],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Stuffed Shells",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "meta": {
+        "portion_description": "4 shells"
+      }
+    },
+    {
+      "id": "sides.ziti",
+      "name": "Ziti",
+      "category": "side_dish",
+      "allowed_formats": [
+        "small_dish"
+      ],
+      "default_format": "small_dish",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "price_by_format": {
+        "small_dish": 3.5
+      },
+      "ingredient_ids": {
+        "meats": [],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Ziti",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "meta": {
+        "portion_description": "1/4 pound"
+      }
+    },
+    {
+      "id": "sides.spag",
+      "name": "Spaghetti",
+      "category": "side_dish",
+      "allowed_formats": [
+        "small_dish"
+      ],
+      "default_format": "small_dish",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "price_by_format": {
+        "small_dish": 3.5
+      },
+      "ingredient_ids": {
+        "meats": [],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Spaghetti",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "meta": {
+        "portion_description": "1/4 pound"
+      }
+    },
+    {
+      "id": "sides.gb",
+      "name": "Garlic Bread",
+      "category": "side_dish",
+      "allowed_formats": [
+        "small_dish"
+      ],
+      "default_format": "small_dish",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "price_by_format": {
+        "small_dish": 2.5
+      },
+      "ingredient_ids": {
+        "meats": [],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Garlic Bread",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "meta": {
+        "portion_description": "1/2 sub"
+      }
+    },
+    {
+      "id": "sides.gb&m",
+      "name": "Garlic Bread with Mozzarella",
+      "category": "side_dish",
+      "allowed_formats": [
+        "small_dish"
+      ],
+      "default_format": "small_dish",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "price_by_format": {
+        "small_dish": 3.0
+      },
+      "ingredient_ids": {
+        "meats": [],
+        "cheeses": [
+          "cheese.mozzarella"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Garlic Bread with Mozzarella",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "meta": {
+        "portion_description": "1/2 sub"
+      }
+    },
+    {
+      "id": "sides.fries",
+      "name": "French Fries",
+      "category": "side_dish",
+      "allowed_formats": [
+        "small_dish"
+      ],
+      "default_format": "small_dish",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "price_by_format": {
+        "small_dish": 3.25
+      },
+      "ingredient_ids": {
+        "meats": [],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "French Fries",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "meta": {
+        "portion_description": "1/2 pound"
+      }
+    },
+    {
+      "id": "sides.or",
+      "name": "Onion Rings",
+      "category": "side_dish",
+      "allowed_formats": [
+        "small_dish"
+      ],
+      "default_format": "small_dish",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "price_by_format": {
+        "small_dish": 3.25
+      },
+      "ingredient_ids": {
+        "meats": [],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Onion Rings",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "meta": {
+        "portion_description": "1/2 pound"
+      }
+    },
+    {
+      "id": "sides.eggsal",
+      "name": "Egg Salad",
+      "category": "salad_dish",
+      "allowed_formats": [
+        "small_dish"
+      ],
+      "default_format": "small_dish",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "small_dish": 6.95
+      },
+      "ingredient_ids": {
+        "meats": [
+          "meat.egg_salad"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Egg Salad",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "meta": {
+        "fixed_weight_lb": 0.25,
+        "also_sold_by_weight": true
+      }
+    },
+    {
+      "id": "sides.potsal",
+      "name": "Potato Salad",
+      "category": "salad_dish",
+      "allowed_formats": [
+        "small_dish"
+      ],
+      "default_format": "small_dish",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "small_dish": 2.5
+      },
+      "ingredient_ids": {
+        "meats": [
+          "meat.potato_salad"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Potato Salad",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "meta": {
+        "fixed_weight_lb": 0.25,
+        "also_sold_by_weight": true
+      }
+    },
+    {
+      "id": "sides.tossal",
+      "name": "Tossed Salad",
+      "aliases": [
+        "tall salad",
+        "toss salad",
+        "tossed",
+        "tossed salad"
+      ],
+      "category": "salad_dish",
+      "allowed_formats": [
+        "small_dish",
+        "large_dish"
+      ],
+      "default_format": "small_dish",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "small_dish": 2.95,
+        "large_dish": 4.95
+      },
+      "ingredient_ids": {
+        "meats": [],
+        "cheeses": [],
+        "toppings": [
+          "topping.lettuce",
+          "topping.tomato",
+          "topping.croutons"
+        ],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Lettuce, Tomato, Croutons",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "meta": {}
+    },
+    {
+      "id": "sides.macsal",
+      "name": "Macaroni Salad",
+      "category": "salad_dish",
+      "allowed_formats": [
+        "small_dish"
+      ],
+      "default_format": "small_dish",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "small_dish": 2.5
+      },
+      "ingredient_ids": {
+        "meats": [
+          "meat.macaroni_salad"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Macaroni Salad",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "meta": {
+        "fixed_weight_lb": 0.25,
+        "also_sold_by_weight": true
+      }
+    },
+    {
+      "id": "sides.tunamac",
+      "name": "Tuna Macaroni Salad",
+      "category": "salad_dish",
+      "allowed_formats": [
+        "small_dish"
+      ],
+      "default_format": "small_dish",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "small_dish": 2.5
+      },
+      "ingredient_ids": {
+        "meats": [
+          "meat.tuna_mac_salad"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Tuna Macaroni Salad",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "meta": {
+        "fixed_weight_lb": 0.25,
+        "also_sold_by_weight": true,
+        "required_tokens": [
+          "mac",
+          "macaroni"
+        ]
+      },
+      "aliases": [
+        "tuna mac",
+        "tuna mac salad",
+        "tuna macaroni",
+        "tuna macaroni salad"
+      ]
+    },
+    {
+      "id": "sides.chefsal",
+      "name": "Chef Salad",
+      "category": "salad_dish",
+      "allowed_formats": [
+        "small_dish",
+        "large_dish"
+      ],
+      "default_format": "small_dish",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "small_dish": 5.95,
+        "large_dish": 7.95
+      },
+      "ingredient_ids": {
+        "meats": [
+          "meat.ham",
+          "meat.turkey"
+        ],
+        "cheeses": [
+          "cheese.provolone"
+        ],
+        "toppings": [
+          "topping.lettuce",
+          "topping.tomato",
+          "topping.onion",
+          "topping.croutons"
+        ],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Ham, Turkey, Provolone, Lettuce, Tomato, Onion, Croutons",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "meta": {},
+      "aliases": [
+        "chef sal",
+        "chef salad",
+        "chef salad please",
+        "chef sald",
+        "chef's salad",
+        "chefs salad"
+      ],
+      "prices": {}
+    },
+    {
+      "id": "sides.olivesal",
+      "name": "Olive Salad",
+      "category": "salad_dish",
+      "allowed_formats": [
+        "small_dish"
+      ],
+      "default_format": "small_dish",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "small_dish": 3.95
+      },
+      "ingredient_ids": {
+        "meats": [
+          "meat.olive_salad"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Olive Salad",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "meta": {
+        "fixed_weight_lb": 0.25,
+        "also_sold_by_weight": true
+      }
+    },
+    {
+      "id": "sides.tocsal",
+      "name": "Tomato onion & Cucumber sal",
+      "category": "salad_dish",
+      "allowed_formats": [
+        "small_dish"
+      ],
+      "default_format": "small_dish",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "small_dish": 3.95
+      },
+      "ingredient_ids": {
+        "meats": [
+          "meat.tomato_onion_cucumber_salad"
+        ],
+        "cheeses": [],
+        "toppings": [
+          "topping.tomato",
+          "topping.onion",
+          "topping.cucumber"
+        ],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Tomato, Onion, Cucumber",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "meta": {
+        "fixed_weight_lb": 0.25,
+        "also_sold_by_weight": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "business": {
+    "name": "Napoli Deli",
+    "address": {
+      "street": "982 Bridgeport Ave",
+      "city": "Milford",
+      "state": "CT",
+      "zip": "06460"
+    },
+    "address_single_line": "982 Bridgeport Ave, Milford, CT 06460",
+    "phone": "(203)-878-8689",
+    "business_categories": [
+      "restaurant",
+      "takeout",
+      "deli",
+      "catering"
+    ],
+    "description": "Family-owned and operated Italian deli offering fresh made to order sandwiches, salads, soups, and catering in Milford CT",
+    "online_presence": {
+      "has_email": false,
+      "email": null,
+      "has_social_media": false,
+      "social_media_accounts": []
+    },
+    "services": {
+      "dine_in": false,
+      "takeout": true,
+      "delivery": false,
+      "catering": {
+        "available": true,
+        "advance_notice_hours_required": 48,
+        "allowed_order_methods": [
+          "phone",
+          "in_person"
+        ],
+        "notes": "Perfect for office events, holidays, parties, and more."
+      },
+      "online_ordering": {
+        "available": true,
+        "pickup_only": true
+      }
+    },
+    "payment_methods": [
+      "cash",
+      "credit_card",
+      "debit_card",
+      "apple_pay"
+    ],
+    "menu_summary": {
+      "cuisines": [
+        "italian_deli",
+        "sandwiches",
+        "salads",
+        "soups"
+      ],
+      "main_offerings": [
+        "hot_sandwiches",
+        "cold_sandwiches",
+        "subs",
+        "salads",
+        "soups",
+        "daily_specials",
+        "catering_trays"
+      ],
+      "breakfast": {
+        "available": true,
+        "cutoff_time": "10:30"
+      },
+      "lunch": {
+        "available": true,
+        "available_during": "operating_hours"
+      },
+      "vegetarian_options": true,
+      "dedicated_vegan_menu": false,
+      "dedicated_gluten_free_menu": false,
+      "kids_menu": {
+        "dedicated_kids_menu": false,
+        "notes": "Sandwiches can be customized by customer"
+      },
+      "daily_specials": {
+        "available": true,
+        "changes_frequency": "daily",
+        "how_to_view": "in_store_board"
+      },
+      "soups": {
+        "available": true,
+        "changes_frequency": "daily_and_seasonal",
+        "how_to_view": "in_store_board"
+      },
+      "customization_allowed": true,
+      "customization_instructions": "Just tell me the meat and cheese, whether you want it on a roll, sub, wrap, or panini, and any toppings or condiments."
+    },
+    "customer_experience": {
+      "avg_wait_time_minutes": {
+        "min": 5,
+        "max": 10
+      },
+      "best_sellers": [
+        "Cold Cut combo",
+        "Hot or Cold Roast Beef Sandwiches",
+        "Chicken Cutlet Sandwiches"
+      ],
+      "order_methods": [
+        "in_person",
+        "phone",
+        "online"
+      ],
+      "avg_price_per_person": {
+        "currency": "USD",
+        "min": 10,
+        "max": 20,
+        "display": "$10–$20"
+      }
+    },
+    "amenities": {
+      "parking": {
+        "available": true,
+        "cost": "free",
+        "locations": [
+          "front",
+          "behind_building"
+        ]
+      },
+      "wifi": false,
+      "public_restrooms": false,
+      "wheelchair_accessible_entrance": true
+    },
+    "staff": {
+      "employee_count": 5,
+      "languages_spoken": [
+        "english",
+        "spanish"
+      ]
+    },
+    "loyalty_program": {
+      "available": false
+    },
+    "ingredients": {
+      "meat_and_cheese_supplier": "Boars Head",
+      "bread_source": "local_bakers",
+      "bread_delivery_frequency": "daily"
+    },
+    "policies": {
+      "safety_and_sanitation": "Napoli operates in compliance with FDA guidelines and local health and safety department regulations",
+      "allergen_notice": "Food may contain traces of nuts, dairy or gluten; customer should notify staff of any allergies",
+      "raw_food_notice": "Consuming raw or undercooked meat may result in illness. We recommend having your meat and eggs cooked through",
+      "refund_policy": "Refunds or replacements are offered for incorrect or unsatisfactory orders. Request for refund or replacement must be made shortly after receiving the original order.",
+      "customer_support": "Customer concerns are handled directly by management during business operating hours"
+    },
+    "company": {
+      "values": [
+        "Freshness",
+        "Community",
+        "Hospitality",
+        "Tradition"
+      ],
+      "review_summary": "Known for good service, large portions, and fresh ingredients"
+    },
+    "keywords": [
+      "Deli",
+      "Sandwiches",
+      "Milford CT",
+      "Catering",
+      "Lunch Spot",
+      "Breakfast",
+      "Italian food",
+      "American food",
+      "Napoli Deli",
+      "Inexpensive"
+    ],
+    "mission_statement": "To bring authentic Italian deli flavors to the Milford and surrounding communities by using fresh and high-quality ingredients."
+  }
+}

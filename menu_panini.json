@@ -1,0 +1,972 @@
+{
+  "schema_version": "1.0",
+  "menu_id": "menu_panini_wraps",
+  "items": [
+    {
+      "id": "lunch_special.roma",
+      "name": "The Roma",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "roll",
+        "sub",
+        "mini_sub",
+        "wrap",
+        "panini",
+        "bread",
+        "toast",
+        "small_dish",
+        "large_dish"
+      ],
+      "default_format": "panini",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": null,
+      "price_by_format": {
+        "roll": 9.95,
+        "sub": 12.95,
+        "wrap": 9.95,
+        "panini": 9.95,
+        "bread": 9.95,
+        "toast": 9.95,
+        "small_dish": 9.95,
+        "large_dish": 12.95,
+        "mini_sub": 9.95
+      },
+      "portion_sizes_by_format": {
+        "roll": {
+          "meat_portion": "2 Cutlets"
+        },
+        "wrap": {
+          "meat_portion": "2 Cutlets"
+        },
+        "panini": {
+          "meat_portion": "2 Cutlets"
+        },
+        "sub": {
+          "meat_portion": "3 cutlets"
+        },
+        "mini_sub": {
+          "meat_portion": "2 Cutlets"
+        }
+      },
+      "forces_pressed": true,
+      "ingredient_ids": {
+        "meats": [
+          "meat.grilled_chicken"
+        ],
+        "cheeses": [
+          "cheese.fresh_mozzarella"
+        ],
+        "toppings": [
+          "topping.roasted_red_peppers",
+          "topping.arugula",
+          "topping.tomato"
+        ],
+        "condiments": [
+          "condiment.caesar_dressing"
+        ],
+        "unmapped": []
+      },
+      "ingredients_text": "Grilled chicken, Caesar dressing, roasted peppers, arugula, fresh mozzarella, tomato",
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_daypart": "lunch",
+      "addon_pricing_key": "sandwich_formats",
+      "has_configured_defaults": true
+    },
+    {
+      "id": "lunch_special.sorr",
+      "name": "The Sorrento",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "roll",
+        "sub",
+        "mini_sub",
+        "wrap",
+        "panini",
+        "bread",
+        "toast",
+        "small_dish",
+        "large_dish"
+      ],
+      "default_format": "panini",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": null,
+      "price_by_format": {
+        "roll": 9.95,
+        "sub": 12.95,
+        "wrap": 9.95,
+        "panini": 9.95,
+        "bread": 9.95,
+        "toast": 9.95,
+        "small_dish": 9.95,
+        "large_dish": 12.95,
+        "mini_sub": 9.95
+      },
+      "portion_sizes_by_format": {
+        "roll": {
+          "meat_portion": "1/4 pound"
+        },
+        "wrap": {
+          "meat_portion": "1/4 pound"
+        },
+        "panini": {
+          "meat_portion": "1/4 pound"
+        },
+        "sub": {
+          "meat_portion": "1/2 Pound"
+        },
+        "mini_sub": {
+          "meat_portion": "1/4 pound"
+        }
+      },
+      "forces_pressed": true,
+      "ingredient_ids": {
+        "meats": [
+          "meat.prosciutto"
+        ],
+        "cheeses": [
+          "cheese.fresh_mozzarella"
+        ],
+        "toppings": [
+          "topping.arugula"
+        ],
+        "condiments": [
+          "condiment.balsamic_dressing"
+        ],
+        "unmapped": []
+      },
+      "ingredients_text": "Prosciutto, fresh mozzarella, arugula, balsamic dressing",
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_daypart": "lunch",
+      "addon_pricing_key": "sandwich_formats",
+      "has_configured_defaults": true
+    },
+    {
+      "id": "lunch_special.genoa",
+      "name": "The Genoa",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "roll",
+        "sub",
+        "mini_sub",
+        "wrap",
+        "panini",
+        "bread",
+        "toast",
+        "small_dish",
+        "large_dish"
+      ],
+      "default_format": "panini",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": null,
+      "price_by_format": {
+        "roll": 9.95,
+        "sub": 12.95,
+        "wrap": 9.95,
+        "panini": 9.95,
+        "bread": 9.95,
+        "toast": 9.95,
+        "small_dish": 9.95,
+        "large_dish": 12.95,
+        "mini_sub": 9.95
+      },
+      "portion_sizes_by_format": {
+        "roll": {
+          "meat_portion": "1/4 pound"
+        },
+        "wrap": {
+          "meat_portion": "1/4 pound"
+        },
+        "panini": {
+          "meat_portion": "1/4 pound"
+        },
+        "sub": {
+          "meat_portion": "1/2 Pound"
+        },
+        "mini_sub": {
+          "meat_portion": "1/4 pound"
+        }
+      },
+      "forces_pressed": true,
+      "ingredient_ids": {
+        "meats": [
+          "meat.roast_beef"
+        ],
+        "cheeses": [
+          "cheese.cheddar"
+        ],
+        "toppings": [
+          "topping.tomato",
+          "topping.arugula"
+        ],
+        "condiments": [
+          "condiment.peppercorn_dressing"
+        ],
+        "unmapped": []
+      },
+      "ingredients_text": "Cold roast beef, cheddar, tomato, arugula, peppercorn dressing",
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_daypart": "lunch",
+      "addon_pricing_key": "sandwich_formats",
+      "has_configured_defaults": true
+    },
+    {
+      "id": "lunch_special.venezia",
+      "name": "The Venezia",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "roll",
+        "sub",
+        "mini_sub",
+        "wrap",
+        "panini",
+        "bread",
+        "toast",
+        "small_dish",
+        "large_dish"
+      ],
+      "default_format": "panini",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": null,
+      "price_by_format": {
+        "roll": 9.95,
+        "sub": 12.95,
+        "wrap": 9.95,
+        "panini": 9.95,
+        "bread": 9.95,
+        "toast": 9.95,
+        "small_dish": 9.95,
+        "large_dish": 12.95,
+        "mini_sub": 9.95
+      },
+      "portion_sizes_by_format": {
+        "roll": {
+          "meat_portion": "1/4 pound"
+        },
+        "wrap": {
+          "meat_portion": "1/4 pound"
+        },
+        "panini": {
+          "meat_portion": "1/4 pound"
+        },
+        "sub": {
+          "meat_portion": "1/2 Pound"
+        },
+        "mini_sub": {
+          "meat_portion": "1/4 pound"
+        }
+      },
+      "forces_pressed": true,
+      "ingredient_ids": {
+        "meats": [
+          "meat.capicola",
+          "meat.soppressata"
+        ],
+        "cheeses": [
+          "cheese.sharp_provolone"
+        ],
+        "toppings": [
+          "topping.roasted_red_peppers",
+          "topping.broccoli_rabe"
+        ],
+        "condiments": [
+          "condiment.balsamic_dressing"
+        ],
+        "unmapped": []
+      },
+      "ingredients_text": "Capicola, soppressata, roasted peppers, sharp provolone, broccoli rabe, balsamic dressing",
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_daypart": "lunch",
+      "addon_pricing_key": "sandwich_formats",
+      "has_configured_defaults": true
+    },
+    {
+      "id": "lunch_special.milano",
+      "name": "The Milano",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "roll",
+        "sub",
+        "mini_sub",
+        "wrap",
+        "panini",
+        "bread",
+        "toast",
+        "small_dish",
+        "large_dish"
+      ],
+      "default_format": "panini",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": null,
+      "price_by_format": {
+        "roll": 9.95,
+        "sub": 12.95,
+        "wrap": 9.95,
+        "panini": 9.95,
+        "bread": 9.95,
+        "toast": 9.95,
+        "small_dish": 9.95,
+        "large_dish": 12.95,
+        "mini_sub": 9.95
+      },
+      "portion_sizes_by_format": {
+        "roll": {
+          "meat_portion": "2 Cutlets"
+        },
+        "wrap": {
+          "meat_portion": "2 Cutlets"
+        },
+        "panini": {
+          "meat_portion": "2 Cutlets"
+        },
+        "sub": {
+          "meat_portion": "3 cutlets"
+        },
+        "mini_sub": {
+          "meat_portion": "2 Cutlets"
+        }
+      },
+      "forces_pressed": true,
+      "ingredient_ids": {
+        "meats": [
+          "meat.grilled_chicken"
+        ],
+        "cheeses": [
+          "cheese.monterey_jack"
+        ],
+        "toppings": [
+          "topping.roasted_red_peppers"
+        ],
+        "condiments": [
+          "condiment.ranch"
+        ],
+        "unmapped": []
+      },
+      "ingredients_text": "Grilled chicken, Monterey Jack, roasted peppers, ranch",
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_daypart": "lunch",
+      "addon_pricing_key": "sandwich_formats",
+      "has_configured_defaults": true
+    },
+    {
+      "id": "lunch_special.firenze",
+      "name": "The Firenze",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "roll",
+        "sub",
+        "mini_sub",
+        "wrap",
+        "panini",
+        "bread",
+        "toast",
+        "small_dish",
+        "large_dish"
+      ],
+      "default_format": "panini",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": null,
+      "price_by_format": {
+        "roll": 9.95,
+        "sub": 12.95,
+        "wrap": 9.95,
+        "panini": 9.95,
+        "bread": 9.95,
+        "toast": 9.95,
+        "small_dish": 9.95,
+        "large_dish": 12.95,
+        "mini_sub": 9.95
+      },
+      "portion_sizes_by_format": {
+        "roll": {
+          "meat_portion": "1/4 pound"
+        },
+        "wrap": {
+          "meat_portion": "1/4 pound"
+        },
+        "panini": {
+          "meat_portion": "1/4 pound"
+        },
+        "sub": {
+          "meat_portion": "1/2 Pound"
+        },
+        "mini_sub": {
+          "meat_portion": "1/4 pound"
+        }
+      },
+      "forces_pressed": true,
+      "ingredient_ids": {
+        "meats": [
+          "meat.baked_ham"
+        ],
+        "cheeses": [
+          "cheese.swiss"
+        ],
+        "toppings": [
+          "topping.lettuce",
+          "topping.tomato"
+        ],
+        "condiments": [
+          "condiment.honey_mustard"
+        ],
+        "unmapped": []
+      },
+      "ingredients_text": "Baked ham, Swiss, lettuce, tomato, honey mustard",
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_daypart": "lunch",
+      "addon_pricing_key": "sandwich_formats",
+      "has_configured_defaults": true
+    },
+    {
+      "id": "lunch_special.capri",
+      "name": "The Capri",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "roll",
+        "sub",
+        "mini_sub",
+        "wrap",
+        "panini",
+        "bread",
+        "toast",
+        "small_dish",
+        "large_dish"
+      ],
+      "default_format": "panini",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": null,
+      "price_by_format": {
+        "roll": 9.95,
+        "sub": 12.95,
+        "wrap": 9.95,
+        "panini": 9.95,
+        "bread": 9.95,
+        "toast": 9.95,
+        "small_dish": 9.95,
+        "large_dish": 12.95,
+        "mini_sub": 9.95
+      },
+      "portion_sizes_by_format": {
+        "roll": {
+          "meat_portion": "1/4 pound"
+        },
+        "wrap": {
+          "meat_portion": "1/4 pound"
+        },
+        "panini": {
+          "meat_portion": "1/4 pound"
+        },
+        "sub": {
+          "meat_portion": "1/2 Pound"
+        },
+        "mini_sub": {
+          "meat_portion": "1/4 pound"
+        }
+      },
+      "forces_pressed": true,
+      "ingredient_ids": {
+        "meats": [
+          "meat.pastrami"
+        ],
+        "cheeses": [
+          "cheese.swiss"
+        ],
+        "toppings": [
+          "topping.sauerkraut"
+        ],
+        "condiments": [
+          "condiment.russian_dressing_thousand_island"
+        ],
+        "unmapped": [
+          "garlic bread panini"
+        ]
+      },
+      "ingredients_text": "Pastrami, Swiss, sauerkraut, Russian dressing, on a garlic bread panini",
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_daypart": "lunch",
+      "addon_pricing_key": "sandwich_formats",
+      "has_configured_defaults": true
+    },
+    {
+      "id": "lunch_special.pompeii",
+      "name": "The Pompeii",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "roll",
+        "sub",
+        "mini_sub",
+        "wrap",
+        "panini",
+        "bread",
+        "toast",
+        "small_dish",
+        "large_dish"
+      ],
+      "default_format": "panini",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": null,
+      "price_by_format": {
+        "roll": 9.95,
+        "sub": 12.95,
+        "wrap": 9.95,
+        "panini": 9.95,
+        "bread": 9.95,
+        "toast": 9.95,
+        "small_dish": 9.95,
+        "large_dish": 12.95,
+        "mini_sub": 9.95
+      },
+      "portion_sizes_by_format": {
+        "roll": {
+          "meat_portion": "1/4 pound"
+        },
+        "wrap": {
+          "meat_portion": "1/4 pound"
+        },
+        "panini": {
+          "meat_portion": "1/4 pound"
+        },
+        "sub": {
+          "meat_portion": "1/2 Pound"
+        },
+        "mini_sub": {
+          "meat_portion": "1/4 pound"
+        }
+      },
+      "forces_pressed": true,
+      "ingredient_ids": {
+        "meats": [
+          "meat.turkey"
+        ],
+        "cheeses": [
+          "cheese.swiss"
+        ],
+        "toppings": [
+          "topping.tomato",
+          "topping.roasted_red_peppers"
+        ],
+        "condiments": [
+          "condiment.peppercorn_dressing"
+        ],
+        "unmapped": []
+      },
+      "ingredients_text": "Turkey, Swiss, tomato, roasted peppers, peppercorn dressing",
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_daypart": "lunch",
+      "addon_pricing_key": "sandwich_formats",
+      "has_configured_defaults": true
+    },
+    {
+      "id": "lunch_special.vesuvio",
+      "name": "The Vesuvio",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "roll",
+        "sub",
+        "mini_sub",
+        "wrap",
+        "panini",
+        "bread",
+        "toast",
+        "small_dish",
+        "large_dish"
+      ],
+      "default_format": "panini",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": null,
+      "price_by_format": {
+        "roll": 9.95,
+        "sub": 12.95,
+        "wrap": 9.95,
+        "panini": 9.95,
+        "bread": 9.95,
+        "toast": 9.95,
+        "small_dish": 9.95,
+        "large_dish": 12.95,
+        "mini_sub": 9.95
+      },
+      "portion_sizes_by_format": {
+        "roll": {
+          "meat_portion": "none"
+        },
+        "wrap": {
+          "meat_portion": "none"
+        },
+        "panini": {
+          "meat_portion": "none"
+        },
+        "sub": {
+          "meat_portion": "none"
+        },
+        "mini_sub": {
+          "meat_portion": "none"
+        }
+      },
+      "forces_pressed": true,
+      "ingredient_ids": {
+        "meats": [],
+        "cheeses": [
+          "cheese.fresh_mozzarella"
+        ],
+        "toppings": [
+          "topping.sundried_tomatoes",
+          "topping.roasted_red_peppers",
+          "topping.broccoli_rabe",
+          "topping.arugula"
+        ],
+        "condiments": [
+          "condiment.balsamic_dressing"
+        ],
+        "unmapped": []
+      },
+      "ingredients_text": "Fresh mozzarella, sun-dried tomatoes, roasted peppers, broccoli rabe, arugula, balsamic dressing",
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_daypart": "lunch",
+      "addon_pricing_key": "sandwich_formats",
+      "has_configured_defaults": true
+    },
+    {
+      "id": "lunch_special.soprano",
+      "name": "The Soprano",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "roll",
+        "sub",
+        "mini_sub",
+        "wrap",
+        "panini",
+        "bread",
+        "toast",
+        "small_dish",
+        "large_dish"
+      ],
+      "default_format": "panini",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": null,
+      "price_by_format": {
+        "roll": 9.95,
+        "sub": 12.95,
+        "wrap": 9.95,
+        "panini": 9.95,
+        "bread": 9.95,
+        "toast": 9.95,
+        "small_dish": 9.95,
+        "large_dish": 12.95,
+        "mini_sub": 9.95
+      },
+      "portion_sizes_by_format": {
+        "roll": {
+          "meat_portion": "1/4 pound"
+        },
+        "wrap": {
+          "meat_portion": "1/4 pound"
+        },
+        "panini": {
+          "meat_portion": "1/4 pound"
+        },
+        "sub": {
+          "meat_portion": "1/2 Pound"
+        },
+        "mini_sub": {
+          "meat_portion": "1/4 pound"
+        }
+      },
+      "forces_pressed": true,
+      "ingredient_ids": {
+        "meats": [
+          "meat.honey_turkey"
+        ],
+        "cheeses": [
+          "cheese.cheddar"
+        ],
+        "toppings": [],
+        "condiments": [
+          "condiment.teriyaki_sauce"
+        ],
+        "unmapped": []
+      },
+      "ingredients_text": "Honey turkey, cheddar, teriyaki sauce",
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_daypart": "lunch",
+      "addon_pricing_key": "sandwich_formats",
+      "has_configured_defaults": true
+    },
+    {
+      "id": "lunch_special.bronxb",
+      "name": "The Bronx Bomber",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "roll",
+        "sub",
+        "mini_sub",
+        "wrap",
+        "panini",
+        "bread",
+        "toast",
+        "small_dish",
+        "large_dish"
+      ],
+      "default_format": "panini",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": false,
+      "allows_double_meat": false,
+      "price": null,
+      "price_by_format": {
+        "roll": 9.95,
+        "sub": 12.95,
+        "wrap": 9.95,
+        "panini": 9.95,
+        "bread": 9.95,
+        "toast": 9.95,
+        "small_dish": 9.95,
+        "large_dish": 12.95,
+        "mini_sub": 9.95
+      },
+      "portion_sizes_by_format": {
+        "roll": {
+          "meat_portion": "1/4 pound"
+        },
+        "wrap": {
+          "meat_portion": "1/4 pound"
+        },
+        "panini": {
+          "meat_portion": "1/4 pound"
+        },
+        "sub": {
+          "meat_portion": "1/2 Pound"
+        },
+        "mini_sub": {
+          "meat_portion": "1/4 pound"
+        }
+      },
+      "forces_pressed": true,
+      "ingredient_ids": {
+        "meats": [
+          "meat.prosciutto",
+          "meat.soppressata"
+        ],
+        "cheeses": [
+          "cheese.fresh_mozzarella"
+        ],
+        "toppings": [
+          "topping.sundried_tomatoes"
+        ],
+        "condiments": [
+          "condiment.balsamic_dressing"
+        ],
+        "unmapped": []
+      },
+      "ingredients_text": "Prosciutto, soppressata, fresh mozzarella, sun-dried tomatoes, balsamic dressing",
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_daypart": "lunch",
+      "addon_pricing_key": "sandwich_formats",
+      "has_configured_defaults": true
+    }
+  ]
+}

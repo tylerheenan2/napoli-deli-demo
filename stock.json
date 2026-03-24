@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-01-22T18:22:40-06:00",
+  "updated_by": "manager",
+  "policy": {
+    "stock_model": "ingredient_based",
+    "when_out_of_stock": "ask_remove_or_replace",
+    "ask_even_if_optional": true,
+    "notes": "This file is edited by staff/manager. The ordering system checks this after an item/ingredient is identified. If an out-of-stock entry affects the order, the assistant must ask whether to remove it or replace it. Suggestions are optional and should be explicit IDs."
+  },
+  "controlled_vocab": {
+    "status": [
+      "in",
+      "low",
+      "out"
+    ],
+    "target_type": [
+      "reference_id",
+      "menu_item_id"
+    ]
+  },
+  "items": []
+}

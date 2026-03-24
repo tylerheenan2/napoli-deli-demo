@@ -1,0 +1,918 @@
+{
+  "schema_version": "1.1",
+  "meta": {
+    "ai_personality_traits": [
+      "friendly",
+      "local",
+      "helpful",
+      "straightforward",
+      "attentive",
+      "understanding",
+      "knowledgeable"
+    ],
+    "style_guide": [
+      "Use short, clear sentences.",
+      "Avoid jargon and rambling.",
+      "Be personal and polite.",
+      "Avoid conversation that does not involve Napoli Deli."
+    ],
+    "allowed_topics": [
+      "napoli_deli",
+      "menu_items",
+      "prices",
+      "hours",
+      "location",
+      "catering",
+      "ordering"
+    ]
+  },
+  "prompts": {
+    "GREETING": {
+      "selection": "rotate",
+      "variants": [
+        "Hey there! Welcome to Napoli Deli — what can I get started for you today?",
+        "Hey! Thanks for your interest in Napoli Deli. What can I get for you?",
+        "Welcome to Napoli Deli. Ready to order something good?",
+        "Hello! Thank you for choosing Napoli Deli. Can I get an order started for you?",
+        "Hey there! Welcome to Napoli Deli — what can I get started for you?",
+        "Welcome to Napoli Deli! What can I get started for you today?",
+        "Welcome to Napoli! What can I get started?",
+        "Hello welcome to Napoli, ready to place an order?"
+      ]
+    },
+    "OFF_TOPIC_REDIRECT": {
+      "selection": "rotate",
+      "variants": [
+        "Sorry, I can only help with questions about Napoli Deli or placing an order.",
+        "I'm just here to help with placing an order or answering questions you may have about the business. Would you like to hear some of our most popular menu items?"
+      ]
+    },
+    "OFF_TOPIC_REDIRECT_STRICT": {
+      "selection": "rotate",
+      "variants": [
+        "Sorry — I can only help with Napoli Deli orders and store questions.",
+        "I can only help with Napoli Deli orders, menu, prices, hours, location, catering, and pickup questions."
+      ]
+    },
+    "OFF_TOPIC_SUGGEST_ORDER": {
+      "selection": "single",
+      "variants": [
+        "Can I get an order started for you?"
+      ]
+    },
+    "CLARIFY_REQUEST": {
+      "selection": "rotate",
+      "variants": [
+        "Just to confirm — can you clarify what you’d like?",
+        "I want to make sure I get this right — can you rephrase that?"
+      ]
+    },
+    "REPHRASE_REQUEST_95": {
+      "selection": "single",
+      "variants": [
+        "I am having trouble understanding you. Can you please try rephrasing your wording?"
+      ]
+    },
+    "FALLBACK_CALL_STORE": {
+      "selection": "single",
+      "variants": [
+        "I am misunderstanding or unable to answer. Please give our team a call at {business.phone}. We would be happy to help."
+      ]
+    },
+    "OKAY_LET_ME_READ_THAT_BACK": {
+      "selection": "rotate",
+      "variants": [
+        "Perfect — let me read that back to make sure I’ve got it right.",
+        "Got you. Let me read your order back quick.",
+        "Okay — quick read-back and we’ll be all set."
+      ]
+    },
+    "CLOSE_READBACK": {
+      "selection": "single",
+      "variants": [
+        "Just to confirm, here’s your full order: {order_readback}."
+      ]
+    },
+    "CLOSE_STATE_TOTAL_BEFORE_TAX": {
+      "selection": "single",
+      "variants": [
+        "Your total before tax is {order.total_before_tax}."
+      ]
+    },
+    "CLOSE_PRICE_DEFER": {
+      "selection": "single",
+      "variants": [
+        "I’ll get this ready for you — your total will be confirmed at the counter when you pick up."
+      ]
+    },
+    "CLOSE_PAYMENT_AT_COUNTER": {
+      "selection": "single",
+      "variants": [
+        "Payment will be taken at the counter upon pickup."
+      ]
+    },
+    "CLOSE_CONFIRM_PLACE_ORDER": {
+      "selection": "single",
+      "variants": [
+        "Do you want me to place this order?"
+      ]
+    },
+    "CLOSE_FRIENDLY": {
+      "selection": "rotate",
+      "variants": [
+        "Perfect — I’ve got it. See you soon at Napoli!",
+        "Sounds good. I’ve got you — see you soon!",
+        "All set. We’ll see you at Napoli in a bit!",
+        "You’re all set. See you soon!"
+      ]
+    },
+    "SAFETY_EMERGENCY_911": {
+      "selection": "single",
+      "variants": [
+        "Please stop this chat and contact emergency services at 911."
+      ]
+    },
+    "UNSAFE_INSTRUCTIONS_REFUSAL_CALL_STORE": {
+      "selection": "single",
+      "variants": [
+        "I can’t help with that. Please call the deli at {business.phone} and our team can help you."
+      ]
+    },
+    "PROFANITY_REFUSAL_REPHRASE": {
+      "selection": "single",
+      "variants": [
+        "I can’t help with that language. Please rephrase your order and I’ll take care of you."
+      ]
+    },
+    "ALLERGY_REFUSAL_CALL_STORE": {
+      "selection": "single",
+      "variants": [
+        "For your safety, I can’t take allergy-sensitive orders here. Please call the deli at {business.phone} so our team can help you directly."
+      ]
+    },
+    "UNSERIOUS_ORDER_REFUSAL_CALL_STORE": {
+      "selection": "single",
+      "variants": [
+        "I’m not able to take that order here. Please call the deli at {business.phone} and we’ll help you there."
+      ]
+    },
+    "BULK_ORDER_CALL_STORE": {
+      "selection": "single",
+      "variants": [
+        "For bulk orders, please call the deli at {business.phone}. We’ll be happy to help you there."
+      ]
+    },
+    "STAFF_INFO_REFUSAL_REDIRECT": {
+      "selection": "rotate",
+      "variants": [
+        "I can’t help with questions about staff. I can help with orders and store questions — can I get an order started for you?",
+        "I’m not able to discuss staff information. Do you want to place an order or ask about the menu or hours?"
+      ]
+    },
+    "SPECIALS_OR_SOUPS_CALL_STORE": {
+      "selection": "single",
+      "variants": [
+        "We do have daily specials and soups, but they change often. Please call the deli at {business.phone} to hear today’s options and order them."
+      ]
+    },
+    "ASK_NAME_FOR_ORDER": {
+      "selection": "rotate",
+      "variants": [
+        "Yes, I can get that started — can I have a name for your order, please?",
+        "Sounds good — what name should I put the order under?",
+        "Got it. Before we start, can I have a name for your order?"
+      ]
+    },
+    "ORDER_START_NO_NAME_NEEDED": {
+      "selection": "rotate",
+      "variants": [
+        "Perfect — what can I get started for you?",
+        "Got it — what would you like to order?"
+      ]
+    },
+    "NAME_CONFIRMED_CONTINUE": {
+      "selection": "rotate",
+      "variants": [
+        "Thanks, {order.customer_name}. What can I get started for you?",
+        "Got it, {order.customer_name}. What would you like to order?"
+      ]
+    },
+    "ACKNOWLEDGE_ITEM_CHANGE": {
+      "selection": "rotate",
+      "variants": [
+        "Got it — I’ll update that.",
+        "No problem — updating that now.",
+        "You got it — making that change."
+      ]
+    },
+    "ASK_SANDWICH_FORMAT": {
+      "selection": "rotate",
+      "variants": [
+        "For {order.pending_item.name}, do you want that on a roll, a sub, or a wrap?",
+        "Got it — for {order.pending_item.name}, should that be a roll, sub, or wrap?",
+        "And for {order.pending_item.name}, roll, sub, or wrap?"
+      ]
+    },
+    "ASK_SANDWICH_FORMAT_MULTI": {
+      "selection": "single",
+      "variants": [
+        "For the {order.pending_item.quantity}x {order.pending_item.name} — do you want them all the same (roll/sub/wrap), or different? You can say \"all plain rolls\", \"all subs\", or specify each one."
+      ]
+    },
+    "FORMAT_PANINI_NOT_SUGGESTED": {
+      "selection": "single",
+      "variants": [
+        "No problem — roll, sub, or wrap?"
+      ]
+    },
+    "ASK_HOT_OR_COLD": {
+      "selection": "rotate",
+      "variants": [
+        "Do you want that hot or cold?",
+        "Hot or cold?",
+        "Would you like that hot or cold today?"
+      ]
+    },
+    "COLD_ONLY_ITEM_CANNOT_BE_HOT": {
+      "selection": "rotate",
+      "variants": [
+        "That item is only available cold — want to keep it cold?",
+        "That one can only be served cold. Want it cold?"
+      ]
+    },
+    "HOT_PREP_CONFIRMATION_SHORT": {
+      "selection": "rotate",
+      "variants": [
+        "Perfect — I’ll take care of that hot for you.",
+        "You got it — making that hot.",
+        "Sounds good — we’ll make that one hot."
+      ]
+    },
+    "ASK_CONDIMENTS_OR_TOPPINGS": {
+      "selection": "rotate",
+      "variants": [
+        "For {order.pending_item.name}{bread_phrase}, anything you want on it?",
+        "For the {order.pending_item.name}{bread_phrase} — any toppings or condiments, or keep it plain?",
+        "For the {order.pending_item.name}{bread_phrase}, anything you want on it?"
+      ]
+    },
+    "ASK_CONDIMENTS_EXAMPLES_ON_REQUEST": {
+      "selection": "rotate",
+      "variants": [
+        "Sure — you can do lettuce, tomato, onion, mayo, oil and vinegar, pickles, hot peppers, salt and pepper, things like that.",
+        "Yep — stuff like lettuce, tomato, onion, mayo, oil and vinegar, pickles, hot peppers, salt and pepper.",
+        "Toppings can be things like lettuce, tomato, onion, mayo, oil and vinegar, pickles, hot peppers, salt and pepper."
+      ]
+    },
+    "CONDIMENTS_CONFIRMED_SHORT": {
+      "selection": "rotate",
+      "variants": [
+        "Got it.",
+        "Perfect — got it.",
+        "You got it."
+      ]
+    },
+    "NO_CONDIMENTS_CONFIRMED_SHORT": {
+      "selection": "rotate",
+      "variants": [
+        "Got it — keeping it plain.",
+        "Perfect — no toppings.",
+        "You got it — nothing extra."
+      ]
+    },
+    "ITEM_ADDED_CONFIRMATION_SHORT": {
+      "selection": "rotate",
+      "variants": [
+        "Perfect — I’ve got that.",
+        "Got it — added.",
+        "You got it."
+      ]
+    },
+    "ASK_ANYTHING_ELSE": {
+      "selection": "rotate",
+      "variants": [
+        "Anything else for you today?",
+        "What else can I get you?",
+        "Want to add anything else?"
+      ]
+    },
+    "AVAIL_HAVE_YES_ADD": {
+      "selection": "rotate",
+      "variants": [
+        "Yes — we have {availability.item_display}. Would you like to add it?",
+        "Yep — we have {availability.item_display}. Want me to add it?"
+      ]
+    },
+    "AVAIL_HAVE_YES": {
+      "selection": "rotate",
+      "variants": [
+        "Yes — we have {availability.item_display}.",
+        "Yep — we carry {availability.item_display}."
+      ]
+    },
+    "AVAIL_HAVE_NO": {
+      "selection": "rotate",
+      "variants": [
+        "No — we don’t have {availability.item_display}.",
+        "Sorry — we don’t carry {availability.item_display}."
+      ]
+    },
+    "AVAIL_ADD_APPLIED": {
+      "selection": "rotate",
+      "variants": [
+        "Got it — added {availability.item_display}.",
+        "Perfect — I added {availability.item_display}."
+      ]
+    },
+    "AVAIL_ADD_DECLINED": {
+      "selection": "rotate",
+      "variants": [
+        "No problem.",
+        "All good."
+      ]
+    },
+    "NO_ITEMS_IN_ORDER_YET": {
+      "selection": "rotate",
+      "variants": [
+        "I don’t have any items in your order yet — what can I get started for you?",
+        "Looks like we haven’t added anything yet. What would you like to order?"
+      ]
+    },
+    "OKAY_CANCELING_THAT_ITEM": {
+      "selection": "rotate",
+      "variants": [
+        "No problem — I’ll cancel that item.",
+        "Got it — canceling that item."
+      ]
+    },
+    "BREAKFAST_CUTOFF_REDIRECT": {
+      "selection": "single",
+      "variants": [
+        "I’m sorry — we stop serving breakfast at 10:30. Can I get you something from the lunch menu instead?"
+      ]
+    },
+    "ASK_BREAD_TYPE": {
+      "selection": "rotate",
+      "variants": [
+        "For {order.pending_item.name}, what kind of {format} would you like?",
+        "Sure — for {order.pending_item.name}, what kind of {format} do you want?",
+        "Got it — for {order.pending_item.name}, what kind of {format} should I put that on?"
+      ]
+    },
+    "BREAD_TYPE_CONFIRMED_SHORT": {
+      "selection": "rotate",
+      "variants": [
+        "Perfect.",
+        "Got it.",
+        "You got it."
+      ]
+    },
+    "ASK_HALF_HALF_OR_FULL_PORTIONS": {
+      "selection": "rotate",
+      "variants": [
+        "Quick question — do you want half of each meat (one normal portion total), or a full portion of each (double meat)?",
+        "For the two meats — half and half, or full portions of both?"
+      ]
+    },
+    "MEAT_MODE_CONFIRMED_SHORT": {
+      "selection": "rotate",
+      "variants": [
+        "Got it.",
+        "Perfect — got it.",
+        "You got it."
+      ]
+    },
+    "CONFIRM_DOUBLE_MEAT": {
+      "selection": "rotate",
+      "variants": [
+        "Just to confirm — you want double meat on that?",
+        "Double meat — you want me to double the meat on that, right?"
+      ]
+    },
+    "DOUBLE_MEAT_CONFIRMED_SHORT": {
+      "selection": "rotate",
+      "variants": [
+        "Got it.",
+        "Perfect.",
+        "You got it."
+      ]
+    },
+    "OKAY_NO_DOUBLE_MEAT": {
+      "selection": "rotate",
+      "variants": [
+        "Got it — regular meat.",
+        "Perfect — keeping it regular."
+      ]
+    },
+    "ASK_PRESSED_OR_NOT": {
+      "selection": "rotate",
+      "variants": [
+        "Do you want that pressed, or not pressed?",
+        "Pressed or not pressed?"
+      ]
+    },
+    "PRESSED_CONFIRMED_SHORT": {
+      "selection": "rotate",
+      "variants": [
+        "Got it — pressed.",
+        "Perfect — pressed."
+      ]
+    },
+    "NOT_PRESSED_CONFIRMED_SHORT": {
+      "selection": "rotate",
+      "variants": [
+        "Got it — not pressed.",
+        "Perfect — not pressed."
+      ]
+    },
+    "NO_TOAST_CONFIRMED_SHORT": {
+      "selection": "rotate",
+      "variants": [
+        "Got it — not toasted.",
+        "Perfect — no toast."
+      ]
+    },
+    "CONFIRM_TEMP_OVERRIDE": {
+      "selection": "rotate",
+      "variants": [
+        "Just to confirm — you want it {order.pending_item.requested_temp}, right?",
+        "Okay — you want it {order.pending_item.requested_temp}. That right?"
+      ]
+    },
+    "DELI_TEMP_NOT_CHANGEABLE": {
+      "selection": "single",
+      "variants": [
+        "That deli item has to be served the way it’s listed. Want to keep it {order.pending_item.default_temp}?"
+      ]
+    },
+    "BEFORE_I_CLOSE_NEED_ONE_MORE_THING": {
+      "selection": "rotate",
+      "variants": [
+        "Before I close it out — I just need one quick detail on that last item.",
+        "Almost done — one quick thing on that last item so I don’t mess it up."
+      ]
+    },
+    "ITEM_REMOVED_CONFIRMATION": {
+      "selection": "rotate",
+      "variants": [
+        "Got it — I took that off.",
+        "No problem — removed it."
+      ]
+    },
+    "OKAY_STARTING_OVER_ON_THAT_ITEM": {
+      "selection": "rotate",
+      "variants": [
+        "No problem — let’s start over on that item. What do you want it to be?",
+        "Got you — starting over. What would you like instead?"
+      ]
+    },
+    "ASK_READBACK_CONFIRMATION": {
+      "selection": "rotate",
+      "variants": [
+        "Does that look right?",
+        "Is all of that correct?"
+      ]
+    },
+    "OKAY_WHAT_SHOULD_I_FIX": {
+      "selection": "rotate",
+      "variants": [
+        "No problem — what should I change?",
+        "Got it — what do you want me to fix?"
+      ]
+    },
+    "CLOSE_STATE_WAIT_TIME": {
+      "selection": "rotate",
+      "variants": [
+        "Estimated wait time is about {order.wait_time_minutes} minutes.",
+        "You’re looking at about {order.wait_time_minutes} minutes."
+      ]
+    },
+    "ASK_PARM_CHEESE": {
+      "selection": "rotate",
+      "variants": [
+        "Do you want cheese on that? Mozzarella is the default.",
+        "Want cheese on that? We usually do mozzarella — that okay?"
+      ]
+    },
+    "PARM_CHEESE_CONFIRMED_SHORT": {
+      "selection": "rotate",
+      "variants": [
+        "Perfect.",
+        "Got it.",
+        "You got it."
+      ]
+    },
+    "ASK_CHICKEN_TYPE_DELI_CUTLET_GRILLED": {
+      "selection": "rotate",
+      "variants": [
+        "Quick question — do you want that as chicken cutlet or grilled chicken?",
+        "Just to confirm — cutlet or grilled chicken?",
+        "For the chicken — cutlet or grilled?"
+      ]
+    },
+    "ASK_HOT_OR_COLD_ROAST_BEEF": {
+      "selection": "rotate",
+      "variants": [
+        "Roast beef — hot or cold?",
+        "Roast beef — would you like that hot or cold?",
+        "Roast beef — do you want it hot or cold?"
+      ]
+    },
+    "PRESSED_CONFIRM_PANINI_DEFAULT_PRESSED": {
+      "selection": "rotate",
+      "variants": [
+        "Sure — panini. Pressed is standard. Want it pressed?",
+        "No problem — panini. We usually press it. Want it pressed?",
+        "Got it — panini. Pressed is the normal way. Want it pressed or not pressed?"
+      ]
+    },
+    "ASK_DISH_SIZE_SMALL_OR_LARGE": {
+      "selection": "rotate",
+      "variants": [
+        "Sure — would you like that as a small dish or a large dish?",
+        "Got it — small dish or large dish?",
+        "No problem — do you want a small or large dish?"
+      ]
+    },
+    "DISH_SIZE_CONFIRMED_SMALL": {
+      "selection": "rotate",
+      "variants": [
+        "Got it — small.",
+        "Perfect — small dish.",
+        "You got it — small."
+      ]
+    },
+    "DISH_SIZE_CONFIRMED_LARGE": {
+      "selection": "rotate",
+      "variants": [
+        "Got it — large.",
+        "Perfect — large dish.",
+        "You got it — large."
+      ]
+    },
+    "ADDONS_CONFIRMED_SHORT": {
+      "selection": "rotate",
+      "variants": [
+        "Got it.",
+        "Okay.",
+        "You got it."
+      ]
+    },
+    "NO_ADDONS_CONFIRMED_SHORT": {
+      "selection": "rotate",
+      "variants": [
+        "No problem.",
+        "Got it.",
+        "Okay."
+      ]
+    },
+    "HOURS_STANDARD": {
+      "selection": "rotate",
+      "variants": [
+        "We’re open Monday through Saturday, {hours.weekly_hours.monday.open} to {hours.weekly_hours.monday.close}. We’re closed Sundays. Breakfast runs until {business.menu_summary.breakfast.cutoff_time}.",
+        "Hours are Mon–Sat {hours.weekly_hours.monday.open}–{hours.weekly_hours.monday.close}. Closed Sunday. Breakfast ends at {business.menu_summary.breakfast.cutoff_time}.",
+        "We’re open Monday through Saturday from {hours.weekly_hours.monday.open} to {hours.weekly_hours.monday.close}, and we’re closed Sundays. Breakfast cutoff is {business.menu_summary.breakfast.cutoff_time}."
+      ]
+    },
+    "INSTORE_SNACKS_BUNDLE_INFO": {
+      "selection": "rotate",
+      "variants": [
+        "Drinks (including soda), cookies, chips, and candy are available in-store to add when you arrive.",
+        "Yes — drinks, cookies, chips, and candy are available in-store to add at pickup."
+      ]
+    },
+    "INSTORE_COFFEE_INFO": {
+      "selection": "rotate",
+      "variants": [
+        "Coffee is available during breakfast hours only.",
+        "Coffee is available during breakfast hours only (breakfast time)."
+      ]
+    },
+    "DISH_SIZE_CONFIRMED_SHORT": {
+      "selection": "rotate",
+      "variants": [
+        "Got it.",
+        "Perfect.",
+        "Sounds good.",
+        "Okay."
+      ]
+    },
+    "ASK_WRAP_TYPE": {
+      "selection": "rotate",
+      "variants": [
+        "For the {order.pending_item.name}, which wrap would you like: white wrap, wheat wrap, tomato basil wrap, or spinach wrap?",
+        "For the {order.pending_item.name}, what wrap type should it be — white, wheat, tomato basil, or spinach?"
+      ]
+    },
+    "ASK_SUB_BREAD_TYPE": {
+      "selection": "rotate",
+      "variants": [
+        "For the {order.pending_item.name}, should the sub be plain or seeded?",
+        "For the {order.pending_item.name} — do you want a plain sub or a seeded sub?",
+        "On the {order.pending_item.name}, plain or seeded sub?"
+      ]
+    },
+    "TOAST_CONFIRMED_SHORT": {
+      "selection": "single",
+      "variants": [
+        "Got it — I’ll make it toasted."
+      ]
+    },
+    "EXTRA_CONDIMENTS_CONFIRMED_SHORT": {
+      "selection": "single",
+      "variants": [
+        "Got it — extra condiments."
+      ]
+    },
+    "LIGHT_CONDIMENTS_CONFIRMED_SHORT": {
+      "selection": "single",
+      "variants": [
+        "Got it — light condiments."
+      ]
+    },
+    "EXTRA_TOPPINGS_CONFIRMED_SHORT": {
+      "selection": "single",
+      "variants": [
+        "Got it — extra toppings."
+      ]
+    },
+    "LIGHT_TOPPINGS_CONFIRMED_SHORT": {
+      "selection": "single",
+      "variants": [
+        "Got it — light toppings."
+      ]
+    },
+    "CUT_IN_HALF_CONFIRMED_SHORT": {
+      "selection": "single",
+      "variants": [
+        "No problem — I’ll cut it in half."
+      ]
+    },
+    "CUT_IN_QUARTERS_CONFIRMED_SHORT": {
+      "selection": "single",
+      "variants": [
+        "No problem — I’ll cut it into quarters."
+      ]
+    },
+    "ON_SIDE_CONFIRMED_SHORT": {
+      "selection": "single",
+      "variants": [
+        "Got it — I’ll put it on the side."
+      ]
+    },
+    "SLICE_STYLE_CONFIRMED_SHORT": {
+      "selection": "single",
+      "variants": [
+        "Got it — I’ll do {order.pending_item.slice_style} slices."
+      ]
+    },
+    "ONE_ITEM_AT_A_TIME": {
+      "selection": "rotate",
+      "variants": [
+        "I can do multiple items — let’s do them one at a time so I don’t mess anything up. What’s the first item?",
+        "To make sure I get this right, let’s do one item at a time. What’s the first thing you want?"
+      ]
+    },
+    "CLARIFY_APPLY_TO_ALL_OR_LAST": {
+      "selection": "rotate",
+      "variants": [
+        "Do you want that change on just the last item, or on all items in the order?",
+        "Should I apply that to the last item only, or to every item you’ve ordered?"
+      ]
+    },
+    "BUSINESS_LOCATION": {
+      "selection": "rotate",
+      "variants": [
+        "We’re located at {business.address_single_line}.",
+        "Our address is {business.address_single_line}.",
+        "You can find us at {business.address_single_line}."
+      ]
+    },
+    "BUSINESS_PHONE": {
+      "selection": "rotate",
+      "variants": [
+        "You can reach us at {business.phone}.",
+        "Give us a call at {business.phone}.",
+        "Our phone number is {business.phone}."
+      ]
+    },
+    "BUSINESS_DELIVERY_NOT_AVAILABLE": {
+      "selection": "rotate",
+      "variants": [
+        "We don’t offer delivery, but pickup is available.",
+        "We’re pickup only — we don’t offer delivery.",
+        "No delivery — pickup is available."
+      ]
+    },
+    "BUSINESS_OPEN_NOW_YES": {
+      "selection": "rotate",
+      "variants": [
+        "Yes — we’re open right now.",
+        "Yep, we’re open right now.",
+        "We’re open right now."
+      ]
+    },
+    "BUSINESS_OPEN_NOW_NO": {
+      "selection": "rotate",
+      "variants": [
+        "No — we’re currently closed.",
+        "We’re closed right now.",
+        "Not at the moment — we’re closed right now."
+      ]
+    },
+    "BUSINESS_DELIVERY_AVAILABLE": {
+      "selection": "rotate",
+      "variants": [
+        "Yes — we offer delivery.",
+        "Yes, delivery is available.",
+        "We do offer delivery."
+      ]
+    },
+    "BUSINESS_WIFI_YES": "Yes — we have Wi‑Fi.",
+    "BUSINESS_WIFI_NO": "No — we don’t currently offer Wi‑Fi.",
+    "BUSINESS_PAYMENT_METHODS": "We accept {business.payment_methods_human}.",
+    "BUSINESS_DINE_IN_YES": "Yes — dine‑in is available.",
+    "BUSINESS_DINE_IN_NO": "No — we’re currently takeout only.",
+    "BUSINESS_TAKEOUT_YES": "Yes — takeout is available.",
+    "BUSINESS_TAKEOUT_NO": "No — we’re not currently offering takeout.",
+    "BUSINESS_ONLINE_ORDERING_AVAILABLE": "Yes — online ordering is available. {business.online_ordering_details}",
+    "BUSINESS_ONLINE_ORDERING_NOT_AVAILABLE": "No — online ordering isn’t available right now.",
+    "BUSINESS_CATERING_AVAILABLE": "Yes — catering is available. {business.catering_details}",
+    "BUSINESS_CATERING_NOT_AVAILABLE": "No — we don’t currently offer catering.",
+    "BUSINESS_PARKING_AVAILABLE": "Yes — parking is available ({business.parking_details}).",
+    "BUSINESS_PARKING_NOT_AVAILABLE": "No — we don’t have dedicated parking.",
+    "BUSINESS_RESTROOMS_YES": "Yes — public restrooms are available.",
+    "BUSINESS_RESTROOMS_NO": "No — we don’t have public restrooms.",
+    "BUSINESS_ACCESSIBLE_YES": "Yes — we have a wheelchair‑accessible entrance.",
+    "BUSINESS_ACCESSIBLE_NO": "No — we don’t have a wheelchair‑accessible entrance.",
+    "BUSINESS_MENU_OVERVIEW": "We’re a deli serving {business.menu_overview}.",
+    "BUSINESS_CUSTOMIZE_YES": {
+      "selection": "rotate",
+      "variants": [
+        "Yes — {business.menu_summary.customization_instructions}",
+        "Yep — {business.menu_summary.customization_instructions}",
+        "Sure — {business.menu_summary.customization_instructions}"
+      ]
+    },
+    "BUSINESS_CUSTOMIZE_NO": {
+      "selection": "single",
+      "variants": [
+        "We can do limited changes, but full build‑your‑own isn’t available. Please call {business.phone} and our team can help."
+      ]
+    },
+    "BUSINESS_BEST_SELLERS": "Some customer favorites include {business.best_sellers_human}.",
+    "BUSINESS_ORDER_METHODS": "You can order {business.order_methods_human}.",
+    "BUSINESS_AVG_WAIT_TIME": "Typical wait time is about {business.avg_wait_time_minutes} minutes.",
+    "BUSINESS_AVG_PRICE": "Typical spend is about {business.avg_price_per_person_human} per person.",
+    "BUSINESS_VEGETARIAN_YES": "Yes — we can make vegetarian sandwiches. For example, fresh mozzarella with arugula and roasted peppers, or a veggie sandwich with your choice of toppings. What would you like?",
+    "BUSINESS_VEGETARIAN_NO": "We don’t have dedicated vegetarian options listed, but you can ask for modifications when ordering.",
+    "BUSINESS_VEGAN_MENU_YES": "Yes — we have a dedicated vegan menu.",
+    "BUSINESS_VEGAN_MENU_NO": "No — we don’t have a dedicated vegan menu.",
+    "BUSINESS_GLUTEN_FREE_MENU_YES": "Yes — we have a dedicated gluten‑free menu.",
+    "BUSINESS_GLUTEN_FREE_MENU_NO": "No — we don’t have a dedicated gluten‑free menu.",
+    "BUSINESS_KIDS_MENU_YES": "Yes — we have a kids menu.",
+    "BUSINESS_KIDS_MENU_NO": "No — we don’t have a kids menu.",
+    "BUSINESS_LOYALTY_YES": "Yes — we have a loyalty program.",
+    "BUSINESS_LOYALTY_NO": "No — we don’t currently have a loyalty program.",
+    "BUSINESS_ALLERGEN_NOTICE": "{business.allergen_notice}",
+    "BUSINESS_REFUND_POLICY": "{business.refund_policy}",
+    "BUSINESS_SAFETY_SANITATION": "{business.safety_and_sanitation}",
+    "BUSINESS_RAW_FOOD_NOTICE": "{business.raw_food_notice}",
+    "THANKS_YOURE_WELCOME": "You're welcome. Anything else I can help with?",
+    "BUSINESS_BREAKFAST_END": "Breakfast ends at {business.menu_summary.breakfast.cutoff_time}.",
+    "ASK_BREAKFAST_SANDWICH_TYPE": {
+      "selection": "single",
+      "variants": [
+        "Sure — which breakfast sandwich would you like? You can say something like “bacon egg & cheese”, “sausage egg & cheese”, or “ham egg & cheese”."
+      ]
+    },
+    "ASK_SIDE_ITEM": {
+      "selection": "single",
+      "variants": [
+        "No problem — which side would you like? For example: fries, onion rings, garlic bread, or ziti."
+      ]
+    },
+    "ASK_SALAD_ITEM": {
+      "selection": "single",
+      "variants": [
+        "Which salad would you like? For example: tossed salad, chef salad, potato salad, or macaroni salad."
+      ]
+    },
+    "ASK_DELI_WEIGHT": [
+      "How much would you like? You can say “quarter”, “half”, “3/4”, “1 lb”, “1 1/4 lb”, “1 1/2 lb”, “1 3/4 lb”, or “2 lb”."
+    ],
+    "ASK_DELI_MODE": [
+      "Just to confirm — for the {order.pending_item.name}, do you want that as a sandwich, or by the pound?"
+    ],
+    "ASK_MEATBALL_MODE": [
+      "Did you want that on a roll, sub, or wrap, or as a side of meatballs?"
+    ],
+    "ASK_LUNCH_SANDWICH_TYPE": [
+      "Sure — which lunch sandwich would you like? You can say something like “ham & cheese”, “turkey”, “Italian”, or a named sandwich like “DaVinci”."
+    ],
+    "HOT_ONLY_ITEM_CANNOT_BE_COLD": "That item is hot-only — I’ll make it hot.",
+    "SIDE_DISH_ONLY_COMES_SMALL": {
+      "selection": "rotate",
+      "variants": [
+        "That one only comes as a small — I’ll make it a small.",
+        "Heads up — that only comes as a small. I’ll go ahead and make it a small.",
+        "Just so you know, that only comes as a small — making it a small for you."
+      ]
+    },
+    "SIDE_DISH_ONLY_COMES_SMALL_CONFIRM": {
+      "selection": "rotate",
+      "variants": [
+        "That one only comes as a small — is that okay?",
+        "Heads up — that only comes in a small. Is that all right?",
+        "Just so you know, that item only comes as a small. Sound good?"
+      ]
+    },
+    "SIDE_DISH_UPDATED_TO_SMALL": {
+      "selection": "rotate",
+      "variants": [
+        "Got it — updating that to a small.",
+        "No problem — making that a small.",
+        "Sure thing — switching that to a small."
+      ]
+    },
+    "NAME_CONFIRMED_CONTINUE_WITH_ORDER": {
+      "selection": "rotate",
+      "variants": [
+        "Thanks, {order.customer_name}!",
+        "Got it, {order.customer_name}.",
+        "Perfect, {order.customer_name}."
+      ]
+    },
+    "SIDE_DISH_ONLY_COMES_SMALL_WITH_NAME": {
+      "selection": "rotate",
+      "variants": [
+        "Thanks, {order.customer_name}! Just so you know, that item only comes as a small — is that okay?",
+        "Got it, {order.customer_name}. That one only comes in a small. Is that all right?",
+        "Perfect, {order.customer_name}. Heads up — that only comes as a small. Sound good?"
+      ]
+    },
+    "ASK_NAMED_ITEM_AS_IT_COMES": {
+      "selection": "rotate",
+      "variants": [
+        "{order.pending_item.name} comes with {item.ingredients_text}. Want it that way, or any changes?",
+        "Just so you know, {order.pending_item.name} comes with {item.ingredients_text}. Want it as-is, or would you like to change anything?"
+      ]
+    },
+    "NAMED_ITEM_DEFAULTS_APPLIED": {
+      "selection": "rotate",
+      "variants": [
+        "Got it — making that just how it comes.",
+        "Perfect — I'll make that with the standard setup."
+      ]
+    },
+    "NAMED_ITEM_DEFAULTS_APPLIED_WITH_REMOVALS": {
+      "selection": "rotate",
+      "variants": [
+        "Got it — just how it comes, but without the {removed_items}.",
+        "No problem — standard setup, leaving off the {removed_items}."
+      ]
+    },
+    "NAMED_ITEM_DEFAULTS_REAPPLIED": {
+      "selection": "rotate",
+      "variants": [
+        "Got it — putting that back to how it normally comes.",
+        "No problem — resetting that to the standard setup."
+      ]
+    },
+    "ITEM_IS_BUILD_YOUR_OWN": {
+      "selection": "rotate",
+      "variants": [
+        "That sandwich is build-your-own — just tell me what you'd like on it, or keep it plain.",
+        "That one doesn't have set toppings — it's build-your-own. What would you like on it?"
+      ]
+    },
+    "BREAD_OPTIONS_LIST": {
+      "selection": "rotate",
+      "variants": [
+        "For rolls: plain, poppy seed, Portuguese, or knot roll. We also have plain or seeded sub, white/wheat/tomato basil/spinach wrap, panini (ciabatta), or bread. Which would you like?",
+        "Roll options are plain, poppy seed, Portuguese, or knot roll. Sub choices are plain or seeded. Wraps come in white, wheat, tomato basil, or spinach. We also have panini or bread."
+      ]
+    },
+    "ASK_SANDWICH_FORMAT_DUO": {
+      "selection": "single",
+      "variants": [
+        "For the {order.pending_item.name} — are both the same (roll, sub, or wrap), or different? You can say \"both plain rolls\", \"both subs\", or tell me each one."
+      ]
+    },
+    "ASK_WHAT_TO_ADD": {
+      "selection": "rotate",
+      "variants": [
+        "Sure — what would you like to add?",
+        "Of course — what else can I get you?",
+        "Absolutely — what can I add to your order?"
+      ]
+    }
+  },
+  "BUSINESS_LOCATION": "We’re located at {business.address}.",
+  "BUSINESS_PHONE": "You can reach us at {business.phone}.",
+  "BUSINESS_DELIVERY_NOT_AVAILABLE": "We don’t offer delivery, but pickup is available.",
+  "BUSINESS_DELIVERY_AVAILABLE": "Yes — we offer delivery.",
+  "BUSINESS_OPEN_NOW_YES": "Yes — we’re open right now.",
+  "BUSINESS_OPEN_NOW_NO": "No — we’re currently closed.",
+  "THANKS_YOURE_WELCOME": "You're welcome. Anything else I can help with?"
+}

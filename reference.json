@@ -1,0 +1,2853 @@
+{
+  "reference_version": "1.1",
+  "normalization": {
+    "case_insensitive_matching": true,
+    "trim_whitespace": true,
+    "collapse_multiple_spaces": true,
+    "allow_common_punctuation_variants": true
+  },
+  "rendering": {
+    "ticket_output_uses_display_name": true
+  },
+  "formats": [
+    {
+      "id": "roll",
+      "group": "bread",
+      "display_name": "Roll",
+      "synonyms": [
+        "roll",
+        "on a roll"
+      ]
+    },
+    {
+      "id": "sub",
+      "group": "bread",
+      "display_name": "Sub",
+      "synonyms": [
+        "sub",
+        "hero",
+        "hoagie",
+        "wedge"
+      ]
+    },
+    {
+      "id": "wrap",
+      "group": "bread",
+      "display_name": "Wrap",
+      "synonyms": [
+        "wrap"
+      ]
+    },
+    {
+      "id": "panini",
+      "group": "bread",
+      "display_name": "Panini",
+      "synonyms": [
+        "panini",
+        "ciabatta",
+        "pressed sandwich",
+        "pressed"
+      ]
+    },
+    {
+      "id": "bread",
+      "group": "bread",
+      "display_name": "Bread",
+      "synonyms": [
+        "bread",
+        "on bread"
+      ]
+    },
+    {
+      "id": "toast",
+      "group": "bread",
+      "display_name": "Toast",
+      "synonyms": [
+        "toast",
+        "on toast"
+      ]
+    },
+    {
+      "id": "small_dish",
+      "group": "dish",
+      "display_name": "Small dish",
+      "synonyms": [
+        "small dish",
+        "lunch size"
+      ]
+    },
+    {
+      "id": "large_dish",
+      "group": "dish",
+      "display_name": "Large dish",
+      "synonyms": [
+        "large dish",
+        "dinner size",
+        "dinner"
+      ]
+    },
+    {
+      "id": "mini_sub",
+      "group": "bread",
+      "display_name": "Mini Sub",
+      "synonyms": [
+        "mini sub",
+        "mini hero",
+        "mini hoagie",
+        "mini wedge"
+      ]
+    },
+    {
+      "id": "by_weight",
+      "group": "weight",
+      "display_name": "By Weight",
+      "synonyms": [
+        "by weight",
+        "per pound",
+        "by the pound"
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "id": "alias.format_sub_equivalents",
+      "type": "format",
+      "canonical_id": "sub",
+      "aliases": [
+        "sub",
+        "hero",
+        "hoagie",
+        "wedge"
+      ],
+      "display_name": "Sub",
+      "description": "All of these terms mean the same sandwich format."
+    },
+    {
+      "id": "alias.format_panini_ciabatta_equivalents",
+      "type": "format",
+      "canonical_id": "panini",
+      "aliases": [
+        "panini",
+        "ciabatta",
+        "ciabatta bread",
+        "panini bread"
+      ],
+      "display_name": "Panini",
+      "description": "Panini and ciabatta are interchangeable terms for the same pressed bread format."
+    },
+    {
+      "id": "alias.format_small_dish_equivalents",
+      "type": "format",
+      "canonical_id": "small_dish",
+      "aliases": [
+        "small dish",
+        "lunch size"
+      ],
+      "display_name": "Small dish",
+      "description": "Lunch size and small dish are the same."
+    },
+    {
+      "id": "alias.format_large_dish_equivalents",
+      "type": "format",
+      "canonical_id": "large_dish",
+      "aliases": [
+        "large dish",
+        "dinner size",
+        "dinner"
+      ],
+      "display_name": "Large dish",
+      "description": "Dinner size and large dish are the same."
+    },
+    {
+      "id": "alias.cheese_pepperjack_equivalents",
+      "type": "cheese",
+      "canonical_id": "cheese.pepperjack",
+      "aliases": [
+        "pepperjack",
+        "pepper jack",
+        "pepper-jack",
+        "pepperjack cheese",
+        "pj"
+      ],
+      "display_name": "Pepperjack",
+      "description": "Common ways customers refer to Pepperjack cheese."
+    },
+    {
+      "id": "alias.condiment_mayo_equivalents",
+      "type": "condiment",
+      "canonical_id": "condiment.mayonnaise",
+      "aliases": [
+        "mayo",
+        "mayonnaise",
+        "mayonnase",
+        "mayonaisse"
+      ],
+      "display_name": "Mayo",
+      "description": "Common ways customers refer to mayonnaise (including common misspellings)."
+    },
+    {
+      "id": "alias.meat_bologna_legacy_misspelling",
+      "type": "meat",
+      "canonical_id": "meat.bologna",
+      "aliases": [
+        "balogna"
+      ],
+      "display_name": "Bologna",
+      "description": "Legacy misspelling support."
+    },
+    {
+      "id": "alias.meat_prosciutto_legacy_misspelling",
+      "type": "meat",
+      "canonical_id": "meat.prosciutto",
+      "aliases": [
+        "proscuitto"
+      ],
+      "display_name": "Prosciutto",
+      "description": "Legacy misspelling support."
+    },
+    {
+      "id": "alias.meat_soppressata_legacy_misspelling",
+      "type": "meat",
+      "canonical_id": "meat.soppressata",
+      "aliases": [
+        "sporesata"
+      ],
+      "display_name": "Soppressata",
+      "description": "Legacy misspelling support."
+    },
+    {
+      "id": "alias.topping_arugula_legacy_misspelling",
+      "type": "topping",
+      "canonical_id": "topping.arugula",
+      "aliases": [
+        "arugala"
+      ],
+      "display_name": "Arugula",
+      "description": "Legacy misspelling support."
+    },
+    {
+      "id": "alias.topping_sauerkraut_legacy_misspelling",
+      "type": "topping",
+      "canonical_id": "topping.sauerkraut",
+      "aliases": [
+        "souerkraut"
+      ],
+      "display_name": "Sauerkraut",
+      "description": "Legacy misspelling support."
+    },
+    {
+      "id": "alias.order_hint_sandwich_word",
+      "type": "order_hint",
+      "canonical_id": "hint.sandwich_word",
+      "aliases": [
+        "sandwich",
+        "sandwhich",
+        "sandwiche",
+        "sandwhitch",
+        "sandwitch",
+        "sandwihch",
+        "sanwich",
+        "sammich"
+      ],
+      "display_name": "Sandwich (order hint)",
+      "description": "Common word/misspellings indicating an order is being placed; does not select roll/sub/wrap."
+    },
+    {
+      "type": "menu_item",
+      "canonical_id": "lunch.sporesata",
+      "aliases": [
+        "soppressata",
+        "sopressata",
+        "soppresata",
+        "sopresata",
+        "soppressata sandwich",
+        "sopressata sandwich",
+        "sporesata",
+        "sporesata sandwich"
+      ]
+    },
+    {
+      "type": "menu_item",
+      "canonical_id": "lunch.the_parma",
+      "aliases": [
+        "parma",
+        "the parma",
+        "parrma",
+        "parmma",
+        "parm a",
+        "parma sandwich"
+      ]
+    },
+    {
+      "type": "menu_item",
+      "canonical_id": "lunch.the_davinci",
+      "aliases": [
+        "davinci",
+        "da vinci",
+        "da-vinci",
+        "the davinci",
+        "davinchi",
+        "da vinchi",
+        "davinci sandwich"
+      ]
+    },
+    {
+      "type": "menu_item",
+      "canonical_id": "lunch_special.roma",
+      "aliases": [
+        "roma",
+        "the roma",
+        "roma panini",
+        "roma sandwich",
+        "rome panini"
+      ]
+    },
+    {
+      "type": "menu_item",
+      "canonical_id": "lunch_special.sorr",
+      "aliases": [
+        "sorrento",
+        "the sorrento",
+        "sorrento panini",
+        "sorrento sandwich",
+        "sorento"
+      ]
+    },
+    {
+      "type": "menu_item",
+      "canonical_id": "lunch_special.genoa",
+      "aliases": [
+        "genoa",
+        "the genoa",
+        "genoa panini",
+        "genoa sandwich"
+      ]
+    },
+    {
+      "type": "menu_item",
+      "canonical_id": "lunch_special.venezia",
+      "aliases": [
+        "venezia",
+        "the venezia",
+        "venezia panini",
+        "venezia sandwich",
+        "venizia",
+        "venezza"
+      ]
+    },
+    {
+      "type": "menu_item",
+      "canonical_id": "lunch_special.milano",
+      "aliases": [
+        "milano",
+        "the milano",
+        "milano panini",
+        "milano sandwich",
+        "milanio"
+      ]
+    },
+    {
+      "type": "menu_item",
+      "canonical_id": "lunch_special.firenze",
+      "aliases": [
+        "firenze",
+        "the firenze",
+        "firenze panini",
+        "firenze sandwich",
+        "firence",
+        "firenzi"
+      ]
+    },
+    {
+      "type": "menu_item",
+      "canonical_id": "lunch_special.capri",
+      "aliases": [
+        "capri",
+        "the capri",
+        "capri panini",
+        "capri sandwich",
+        "capree"
+      ]
+    },
+    {
+      "type": "menu_item",
+      "canonical_id": "lunch_special.pompeii",
+      "aliases": [
+        "pompeii",
+        "the pompeii",
+        "pompeii panini",
+        "pompeii sandwich",
+        "pompei",
+        "pompei panini"
+      ]
+    },
+    {
+      "type": "menu_item",
+      "canonical_id": "lunch_special.vesuvio",
+      "aliases": [
+        "vesuvio",
+        "the vesuvio",
+        "vesuvio panini",
+        "vesuvio sandwich",
+        "vesuvioo"
+      ]
+    },
+    {
+      "type": "menu_item",
+      "canonical_id": "lunch_special.soprano",
+      "aliases": [
+        "soprano",
+        "the soprano",
+        "soprano panini",
+        "soprano sandwich",
+        "sopranno",
+        "sopranos"
+      ]
+    },
+    {
+      "type": "menu_item",
+      "canonical_id": "lunch_special.bronxb",
+      "aliases": [
+        "bronx bomber",
+        "the bronx bomber",
+        "bronx bomber panini",
+        "bronx bomber sandwich",
+        "bronx",
+        "bronx bomer"
+      ]
+    },
+    {
+      "id": "alias.menu_item_fries",
+      "type": "menu_item",
+      "canonical_id": "sides.fries",
+      "aliases": [
+        "fries",
+        "french fries",
+        "french fry",
+        "side of fries",
+        "side fries"
+      ],
+      "display_name": "French Fries",
+      "description": "Common ways customers request French Fries."
+    },
+    {
+      "id": "alias.menu_item_ziti",
+      "type": "menu_item",
+      "canonical_id": "sides.ziti",
+      "aliases": [
+        "ziti",
+        "side of ziti",
+        "side ziti"
+      ]
+    },
+    {
+      "id": "alias.menu_item_spaghetti",
+      "type": "menu_item",
+      "canonical_id": "sides.spag",
+      "aliases": [
+        "spaghetti",
+        "side of spaghetti",
+        "side spaghetti"
+      ]
+    },
+    {
+      "id": "alias.menu_item_stuffed_shells",
+      "type": "menu_item",
+      "canonical_id": "sides.stuffsh",
+      "aliases": [
+        "stuffed shells",
+        "stuffed shell",
+        "side of stuffed shells",
+        "side stuffed shells"
+      ]
+    },
+    {
+      "id": "alias.menu_item_onion_rings",
+      "type": "menu_item",
+      "canonical_id": "sides.or",
+      "aliases": [
+        "onion rings",
+        "onion ring",
+        "side of onion rings",
+        "side onion rings"
+      ]
+    },
+    {
+      "type": "menu_item",
+      "canonical_id": "sides.gb&m",
+      "aliases": [
+        "garlic bread with mozzarella",
+        "garlic bread w mozzarella",
+        "garlic bread w/ mozzarella",
+        "garlic bread mozzarella"
+      ]
+    },
+    {
+      "type": "menu_item",
+      "canonical_id": "sides.gb",
+      "aliases": [
+        "garlic bread",
+        "garlic bread plain"
+      ]
+    }
+  ],
+  "format_conflicts": [
+    {
+      "id": "format_group_conflict",
+      "description": "Only one format group may be selected per item (e.g., bread vs dish).",
+      "conflict_rule": "If more than one format group is selected for a single item, require clarification.",
+      "example_conflict": [
+        "sub",
+        "small_dish"
+      ],
+      "clarification_prompt": "Just to confirm \u2014 did you want that as a sub (hoagie/hero/wedge) or as a small dish (lunch size)?"
+    }
+  ],
+  "definitions": [
+    {
+      "id": "definition.pressed_sandwich_wrap",
+      "term": "Pressed Sandwich/Wrap",
+      "definition": "The sandwich or wrap is heated on a flat grill (panini press) until the bread is toasted and the cheese is melted (if applicable). This adds a nice crunch."
+    },
+    {
+      "id": "definition.panini",
+      "term": "Panini",
+      "definition": "Bread that is heated and toasted via pressing. Interchangeable with ciabatta for ordering."
+    },
+    {
+      "id": "definition.ciabatta_bread",
+      "term": "Ciabatta Bread",
+      "definition": "Panini-style bread that is heated and toasted via pressing. Interchangeable to order with panini."
+    },
+    {
+      "id": "definition.hero",
+      "term": "Hero",
+      "definition": "Same as 'sub'."
+    },
+    {
+      "id": "definition.hoagie",
+      "term": "Hoagie",
+      "definition": "Same as 'sub'."
+    },
+    {
+      "id": "definition.wedge",
+      "term": "Wedge",
+      "definition": "Same as 'sub'."
+    },
+    {
+      "id": "definition.parm",
+      "term": "Parm",
+      "definition": "Short for Parmigiano."
+    },
+    {
+      "id": "definition.sub_size",
+      "term": "Sub size",
+      "definition": "About 12 inches."
+    },
+    {
+      "id": "definition.small_dish",
+      "term": "Small dish",
+      "definition": "Roughly similar to a roll-size portion."
+    },
+    {
+      "id": "definition.large_dish",
+      "term": "Large dish",
+      "definition": "Roughly similar to a sub-size portion."
+    },
+    {
+      "id": "definition.lunch_size",
+      "term": "Lunch size",
+      "definition": "Interchangeable with 'Small dish'. They are the same."
+    },
+    {
+      "id": "definition.dinner_size",
+      "term": "Dinner Size",
+      "definition": "Interchangeable with 'Large dish'. They are the same."
+    },
+    {
+      "id": "definition.roast_beef",
+      "term": "Roast Beef",
+      "definition": "Roasted in house."
+    },
+    {
+      "id": "definition.baked_ham",
+      "term": "Baked Ham",
+      "definition": "Baked in house."
+    },
+    {
+      "id": "definition.salads",
+      "term": "Salads",
+      "definition": "Homemade."
+    },
+    {
+      "id": "definition.meats_and_cheese",
+      "term": "Meats and Cheese",
+      "definition": "Fresh and never frozen."
+    }
+  ],
+  "egg_styles": [
+    {
+      "id": "egg_style.fried",
+      "display_name": "Fried",
+      "synonyms": [
+        "fried"
+      ],
+      "default_for": [
+        "roll",
+        "sub",
+        "small_dish",
+        "large_dish",
+        "bread.plain_roll",
+        "bread.poppy_seed_roll",
+        "bread.portuguese_roll",
+        "bread.knot_roll",
+        "bread.plain_sub",
+        "bread.seeded_sub",
+        "bread.mini_sub",
+        "bread.white_toast",
+        "bread.wheat_toast",
+        "bread.rye_toast"
+      ]
+    },
+    {
+      "id": "egg_style.scrambled",
+      "display_name": "Scrambled",
+      "synonyms": [
+        "scrambled"
+      ],
+      "default_for": [
+        "wrap"
+      ]
+    },
+    {
+      "id": "egg_style.over_easy",
+      "display_name": "Over Easy",
+      "synonyms": [
+        "over easy",
+        "easy",
+        "overeasy"
+      ]
+    },
+    {
+      "id": "egg_style.over_medium",
+      "display_name": "Over Medium",
+      "synonyms": [
+        "over medium",
+        "medium",
+        "overmedium"
+      ]
+    },
+    {
+      "id": "egg_style.over_hard",
+      "display_name": "Over Hard",
+      "synonyms": [
+        "over hard",
+        "hard",
+        "overhard"
+      ]
+    }
+  ],
+  "serving_temps": [
+    {
+      "id": "serving_temp.cold",
+      "display_name": "Cold",
+      "synonyms": [
+        "cold",
+        "not heated",
+        "not warm",
+        "no heat"
+      ]
+    },
+    {
+      "id": "serving_temp.hot",
+      "display_name": "Hot",
+      "synonyms": [
+        "hot",
+        "warm",
+        "warmed",
+        "heated",
+        "grilled"
+      ]
+    }
+  ],
+  "normalization_rules": [
+    {
+      "id": "normalize_white_bread_toasted",
+      "match_phrases": [
+        "white bread toasted",
+        "toasted white bread",
+        "toast the white bread"
+      ],
+      "normalize_to": "bread.white_toast"
+    },
+    {
+      "id": "normalize_wheat_bread_toasted",
+      "match_phrases": [
+        "wheat bread toasted",
+        "toasted wheat bread",
+        "toast the wheat bread"
+      ],
+      "normalize_to": "bread.wheat_toast"
+    },
+    {
+      "id": "normalize_rye_bread_toasted",
+      "match_phrases": [
+        "rye bread toasted",
+        "toasted rye bread",
+        "toast the rye bread"
+      ],
+      "normalize_to": "bread.rye_toast"
+    },
+    {
+      "id": "normalize_hot_roast_beef",
+      "match_phrases": [
+        "hot roast beef",
+        "roast beef hot",
+        "heated roast beef",
+        "warm roast beef"
+      ],
+      "normalize_to": [
+        "meat.roast_beef",
+        "serving_temp.hot"
+      ]
+    },
+    {
+      "id": "normalize_cold_roast_beef",
+      "match_phrases": [
+        "cold roast beef",
+        "roast beef cold"
+      ],
+      "normalize_to": [
+        "meat.roast_beef",
+        "serving_temp.cold"
+      ]
+    },
+    {
+      "id": "normalize_hot_ham",
+      "match_phrases": [
+        "hot ham",
+        "heated ham",
+        "warm ham",
+        "grilled ham"
+      ],
+      "normalize_to": [
+        "meat.ham",
+        "serving_temp.hot"
+      ]
+    },
+    {
+      "id": "normalize_hot_turkey",
+      "match_phrases": [
+        "hot turkey",
+        "heated turkey",
+        "warm turkey",
+        "grilled turkey"
+      ],
+      "normalize_to": [
+        "meat.turkey",
+        "serving_temp.hot"
+      ]
+    }
+  ],
+  "breads": [
+    {
+      "id": "bread.plain_roll",
+      "display_name": "Plain Roll",
+      "group": "roll",
+      "synonyms": [
+        "plain roll",
+        "Plain Roll",
+        "plainroll",
+        "plain"
+      ]
+    },
+    {
+      "id": "bread.poppy_seed_roll",
+      "display_name": "Poppy Seed Roll",
+      "group": "roll",
+      "synonyms": [
+        "poppy seed roll",
+        "Poppy Seed Roll",
+        "poppy",
+        "poppyseedroll"
+      ]
+    },
+    {
+      "id": "bread.portuguese_roll",
+      "display_name": "Portuguese Roll",
+      "group": "roll",
+      "synonyms": [
+        "portuguese roll",
+        "Portuguese Roll",
+        "Portuguese",
+        "portugueseroll"
+      ]
+    },
+    {
+      "id": "bread.knot_roll",
+      "display_name": "Knot Roll",
+      "group": "roll",
+      "synonyms": [
+        "knot roll",
+        "Knot Roll",
+        "knot",
+        "knotroll"
+      ]
+    },
+    {
+      "id": "bread.white_toast",
+      "display_name": "White Toast",
+      "group": "toast",
+      "synonyms": [
+        "white toast",
+        "White Toast",
+        "White",
+        "whitetoast"
+      ]
+    },
+    {
+      "id": "bread.wheat_toast",
+      "display_name": "Wheat Toast",
+      "group": "toast",
+      "synonyms": [
+        "wheat toast",
+        "Wheat Toast",
+        "Wheat",
+        "wheattoast"
+      ]
+    },
+    {
+      "id": "bread.rye_toast",
+      "display_name": "Rye Toast",
+      "group": "toast",
+      "synonyms": [
+        "rye toast",
+        "Rye Toast",
+        "Rye",
+        "ryetoast"
+      ]
+    },
+    {
+      "id": "bread.white_wrap",
+      "display_name": "White Wrap",
+      "group": "wrap",
+      "synonyms": [
+        "white wrap",
+        "White Wrap",
+        "whitewrap",
+        "white",
+        "plain wrap",
+        "plainwrap"
+      ]
+    },
+    {
+      "id": "bread.wheat_wrap",
+      "display_name": "Wheat Wrap",
+      "group": "wrap",
+      "synonyms": [
+        "wheat wrap",
+        "Wheat Wrap",
+        "wheatwrap",
+        "wheat",
+        "whole wheat wrap",
+        "wholewheat wrap",
+        "wholewheatwrap"
+      ]
+    },
+    {
+      "id": "bread.tomato_wrap",
+      "display_name": "Tomato Basil Wrap",
+      "group": "wrap",
+      "synonyms": [
+        "tomato wrap",
+        "Tomato Wrap",
+        "tomatowrap",
+        "Tomato Basil",
+        "tomato basil wrap",
+        "tomato basilwrap",
+        "tomatobasilwrap",
+        "basil wrap"
+      ]
+    },
+    {
+      "id": "bread.spinach_wrap",
+      "display_name": "Spinach Wrap",
+      "group": "wrap",
+      "synonyms": [
+        "spinach wrap",
+        "Spinach Wrap",
+        "spinach",
+        "spinachwrap"
+      ]
+    },
+    {
+      "id": "bread.plain_sub",
+      "display_name": "Plain Sub",
+      "group": "sub",
+      "synonyms": [
+        "plain sub",
+        "Plain Sub",
+        "plainsub"
+      ]
+    },
+    {
+      "id": "bread.seeded_sub",
+      "display_name": "Seeded Sub",
+      "group": "sub",
+      "synonyms": [
+        "seeded sub",
+        "Seeded Sub",
+        "seededsub"
+      ]
+    },
+    {
+      "id": "bread.mini_sub",
+      "display_name": "Mini Sub",
+      "group": "sub",
+      "synonyms": [
+        "mini sub",
+        "Mini Sub",
+        "minisub"
+      ]
+    },
+    {
+      "id": "bread.panini",
+      "display_name": "Panini",
+      "group": "panini",
+      "synonyms": [
+        "panini",
+        "Panini",
+        "ciabatta",
+        "ciabatta bread"
+      ]
+    },
+    {
+      "id": "bread.white_bread",
+      "display_name": "White Bread",
+      "group": "bread",
+      "synonyms": [
+        "white bread",
+        "White Bread",
+        "whitebread"
+      ]
+    },
+    {
+      "id": "bread.wheat_bread",
+      "display_name": "Wheat Bread",
+      "group": "bread",
+      "synonyms": [
+        "wheat bread",
+        "Wheat Bread",
+        "wheatbread"
+      ]
+    },
+    {
+      "id": "bread.rye_bread",
+      "display_name": "Rye Bread",
+      "group": "bread",
+      "synonyms": [
+        "rye bread",
+        "Rye Bread",
+        "ryebread"
+      ]
+    }
+  ],
+  "cheeses": [
+    {
+      "id": "cheese.american",
+      "display_name": "American",
+      "synonyms": [
+        "american",
+        "American",
+        "white cheese",
+        "american cheese"
+      ],
+      "is_default": true
+    },
+    {
+      "id": "cheese.cheddar",
+      "display_name": "Cheddar",
+      "synonyms": [
+        "cheddar",
+        "Cheddar",
+        "yellow cheddar"
+      ],
+      "is_default": false
+    },
+    {
+      "id": "cheese.mozzarella",
+      "display_name": "Mozzarella",
+      "synonyms": [
+        "mozzarella",
+        "Mozzarella",
+        "mozz"
+      ],
+      "is_default": false
+    },
+    {
+      "id": "cheese.provolone",
+      "display_name": "Provolone",
+      "synonyms": [
+        "provolone",
+        "Provolone"
+      ],
+      "is_default": false
+    },
+    {
+      "id": "cheese.pepperjack",
+      "display_name": "Pepperjack",
+      "synonyms": [
+        "pepperjack",
+        "Pepperjack",
+        "pepper cheese",
+        "pepper jack",
+        "pepper-jack",
+        "pepperjack cheese"
+      ],
+      "is_default": false
+    },
+    {
+      "id": "cheese.monterey_jack",
+      "display_name": "Monterey Jack",
+      "synonyms": [
+        "monterey jack",
+        "Monterey Jack",
+        "montereyjack"
+      ],
+      "is_default": false
+    },
+    {
+      "id": "cheese.fresh_mozzarella",
+      "display_name": "Fresh Mozzarella",
+      "synonyms": [
+        "fresh mozzarella",
+        "Fresh Mozzarella",
+        "fresh mozz",
+        "freshmozzarella"
+      ],
+      "is_default": false
+    },
+    {
+      "id": "cheese.sharp_provolone",
+      "display_name": "Sharp Provolone",
+      "synonyms": [
+        "sharp provolone",
+        "Sharp Provolone",
+        "sharpprovolone"
+      ],
+      "is_default": false
+    },
+    {
+      "id": "cheese.swiss",
+      "display_name": "Swiss",
+      "synonyms": [
+        "swiss",
+        "Swiss",
+        "swiss cheese",
+        "Swiss cheese"
+      ],
+      "is_default": false
+    }
+  ],
+  "meats": [
+    {
+      "id": "meat.bacon",
+      "display_name": "Bacon",
+      "synonyms": [
+        "bacon",
+        "Bacon"
+      ]
+    },
+    {
+      "id": "meat.sausage",
+      "display_name": "Sausage Patty",
+      "category": [
+        "breakfast"
+      ],
+      "synonyms": [
+        "sausage patty",
+        "breakfast sausage",
+        "patty"
+      ]
+    },
+    {
+      "id": "meat.ham",
+      "display_name": "Ham",
+      "synonyms": [
+        "ham",
+        "Ham"
+      ]
+    },
+    {
+      "id": "meat.turkey_bacon",
+      "display_name": "Turkey Bacon",
+      "synonyms": [
+        "turkey bacon",
+        "Turkey Bacon",
+        "turkeybacon"
+      ]
+    },
+    {
+      "id": "meat.pastrami",
+      "display_name": "Pastrami",
+      "synonyms": [
+        "pastrami",
+        "Pastrami"
+      ]
+    },
+    {
+      "id": "meat.deli_chicken",
+      "display_name": "Deli Chicken",
+      "synonyms": [
+        "deli chicken",
+        "Deli Chicken",
+        "delichicken"
+      ]
+    },
+    {
+      "id": "meat.turkey_pastrami",
+      "display_name": "Turkey Pastrami",
+      "synonyms": [
+        "turkey pastrami",
+        "Turkey Pastrami",
+        "turkeypastrami"
+      ]
+    },
+    {
+      "id": "meat.honey_ham",
+      "display_name": "Honey Ham",
+      "synonyms": [
+        "honey ham",
+        "Honey Ham",
+        "honeyham"
+      ]
+    },
+    {
+      "id": "meat.baked_ham",
+      "display_name": "Baked Ham",
+      "synonyms": [
+        "baked ham",
+        "Baked Ham",
+        "bakedham"
+      ]
+    },
+    {
+      "id": "meat.steak",
+      "display_name": "Steak",
+      "synonyms": [
+        "steak",
+        "Steak"
+      ]
+    },
+    {
+      "id": "meat.meatball",
+      "display_name": "Meatball",
+      "synonyms": [
+        "meatball",
+        "Meatball"
+      ]
+    },
+    {
+      "id": "meat.tuna",
+      "display_name": "Tuna",
+      "synonyms": [
+        "tuna",
+        "Tuna"
+      ]
+    },
+    {
+      "id": "meat.pepper_turkey",
+      "display_name": "Pepper Turkey",
+      "synonyms": [
+        "pepper turkey",
+        "Pepper Turkey",
+        "pepperturkey"
+      ]
+    },
+    {
+      "id": "meat.italian_sausage",
+      "display_name": "Italian Sausage",
+      "category": [
+        "lunch"
+      ],
+      "synonyms": [
+        "italian sausage",
+        "sausage",
+        "italiansausage"
+      ]
+    },
+    {
+      "id": "meat.salami",
+      "display_name": "Salami",
+      "synonyms": [
+        "salami",
+        "Salami"
+      ]
+    },
+    {
+      "id": "meat.turkey",
+      "display_name": "Turkey",
+      "synonyms": [
+        "turkey",
+        "Turkey"
+      ]
+    },
+    {
+      "id": "meat.honey_turkey",
+      "display_name": "Honey Turkey",
+      "synonyms": [
+        "honey turkey",
+        "Honey Turkey",
+        "honeyturkey"
+      ]
+    },
+    {
+      "id": "meat.bologna",
+      "display_name": "Bologna",
+      "synonyms": [
+        "bologna",
+        "Bologna",
+        "balogna"
+      ]
+    },
+    {
+      "id": "meat.chicken_cutlet",
+      "display_name": "Chicken Cutlet",
+      "synonyms": [
+        "chicken cutlet",
+        "Chicken Cutlet",
+        "chickencutlet"
+      ]
+    },
+    {
+      "id": "meat.roast_beef",
+      "display_name": "Roast Beef",
+      "synonyms": [
+        "roast beef",
+        "beef",
+        "rb"
+      ]
+    },
+    {
+      "id": "meat.genoa_salami",
+      "display_name": "Genoa Salami",
+      "synonyms": [
+        "genoa",
+        "genoa salami",
+        "genoasalami"
+      ]
+    },
+    {
+      "id": "meat.liverwurst",
+      "display_name": "Liverwurst",
+      "synonyms": [
+        "liverwurst",
+        "liver"
+      ]
+    },
+    {
+      "id": "meat.mortadella",
+      "display_name": "Mortadella",
+      "synonyms": [
+        "mortadella",
+        "mort"
+      ]
+    },
+    {
+      "id": "meat.pepperoni",
+      "display_name": "Pepperoni",
+      "synonyms": [
+        "pepperoni",
+        "peperoni",
+        "pep",
+        "pepperonni"
+      ]
+    },
+    {
+      "id": "meat.capicola",
+      "display_name": "Capicola",
+      "synonyms": [
+        "capicola",
+        "capicollo",
+        "cappy",
+        "cap"
+      ]
+    },
+    {
+      "id": "meat.grilled_chicken",
+      "display_name": "Grilled Chicken",
+      "synonyms": [
+        "grilled chicken",
+        "Grilled Chicken",
+        "grilledchicken"
+      ]
+    },
+    {
+      "id": "meat.prosciutto",
+      "display_name": "Prosciutto",
+      "synonyms": [
+        "prosciutto",
+        "Prosciutto",
+        "proscuitto"
+      ]
+    },
+    {
+      "id": "meat.soppressata",
+      "display_name": "Soppressata",
+      "synonyms": [
+        "soppressata",
+        "Soppressata",
+        "sporesata"
+      ]
+    },
+    {
+      "id": "meat.grilled_teriyaki_chicken",
+      "display_name": "Grilled Teriyaki Chicken",
+      "synonyms": [
+        "grilled teriyaki chicken",
+        "Grilled Teriyaki Chicken",
+        "grilledteriyakichicken"
+      ]
+    },
+    {
+      "id": "meat.barbecue_grilled_chicken",
+      "display_name": "Barbecue Grilled Chicken",
+      "synonyms": [
+        "barbecue grilled chicken",
+        "Barbecue Grilled Chicken",
+        "barbecuegrilledchicken"
+      ]
+    },
+    {
+      "id": "meat.chicken_salad",
+      "display_name": "Chicken Salad",
+      "synonyms": [
+        "chicken salad",
+        "chix salad"
+      ]
+    },
+    {
+      "id": "meat.cranberry_chicken_salad",
+      "display_name": "Cranberry Chicken Salad",
+      "synonyms": [
+        "cranberry chicken salad",
+        "cran chicken salad",
+        "cranberry chix salad"
+      ]
+    },
+    {
+      "id": "meat.egg_salad",
+      "display_name": "Egg Salad",
+      "synonyms": [
+        "egg salad"
+      ]
+    },
+    {
+      "id": "meat.potato_salad",
+      "display_name": "Potato Salad",
+      "synonyms": [
+        "potato salad"
+      ]
+    },
+    {
+      "id": "meat.macaroni_salad",
+      "display_name": "Macaroni Salad",
+      "synonyms": [
+        "macaroni salad",
+        "mac salad"
+      ]
+    },
+    {
+      "id": "meat.tuna_salad",
+      "display_name": "Tuna Salad",
+      "synonyms": [
+        "tuna salad"
+      ]
+    },
+    {
+      "id": "meat.olive_salad",
+      "display_name": "Olive Salad",
+      "synonyms": [
+        "olive salad"
+      ]
+    },
+    {
+      "id": "meat.cole_slaw",
+      "display_name": "Cole Slaw",
+      "synonyms": [
+        "cole slaw",
+        "coleslaw"
+      ]
+    },
+    {
+      "id": "meat.pasta_salad",
+      "display_name": "Pasta Salad",
+      "synonyms": [
+        "pasta salad"
+      ]
+    },
+    {
+      "id": "meat.tuna_mac_salad",
+      "display_name": "Tuna Mac Salad",
+      "synonyms": [
+        "tuna mac salad",
+        "tuna macaroni salad",
+        "tuna mac"
+      ]
+    },
+    {
+      "id": "meat.pickle_pimento",
+      "display_name": "Pickle Pimento",
+      "synonyms": [
+        "pickle pimento",
+        "pickle & pimento",
+        "pickles and pimento"
+      ]
+    },
+    {
+      "id": "meat.tomato_onion_cucumber_salad",
+      "display_name": "Tomato Onion Cucumber Salad",
+      "synonyms": [
+        "tomato onion cucumber salad",
+        "tomato onion cucumber",
+        "tomato cucumber onion salad"
+      ]
+    }
+  ],
+  "condiments": [
+    {
+      "id": "condiment.ketchup",
+      "display_name": "Ketchup",
+      "synonyms": [
+        "ketchup",
+        "Ketchup"
+      ]
+    },
+    {
+      "id": "condiment.yellow_mustard",
+      "display_name": "Yellow Mustard",
+      "synonyms": [
+        "yellow mustard",
+        "Yellow Mustard",
+        "yellowmustard"
+      ]
+    },
+    {
+      "id": "condiment.deli_mustard",
+      "display_name": "Deli Mustard",
+      "synonyms": [
+        "deli mustard",
+        "spicy mustard",
+        "brown mustard",
+        "deli mustard spicy",
+        "mustard"
+      ]
+    },
+    {
+      "id": "condiment.hot_sauce",
+      "display_name": "Hot Sauce",
+      "synonyms": [
+        "hot sauce",
+        "Hot Sauce",
+        "hotsauce",
+        "buffalo sauce",
+        "buffalo wing sauce",
+        "wing sauce"
+      ]
+    },
+    {
+      "id": "condiment.honey_mustard",
+      "display_name": "Honey Mustard",
+      "synonyms": [
+        "honey mustard",
+        "Honey Mustard",
+        "honeymustard"
+      ]
+    },
+    {
+      "id": "condiment.barbecue_sauce",
+      "display_name": "Barbecue Sauce",
+      "synonyms": [
+        "barbecue sauce",
+        "Barbecue Sauce",
+        "barbecuesauce"
+      ]
+    },
+    {
+      "id": "condiment.butter",
+      "display_name": "Butter",
+      "synonyms": [
+        "butter",
+        "Butter"
+      ]
+    },
+    {
+      "id": "condiment.ranch",
+      "display_name": "Ranch",
+      "synonyms": [
+        "ranch",
+        "Ranch"
+      ]
+    },
+    {
+      "id": "condiment.peppercorn_dressing",
+      "display_name": "Peppercorn Dressing",
+      "synonyms": [
+        "peppercorn dressing",
+        "Peppercorn Dressing",
+        "peppercorndressing"
+      ]
+    },
+    {
+      "id": "condiment.mayonnaise",
+      "display_name": "Mayonnaise",
+      "synonyms": [
+        "mayonnaise",
+        "Mayonnaise",
+        "mayo",
+        "mayonnase",
+        "mayonaisse"
+      ]
+    },
+    {
+      "id": "condiment.italian_dressing",
+      "display_name": "Italian Dressing",
+      "synonyms": [
+        "italian dressing",
+        "Italian Dressing",
+        "italiandressing"
+      ]
+    },
+    {
+      "id": "condiment.oil",
+      "display_name": "Oil",
+      "synonyms": [
+        "oil",
+        "Oil"
+      ]
+    },
+    {
+      "id": "condiment.vinegar",
+      "display_name": "Vinegar",
+      "synonyms": [
+        "vinegar",
+        "Vinegar"
+      ]
+    },
+    {
+      "id": "condiment.pesto",
+      "display_name": "Pesto",
+      "synonyms": [
+        "pesto",
+        "basil pesto",
+        "pesto sauce"
+      ]
+    },
+    {
+      "id": "condiment.balsamic_vinegar",
+      "display_name": "Balsamic Vinegar",
+      "synonyms": [
+        "balsamic vinegar",
+        "Balsamic Vinegar",
+        "balsamicvinegar"
+      ]
+    },
+    {
+      "id": "condiment.balsamic_dressing",
+      "display_name": "Balsamic Dressing",
+      "synonyms": [
+        "balsamic dressing",
+        "Balsamic Dressing",
+        "balsamicdressing"
+      ]
+    },
+    {
+      "id": "condiment.russian_dressing_thousand_island",
+      "display_name": "Russian Dressing (Thousand Island)",
+      "synonyms": [
+        "russian dressing (thousand island)",
+        "Russian Dressing (Thousand Island)",
+        "russian dressing thousand island",
+        "russiandressing(thousandisland)",
+        "thousand island"
+      ]
+    },
+    {
+      "id": "condiment.chipotle_mayonnaise",
+      "display_name": "Chipotle Mayonnaise",
+      "synonyms": [
+        "chipotle mayonnaise",
+        "Chipotle Mayonnaise",
+        "chipotle mayo",
+        "chipotle mayonnase"
+      ]
+    },
+    {
+      "id": "condiment.caesar_dressing",
+      "display_name": "Caesar Dressing",
+      "synonyms": [
+        "caesar dressing",
+        "Caesar Dressing",
+        "caesardressing"
+      ]
+    },
+    {
+      "id": "condiment.teriyaki_sauce",
+      "display_name": "Teriyaki Sauce",
+      "synonyms": [
+        "teriyaki sauce",
+        "Teriyaki Sauce",
+        "teriyakisae"
+      ]
+    },
+    {
+      "id": "condiment.blue_cheese",
+      "display_name": "Blue Cheese",
+      "synonyms": [
+        "blue cheese",
+        "Blue Cheese",
+        "blue chreese",
+        "bluechreese"
+      ]
+    },
+    {
+      "id": "condiment.salt",
+      "display_name": "Salt",
+      "synonyms": [
+        "salt",
+        "Salt"
+      ]
+    },
+    {
+      "id": "condiment.black_pepper",
+      "display_name": "Pepper",
+      "synonyms": [
+        "pepper",
+        "Pepper",
+        "black pepper",
+        "Black Pepper",
+        "papper",
+        "Papper"
+      ]
+    },
+    {
+      "id": "condiment.horseradish_mayo",
+      "display_name": "Horseradish Mayo",
+      "synonyms": [
+        "horseradish mayo",
+        "Horseradish Mayo",
+        "horseradish mayonnaise",
+        "horseradish mayo sauce"
+      ]
+    },
+    {
+      "id": "condiment.parmesan",
+      "display_name": "Parmesan",
+      "synonyms": [
+        "parmesan",
+        "Parmesan",
+        "parm",
+        "Parm",
+        "parmesan cheese"
+      ]
+    },
+    {
+      "id": "condiment.marinara_sauce",
+      "display_name": "Marinara Sauce",
+      "synonyms": [
+        "marinara",
+        "Marinara",
+        "marinara sauce",
+        "Marinara Sauce",
+        "red sauce"
+      ]
+    },
+    {
+      "id": "condiment.balsamic_and_olive_oil",
+      "display_name": "Balsamic and Olive Oil",
+      "synonyms": [
+        "balsamic and olive oil",
+        "Balsamic and Olive Oil",
+        "balsamic & olive oil",
+        "balsamic olive oil",
+        "olive oil balsamic"
+      ]
+    }
+  ],
+  "toppings": [
+    {
+      "id": "topping.hot_peppers",
+      "display_name": "Hot Peppers",
+      "category": [
+        "breakfast",
+        "lunch"
+      ],
+      "type": "veg",
+      "synonyms": [
+        "hot peppers",
+        "hot pepper",
+        "hots",
+        "jalapenos",
+        "jalapeno"
+      ]
+    },
+    {
+      "id": "topping.banana_peppers",
+      "display_name": "Banana Peppers",
+      "category": [
+        "breakfast",
+        "lunch"
+      ],
+      "type": "veg",
+      "synonyms": [
+        "banana peppers",
+        "banana pepper"
+      ]
+    },
+    {
+      "id": "topping.roasted_red_peppers",
+      "display_name": "Roasted Red Peppers",
+      "category": [
+        "breakfast",
+        "lunch"
+      ],
+      "type": "veg",
+      "synonyms": [
+        "roasted red peppers",
+        "roasted peppers",
+        "roasted red pepper"
+      ]
+    },
+    {
+      "id": "topping.onion",
+      "display_name": "Onion",
+      "category": [
+        "breakfast",
+        "lunch"
+      ],
+      "type": "veg",
+      "synonyms": [
+        "onion",
+        "onions"
+      ]
+    },
+    {
+      "id": "topping.pickles",
+      "display_name": "Pickles",
+      "category": [
+        "breakfast",
+        "lunch"
+      ],
+      "type": "veg",
+      "synonyms": [
+        "pickle",
+        "pickles"
+      ]
+    },
+    {
+      "id": "topping.lettuce",
+      "display_name": "Lettuce",
+      "category": [
+        "breakfast",
+        "lunch"
+      ],
+      "type": "veg",
+      "synonyms": [
+        "lettuce"
+      ]
+    },
+    {
+      "id": "topping.tomato",
+      "display_name": "Tomato",
+      "category": [
+        "breakfast",
+        "lunch"
+      ],
+      "type": "veg",
+      "synonyms": [
+        "tomato",
+        "tomatoes"
+      ]
+    },
+    {
+      "id": "topping.spinach",
+      "display_name": "Spinach",
+      "category": [
+        "breakfast",
+        "lunch"
+      ],
+      "type": "veg",
+      "synonyms": [
+        "spinach"
+      ]
+    },
+    {
+      "id": "topping.mushroom",
+      "display_name": "Mushroom",
+      "category": [
+        "lunch"
+      ],
+      "type": "veg",
+      "synonyms": [
+        "mushroom",
+        "mushrooms"
+      ]
+    },
+    {
+      "id": "topping.arugula",
+      "display_name": "Arugula",
+      "category": [
+        "lunch"
+      ],
+      "type": "veg",
+      "synonyms": [
+        "arugula",
+        "arugala"
+      ]
+    },
+    {
+      "id": "topping.broccoli_rabe",
+      "display_name": "Broccoli Rabe",
+      "category": [
+        "lunch"
+      ],
+      "type": "veg",
+      "synonyms": [
+        "broccoli rabe",
+        "broccoli raab",
+        "rabe"
+      ]
+    },
+    {
+      "id": "topping.sauerkraut",
+      "display_name": "Sauerkraut",
+      "category": [
+        "lunch"
+      ],
+      "type": "veg",
+      "synonyms": [
+        "sauerkraut",
+        "souerkraut"
+      ]
+    },
+    {
+      "id": "topping.sundried_tomatoes",
+      "display_name": "Sun-Dried Tomatoes",
+      "category": [
+        "lunch"
+      ],
+      "type": "veg",
+      "synonyms": [
+        "sun dried tomatoes",
+        "sundried tomatoes",
+        "sundriedtomatoes",
+        "sun-dried tomatoes"
+      ]
+    },
+    {
+      "id": "topping.croutons",
+      "display_name": "Croutons",
+      "category": [
+        "lunch"
+      ],
+      "type": "veg",
+      "synonyms": [
+        "croutons"
+      ]
+    },
+    {
+      "id": "topping.sweet_peppers",
+      "display_name": "Sweet Peppers",
+      "category": [
+        "breakfast",
+        "lunch"
+      ],
+      "type": "veg",
+      "synonyms": [
+        "sweet peppers",
+        "sweet pepper",
+        "bell peppers",
+        "bell pepper",
+        "green peppers",
+        "green pepper",
+        "red peppers",
+        "red pepper",
+        "peppers"
+      ]
+    },
+    {
+      "id": "topping.guacamole",
+      "display_name": "Guacamole",
+      "category": [
+        "lunch"
+      ],
+      "type": "veg",
+      "synonyms": [
+        "guacamole",
+        "guac",
+        "gaucamole",
+        "guacomole"
+      ]
+    },
+    {
+      "id": "topping.hummus",
+      "display_name": "Hummus",
+      "category": [
+        "lunch"
+      ],
+      "type": "veg",
+      "synonyms": [
+        "hummus"
+      ]
+    },
+    {
+      "id": "topping.cucumber",
+      "display_name": "Cucumber",
+      "category": [
+        "lunch"
+      ],
+      "type": "veg",
+      "synonyms": [
+        "cucumber",
+        "cucumbers"
+      ]
+    }
+  ],
+  "addons": [
+    {
+      "id": "addon.bacon_lunch",
+      "display_name": "Bacon",
+      "category": "lunch",
+      "type": "meat",
+      "synonyms": [
+        "bacon",
+        "add bacon"
+      ],
+      "links": {
+        "meat_id": "meat.bacon"
+      }
+    },
+    {
+      "id": "addon.breakfast.arugula",
+      "display_name": "Arugula",
+      "synonyms": [
+        "arugula"
+      ],
+      "type": "veg",
+      "links": {
+        "topping_id": "topping.arugula"
+      },
+      "applies_to": {
+        "daypart": [
+          "breakfast"
+        ]
+      }
+    },
+    {
+      "id": "addon.breakfast.banana_peppers",
+      "display_name": "Banana Peppers",
+      "synonyms": [
+        "banana peppers"
+      ],
+      "type": "veg",
+      "links": {
+        "topping_id": "topping.banana_peppers"
+      },
+      "applies_to": {
+        "daypart": [
+          "breakfast"
+        ]
+      }
+    },
+    {
+      "id": "addon.breakfast.hot_peppers",
+      "display_name": "Hot Peppers",
+      "synonyms": [
+        "hot peppers"
+      ],
+      "type": "veg",
+      "links": {
+        "topping_id": "topping.hot_peppers"
+      },
+      "applies_to": {
+        "daypart": [
+          "breakfast"
+        ]
+      }
+    },
+    {
+      "id": "addon.breakfast.lettuce",
+      "display_name": "Lettuce",
+      "synonyms": [
+        "lettuce"
+      ],
+      "type": "veg",
+      "links": {
+        "topping_id": "topping.lettuce"
+      },
+      "applies_to": {
+        "daypart": [
+          "breakfast"
+        ]
+      }
+    },
+    {
+      "id": "addon.breakfast.mushroom",
+      "display_name": "Mushroom",
+      "synonyms": [
+        "mushroom"
+      ],
+      "type": "veg",
+      "links": {
+        "topping_id": "topping.mushroom"
+      },
+      "applies_to": {
+        "daypart": [
+          "breakfast"
+        ]
+      }
+    },
+    {
+      "id": "addon.breakfast.onion",
+      "display_name": "Onion",
+      "synonyms": [
+        "onion"
+      ],
+      "type": "veg",
+      "links": {
+        "topping_id": "topping.onion"
+      },
+      "applies_to": {
+        "daypart": [
+          "breakfast"
+        ]
+      }
+    },
+    {
+      "id": "addon.breakfast.roasted_red_peppers",
+      "display_name": "Roasted Red Peppers",
+      "synonyms": [
+        "roasted red peppers"
+      ],
+      "type": "veg",
+      "links": {
+        "topping_id": "topping.roasted_red_peppers"
+      },
+      "applies_to": {
+        "daypart": [
+          "breakfast"
+        ]
+      }
+    },
+    {
+      "id": "addon.breakfast.spinach",
+      "display_name": "Spinach",
+      "synonyms": [
+        "spinach"
+      ],
+      "type": "veg",
+      "links": {
+        "topping_id": "topping.spinach"
+      },
+      "applies_to": {
+        "daypart": [
+          "breakfast"
+        ]
+      }
+    },
+    {
+      "id": "addon.breakfast.tomato",
+      "display_name": "Tomato",
+      "synonyms": [
+        "tomato"
+      ],
+      "type": "veg",
+      "links": {
+        "topping_id": "topping.tomato"
+      },
+      "applies_to": {
+        "daypart": [
+          "breakfast"
+        ]
+      }
+    },
+    {
+      "id": "addon.egg_lunch",
+      "display_name": "Egg",
+      "synonyms": [
+        "egg"
+      ],
+      "type": "egg",
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      }
+    },
+    {
+      "id": "addon.extra_bacon_breakfast",
+      "display_name": "Extra Bacon",
+      "category": "breakfast",
+      "type": "meat",
+      "synonyms": [
+        "extra bacon",
+        "add bacon",
+        "double bacon",
+        "more bacon"
+      ]
+    },
+    {
+      "id": "addon.extra_cheese",
+      "display_name": "Extra Cheese",
+      "category": "breakfast",
+      "type": "cheese",
+      "synonyms": [
+        "extra cheese",
+        "add cheese",
+        "more cheese"
+      ]
+    },
+    {
+      "id": "addon.extra_egg",
+      "display_name": "Extra Egg",
+      "category": "breakfast",
+      "type": "egg",
+      "synonyms": [
+        "extra egg",
+        "add egg",
+        "another egg",
+        "add an egg"
+      ]
+    },
+    {
+      "id": "addon.extra_ham_breakfast",
+      "display_name": "Extra Ham",
+      "category": "breakfast",
+      "type": "meat",
+      "synonyms": [
+        "extra ham",
+        "add ham",
+        "more ham"
+      ]
+    },
+    {
+      "id": "addon.extra_pastrami_breakfast",
+      "display_name": "Extra Pastrami",
+      "category": "breakfast",
+      "type": "meat",
+      "synonyms": [
+        "extra pastrami",
+        "add pastrami",
+        "more pastrami"
+      ]
+    },
+    {
+      "id": "addon.extra_sausage_breakfast",
+      "display_name": "Extra Sausage",
+      "category": "breakfast",
+      "type": "meat",
+      "synonyms": [
+        "extra sausage",
+        "add sausage",
+        "more sausage"
+      ]
+    },
+    {
+      "id": "addon.extra_turkey_bacon_breakfast",
+      "display_name": "Extra Turkey Bacon",
+      "category": "breakfast",
+      "type": "meat",
+      "synonyms": [
+        "extra turkey bacon",
+        "add turkey bacon",
+        "more turkey bacon"
+      ]
+    },
+    {
+      "id": "addon.fresh_mozzarella",
+      "display_name": "Fresh Mozzarella",
+      "synonyms": [
+        "fresh mozzarella"
+      ],
+      "type": "cheese",
+      "links": {
+        "cheese_id": "cheese.fresh_mozzarella"
+      },
+      "applies_to": {
+        "daypart": [
+          "breakfast",
+          "lunch"
+        ]
+      }
+    },
+    {
+      "id": "addon.lunch.arugula",
+      "display_name": "Arugula",
+      "synonyms": [
+        "arugula"
+      ],
+      "type": "veg",
+      "links": {
+        "topping_id": "topping.arugula"
+      },
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      }
+    },
+    {
+      "id": "addon.lunch.banana_peppers",
+      "display_name": "Banana Peppers",
+      "synonyms": [
+        "banana peppers"
+      ],
+      "type": "veg",
+      "links": {
+        "topping_id": "topping.banana_peppers"
+      },
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      }
+    },
+    {
+      "id": "addon.lunch.broccoli_rabe",
+      "display_name": "Broccoli Rabe",
+      "synonyms": [
+        "broccoli rabe"
+      ],
+      "type": "veg",
+      "links": {
+        "topping_id": "topping.broccoli_rabe"
+      },
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      }
+    },
+    {
+      "id": "addon.lunch.croutons",
+      "display_name": "Croutons",
+      "synonyms": [
+        "croutons"
+      ],
+      "type": "veg",
+      "links": {
+        "topping_id": "topping.croutons"
+      },
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      }
+    },
+    {
+      "id": "addon.lunch.hot_peppers",
+      "display_name": "Hot Peppers",
+      "synonyms": [
+        "hot peppers"
+      ],
+      "type": "veg",
+      "links": {
+        "topping_id": "topping.hot_peppers"
+      },
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      }
+    },
+    {
+      "id": "addon.lunch.lettuce",
+      "display_name": "Lettuce",
+      "synonyms": [
+        "lettuce"
+      ],
+      "type": "veg",
+      "links": {
+        "topping_id": "topping.lettuce"
+      },
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      }
+    },
+    {
+      "id": "addon.lunch.mushroom",
+      "display_name": "Mushroom",
+      "synonyms": [
+        "mushroom"
+      ],
+      "type": "veg",
+      "links": {
+        "topping_id": "topping.mushroom"
+      },
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      }
+    },
+    {
+      "id": "addon.lunch.onion",
+      "display_name": "Onion",
+      "synonyms": [
+        "onion"
+      ],
+      "type": "veg",
+      "links": {
+        "topping_id": "topping.onion"
+      },
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      }
+    },
+    {
+      "id": "addon.lunch.roasted_red_peppers",
+      "display_name": "Roasted Red Peppers",
+      "synonyms": [
+        "roasted red peppers"
+      ],
+      "type": "veg",
+      "links": {
+        "topping_id": "topping.roasted_red_peppers"
+      },
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      }
+    },
+    {
+      "id": "addon.lunch.sauerkraut",
+      "display_name": "sauerkraut",
+      "synonyms": [
+        "sauerkraut"
+      ],
+      "type": "veg",
+      "links": {
+        "topping_id": "topping.sauerkraut"
+      },
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      }
+    },
+    {
+      "id": "addon.lunch.sharp_provolone",
+      "display_name": "Sharp Provolone",
+      "synonyms": [
+        "sharp provolone"
+      ],
+      "type": "cheese",
+      "links": {
+        "cheese_id": "cheese.sharp_provolone"
+      },
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      }
+    },
+    {
+      "id": "addon.lunch.spinach",
+      "display_name": "Spinach",
+      "synonyms": [
+        "spinach"
+      ],
+      "type": "veg",
+      "links": {
+        "topping_id": "topping.spinach"
+      },
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      }
+    },
+    {
+      "id": "addon.lunch.sundried_tomatoes",
+      "display_name": "Sundried Tomatoes",
+      "synonyms": [
+        "sundried tomatoes"
+      ],
+      "type": "veg",
+      "links": {
+        "topping_id": "topping.sundried_tomatoes"
+      },
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      }
+    },
+    {
+      "id": "addon.lunch.tomato",
+      "display_name": "Tomato",
+      "synonyms": [
+        "tomato"
+      ],
+      "type": "veg",
+      "links": {
+        "topping_id": "topping.tomato"
+      },
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      }
+    },
+    {
+      "id": "addon.salad.american_cheese",
+      "display_name": "American Cheese",
+      "synonyms": [
+        "american cheese"
+      ],
+      "type": "cheese",
+      "links": {
+        "cheese_id": "cheese.american"
+      },
+      "applies_to": {
+        "item_categories": [
+          "salad"
+        ]
+      }
+    },
+    {
+      "id": "addon.salad.cheddar_cheese",
+      "display_name": "Cheddar Cheese",
+      "synonyms": [
+        "cheddar cheese"
+      ],
+      "type": "cheese",
+      "links": {
+        "cheese_id": "cheese.cheddar"
+      },
+      "applies_to": {
+        "item_categories": [
+          "salad"
+        ]
+      }
+    },
+    {
+      "id": "addon.salad.chicken_salad",
+      "display_name": "Chicken Salad",
+      "synonyms": [
+        "chicken salad"
+      ],
+      "type": "salad",
+      "applies_to": {
+        "item_categories": [
+          "salad"
+        ]
+      }
+    },
+    {
+      "id": "addon.salad.cranberry_chicken_salad",
+      "display_name": "Cranberry Chicken Salad",
+      "synonyms": [
+        "cranberry chicken salad"
+      ],
+      "type": "salad",
+      "applies_to": {
+        "item_categories": [
+          "salad"
+        ]
+      }
+    },
+    {
+      "id": "addon.salad.ham",
+      "display_name": "Ham",
+      "synonyms": [
+        "ham"
+      ],
+      "type": "meat",
+      "applies_to": {
+        "item_categories": [
+          "salad"
+        ]
+      },
+      "links": {
+        "meat_id": "meat.ham"
+      }
+    },
+    {
+      "id": "addon.salad.provolone_cheese",
+      "display_name": "Provolone cheese",
+      "synonyms": [
+        "provolone cheese"
+      ],
+      "type": "cheese",
+      "links": {
+        "cheese_id": "cheese.provolone"
+      },
+      "applies_to": {
+        "item_categories": [
+          "salad"
+        ]
+      }
+    },
+    {
+      "id": "addon.salad.salami",
+      "display_name": "Salami",
+      "synonyms": [
+        "salami"
+      ],
+      "type": "meat",
+      "links": {
+        "meat_id": "meat.salami"
+      },
+      "applies_to": {
+        "item_categories": [
+          "salad"
+        ]
+      }
+    },
+    {
+      "id": "addon.salad.tuna_salad",
+      "display_name": "Tuna Salad",
+      "synonyms": [
+        "tuna salad"
+      ],
+      "type": "salad",
+      "applies_to": {
+        "item_categories": [
+          "salad"
+        ]
+      }
+    },
+    {
+      "id": "addon.salad.turkey",
+      "display_name": "Turkey",
+      "synonyms": [
+        "turkey"
+      ],
+      "type": "meat",
+      "applies_to": {
+        "item_categories": [
+          "salad"
+        ]
+      },
+      "links": {
+        "meat_id": "meat.turkey"
+      }
+    },
+    {
+      "id": "addon.lunch.guacamole",
+      "display_name": "Guacamole",
+      "synonyms": [
+        "guacamole",
+        "guac",
+        "add guac",
+        "add guacamole"
+      ],
+      "type": "veg",
+      "links": {
+        "topping_id": "topping.guacamole"
+      },
+      "applies_to": {
+        "daypart": [
+          "lunch",
+          "breakfast"
+        ]
+      }
+    },
+    {
+      "id": "addon.lunch.hummus",
+      "display_name": "Hummus",
+      "synonyms": [
+        "hummus",
+        "add hummus"
+      ],
+      "type": "veg",
+      "links": {
+        "topping_id": "topping.hummus"
+      },
+      "applies_to": {
+        "daypart": [
+          "lunch",
+          "breakfast"
+        ]
+      }
+    },
+    {
+      "id": "addon.salad.grilled_chicken",
+      "display_name": "Grilled Chicken",
+      "synonyms": [
+        "grilled chicken",
+        "add grilled chicken"
+      ],
+      "type": "meat",
+      "links": {
+        "meat_id": "meat.grilled_chicken"
+      },
+      "applies_to": {
+        "item_categories": [
+          "salad"
+        ]
+      }
+    },
+    {
+      "id": "addon.salad.chicken_cutlet",
+      "display_name": "Chicken Cutlet",
+      "synonyms": [
+        "chicken cutlet",
+        "add chicken cutlet"
+      ],
+      "type": "meat",
+      "links": {
+        "meat_id": "meat.chicken_cutlet"
+      },
+      "applies_to": {
+        "item_categories": [
+          "salad"
+        ]
+      }
+    }
+  ],
+  "modifier_terms": [
+    {
+      "id": "modifier.double_meat",
+      "display_name": "Double Meat",
+      "synonyms": [
+        "double meat",
+        "extra meat",
+        "add double meat",
+        "double the meat"
+      ]
+    },
+    {
+      "id": "modifier.half_and_half_meat",
+      "display_name": "1/2 & 1/2 Meat",
+      "synonyms": [
+        "1/2 & 1/2",
+        "half and half",
+        "half & half",
+        "split meat",
+        "two meats half and half"
+      ]
+    }
+  ],
+  "cooking_safety": [
+    {
+      "id": "cooking_rule.egg_raw",
+      "item": "Egg",
+      "cooking_option": "Raw",
+      "safety_status": "unsafe"
+    },
+    {
+      "id": "cooking_rule.egg_over_easy",
+      "item": "Egg",
+      "cooking_option": "Over easy",
+      "safety_status": "safe"
+    },
+    {
+      "id": "cooking_rule.egg_over_medium",
+      "item": "Egg",
+      "cooking_option": "Over medium",
+      "safety_status": "safe"
+    },
+    {
+      "id": "cooking_rule.egg_over_hard",
+      "item": "Egg",
+      "cooking_option": "Over Hard",
+      "safety_status": "safe"
+    },
+    {
+      "id": "cooking_rule.egg_scrambled",
+      "item": "Egg",
+      "cooking_option": "Scrambled",
+      "safety_status": "safe"
+    },
+    {
+      "id": "cooking_rule.egg_scrambled_well_done",
+      "item": "Egg",
+      "cooking_option": "Scrambled Well Done",
+      "safety_status": "safe"
+    },
+    {
+      "id": "cooking_rule.egg_fried",
+      "item": "Egg",
+      "cooking_option": "Fried",
+      "safety_status": "safe"
+    },
+    {
+      "id": "cooking_rule.egg_lightly_fried",
+      "item": "Egg",
+      "cooking_option": "Lightly Fried",
+      "safety_status": "safe"
+    },
+    {
+      "id": "cooking_rule.egg_fried_well_done",
+      "item": "Egg",
+      "cooking_option": "Fried Well Done",
+      "safety_status": "safe"
+    },
+    {
+      "id": "cooking_rule.chicken_raw",
+      "item": "Chicken",
+      "cooking_option": "Raw",
+      "safety_status": "unsafe"
+    },
+    {
+      "id": "cooking_rule.chicken_medium",
+      "item": "Chicken",
+      "cooking_option": "Medium",
+      "safety_status": "unsafe"
+    },
+    {
+      "id": "cooking_rule.chicken_well",
+      "item": "Chicken",
+      "cooking_option": "Well",
+      "safety_status": "safe"
+    },
+    {
+      "id": "cooking_rule.roast_beef_raw",
+      "item": "Roast Beef",
+      "cooking_option": "Raw",
+      "safety_status": "unsafe"
+    },
+    {
+      "id": "cooking_rule.roast_beef_rare",
+      "item": "Roast Beef",
+      "cooking_option": "Rare",
+      "safety_status": "safe"
+    },
+    {
+      "id": "cooking_rule.roast_beef_medium",
+      "item": "Roast Beef",
+      "cooking_option": "Medium",
+      "safety_status": "safe"
+    },
+    {
+      "id": "cooking_rule.roast_beef_well",
+      "item": "Roast Beef",
+      "cooking_option": "Well",
+      "safety_status": "safe"
+    },
+    {
+      "id": "cooking_rule.steak_raw",
+      "item": "Steak",
+      "cooking_option": "Raw",
+      "safety_status": "unsafe"
+    },
+    {
+      "id": "cooking_rule.steak_rare",
+      "item": "Steak",
+      "cooking_option": "Rare",
+      "safety_status": "unsafe"
+    },
+    {
+      "id": "cooking_rule.steak_medium_rare",
+      "item": "Steak",
+      "cooking_option": "Medium Rare",
+      "safety_status": "safe"
+    },
+    {
+      "id": "cooking_rule.steak_medium",
+      "item": "Steak",
+      "cooking_option": "Medium",
+      "safety_status": "safe"
+    },
+    {
+      "id": "cooking_rule.steak_medium_well",
+      "item": "Steak",
+      "cooking_option": "Medium Well",
+      "safety_status": "safe"
+    },
+    {
+      "id": "cooking_rule.steak_well_done",
+      "item": "Steak",
+      "cooking_option": "Well Done",
+      "safety_status": "safe"
+    }
+  ],
+  "clarification_triggers": [
+    {
+      "id": "clarify_format_when_missing",
+      "when": {
+        "format_missing": true
+      },
+      "ask": "Sure \u2014 would you like that on a roll, sub, wrap, panini, small dish, or large dish?"
+    },
+    {
+      "id": "clarify_roll_type",
+      "when": {
+        "format_selected": "roll",
+        "bread_type_missing": true
+      },
+      "ask": "What type of roll would you like?"
+    },
+    {
+      "id": "clarify_wrap_type",
+      "when": {
+        "format_selected": "wrap",
+        "bread_type_missing": true
+      },
+      "ask": "What type of wrap would you like?"
+    },
+    {
+      "id": "clarify_sub_type",
+      "when": {
+        "format_selected": "sub",
+        "bread_type_missing": true
+      },
+      "ask": "What type of sub would you like?"
+    },
+    {
+      "id": "clarify_egg_style_when_missing",
+      "when": {
+        "contains_egg": true,
+        "egg_style_missing": true
+      },
+      "ask": "How would you like your eggs cooked?"
+    }
+  ],
+  "pricing_modifiers": [
+    {
+      "id": "modifier.double_meat",
+      "display_name": "Double Meat",
+      "synonyms": [
+        "double meat"
+      ],
+      "type": "meat_rule",
+      "applies_to": {
+        "item_categories": [
+          "sandwich",
+          "lunch_sandwich"
+        ]
+      },
+      "pricing_rule": {
+        "rule": "multiply_base_meat_price",
+        "multiplier": 2,
+        "notes": "Double meat cost equals 2x the base meat price for the current format."
+      }
+    },
+    {
+      "id": "modifier.half_and_half_meat",
+      "display_name": "1/2 & 1/2 Meat",
+      "synonyms": [
+        "1/2 & 1/2 meat",
+        "1/2 and 1/2 meat"
+      ],
+      "type": "meat_rule",
+      "applies_to": {
+        "item_categories": [
+          "sandwich",
+          "lunch_sandwich"
+        ]
+      },
+      "pricing_rule": {
+        "rule": "use_higher_priced_meat_base",
+        "notes": "When two meats are selected in half_half mode, price equals the base meat price of the higher-priced meat for the current format."
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Napoli Deli — AI Ordering</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+
+    <!-- LEFT: Browse menu -->
+    <div id="menu-panel">
+      <div id="menu-header">
+        <div class="menu-brand">Napoli Deli</div>
+        <nav id="menu-tabs" role="tablist"></nav>
+      </div>
+      <div id="menu-banner"></div>
+      <div id="menu-content" role="tabpanel"></div>
+      <div id="mobile-cta">
+        <button id="btn-start-order">start your order</button>
+      </div>
+    </div>
+
+    <!-- RIGHT: Ordering -->
+    <div id="ordering-panel">
+
+      <!-- mobile: back to menu -->
+      <div id="mobile-menu-bar">
+        <button id="btn-view-menu">view menu</button>
+      </div>
+
+      <!-- order summary -->
+      <div id="summary-panel">
+        <h2 id="order-header">Your Order</h2>
+        <div id="order-items">
+          <p class="empty-note">Nothing yet — start by telling us what you'd like!</p>
+        </div>
+        <div id="order-total"></div>
+      </div>
+
+      <!-- chat -->
+      <div id="chat-panel">
+        <div id="chat-header">
+          <span class="logo">Napoli Deli</span>
+          <button id="btn-reset">Start New Order</button>
+        </div>
+        <div id="messages"></div>
+        <div id="chat-watermark" aria-hidden="true">
+          <div class="watermark-brand">Napoli Deli</div>
+          <div class="watermark-sub">place your order</div>
+        </div>
+        <div id="input-row">
+          <input id="user-input" type="text" placeholder="Type your order…" autocomplete="off" />
+          <button id="btn-send">Send</button>
+        </div>
+        <p id="input-hint">type your order naturally — just say what you'd like</p>
+      </div>
+
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

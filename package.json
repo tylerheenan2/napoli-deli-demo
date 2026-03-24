@@ -1,0 +1,13 @@
+{
+  "name": "napoli-deli-demo",
+  "version": "1.0.0",
+  "description": "Napoli Deli AI Ordering System — Web Demo",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "cli": "node tools/run-cli.cjs"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

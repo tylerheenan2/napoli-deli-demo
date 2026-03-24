@@ -1,0 +1,5386 @@
+{
+  "schema_version": "1.0",
+  "menu_id": "menu_lunch",
+  "items": [
+    {
+      "id": "lunch.bacon_lettuce_tomato",
+      "name": "Bacon Lettuce Tomato",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 6.95,
+        "wrap": 6.95,
+        "sub": 8.95,
+        "panini": 6.95,
+        "bread": 6.95,
+        "toast": 6.95,
+        "small_dish": 6.95,
+        "large_dish": 8.95,
+        "mini_sub": 6.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.bacon"
+        ],
+        "cheeses": [],
+        "toppings": [
+          "topping.lettuce",
+          "topping.tomato"
+        ],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: BLT"
+        ]
+      },
+      "ingredients_text": "Bacon, Lettuce, Tomato",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      },
+      "normVariants": ["BLT", "blt", "b l t", "bacon lettuce and tomato"]
+    },
+    {
+      "id": "lunch.bacon_lettuce_tomato_americ",
+      "name": "Bacon Lettuce Tomato American",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "sub": 9.95,
+        "panini": 7.5,
+        "roll": 7.5,
+        "wrap": 7.5,
+        "bread": 7.5,
+        "toast": 7.5,
+        "small_dish": 7.5,
+        "large_dish": 9.95,
+        "mini_sub": 7.5
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.bacon"
+        ],
+        "cheeses": [],
+        "toppings": [
+          "topping.lettuce",
+          "topping.tomato"
+        ],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: BLTC"
+        ]
+      },
+      "ingredients_text": "Bacon, lettuce, Tomato, Ameri",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.baked_ham",
+      "name": "Baked Ham",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.95,
+        "wrap": 7.95,
+        "sub": 9.95,
+        "panini": 7.95,
+        "bread": 7.95,
+        "toast": 7.95,
+        "small_dish": 7.95,
+        "large_dish": 9.95,
+        "mini_sub": 7.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.baked_ham"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: BKHAM"
+        ]
+      },
+      "ingredients_text": "Baked Ham",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.baked_ham_cheese",
+      "name": "Baked Ham & Cheese",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.95,
+        "wrap": 7.95,
+        "sub": 9.95,
+        "panini": 7.95,
+        "bread": 7.95,
+        "toast": 7.95,
+        "small_dish": 7.95,
+        "large_dish": 9.95,
+        "mini_sub": 7.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.baked_ham"
+        ],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: BKHAM&C"
+        ]
+      },
+      "ingredients_text": "Baked Ham, American Cheese",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.bologna",
+      "name": "Bologna",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.95,
+        "wrap": 7.95,
+        "sub": 9.95,
+        "panini": 7.95,
+        "bread": 7.95,
+        "toast": 7.95,
+        "small_dish": 7.95,
+        "large_dish": 9.95,
+        "mini_sub": 7.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.bologna"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: BAL"
+        ]
+      },
+      "ingredients_text": "Bologna",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.bologna_cheese",
+      "name": "Bologna & Cheese",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.95,
+        "wrap": 7.95,
+        "sub": 9.95,
+        "panini": 7.95,
+        "bread": 7.95,
+        "toast": 7.95,
+        "small_dish": 7.95,
+        "large_dish": 9.95,
+        "mini_sub": 7.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.bologna"
+        ],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: BAL&C"
+        ]
+      },
+      "ingredients_text": "Bologna, American Cheese",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.barbecue_grilled_chicken",
+      "name": "Barbecue grilled Chicken",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 8.95,
+        "wrap": 8.95,
+        "sub": 10.95,
+        "panini": 8.95,
+        "bread": 8.95,
+        "toast": 8.95,
+        "small_dish": 8.95,
+        "large_dish": 10.95,
+        "mini_sub": 8.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.grilled_chicken"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: BBQGC"
+        ]
+      },
+      "ingredients_text": "BBQ Grilled chicken",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.buffalo_wrap",
+      "name": "Buffalo Wrap",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "wrap",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "sub": 10.95,
+        "panini": 8.95,
+        "roll": 8.95,
+        "wrap": 8.95,
+        "bread": 8.95,
+        "toast": 8.95,
+        "small_dish": 8.95,
+        "large_dish": 10.95,
+        "mini_sub": 8.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.chicken_cutlet"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: BUFFW"
+        ]
+      },
+      "ingredients_text": "Chicken Cutlet, peppercorn dr",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.caesar_wrap",
+      "name": "Caesar Wrap",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "wrap",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 8.95,
+        "wrap": 8.95,
+        "sub": 10.95,
+        "panini": 8.95,
+        "bread": 8.95,
+        "toast": 8.95,
+        "small_dish": 8.95,
+        "large_dish": 10.95,
+        "mini_sub": 8.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.grilled_chicken"
+        ],
+        "cheeses": [],
+        "toppings": [
+          "topping.lettuce"
+        ],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: CAESARW"
+        ]
+      },
+      "ingredients_text": "Grilled Chicken, lettuce, crouto",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.hummus_wrap",
+      "name": "Hummus Wrap",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "wrap",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "roll": 7.95,
+        "wrap": 7.95,
+        "sub": 9.95,
+        "small_dish": 7.95,
+        "large_dish": 9.95,
+        "bread": 7.95,
+        "toast": 7.95,
+        "mini_sub": 7.95
+      },
+      "ingredient_ids": {
+        "meats": [],
+        "cheeses": [],
+        "toppings": [
+          "topping.hummus",
+          "topping.arugula",
+          "topping.roasted_red_peppers",
+          "topping.onion"
+        ],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: HUMW"
+        ]
+      },
+      "ingredients_text": "Hummus, arugula, roasted red peppers, onion",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.capicola",
+      "name": "Capicola",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.95,
+        "wrap": 7.95,
+        "sub": 9.95,
+        "panini": 7.95,
+        "bread": 7.95,
+        "toast": 7.95,
+        "small_dish": 7.95,
+        "large_dish": 9.95,
+        "mini_sub": 7.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.capicola"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: CAPI"
+        ]
+      },
+      "ingredients_text": "Capicola",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.capicola_cheese",
+      "name": "Capicola & Cheese",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 8.5,
+        "wrap": 8.5,
+        "sub": 10.5,
+        "panini": 8.5,
+        "bread": 8.5,
+        "toast": 8.5,
+        "small_dish": 8.5,
+        "large_dish": 10.5,
+        "mini_sub": 8.5
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.capicola"
+        ],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: CAPI&C"
+        ]
+      },
+      "ingredients_text": "Capicola, American cheese",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.chicken_cutlet",
+      "name": "Chicken Cutlet",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.95,
+        "wrap": 7.95,
+        "sub": 9.95,
+        "panini": 7.95,
+        "bread": 7.95,
+        "toast": 7.95,
+        "small_dish": 7.95,
+        "large_dish": 9.95,
+        "mini_sub": 7.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.chicken_cutlet"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: CC"
+        ]
+      },
+      "ingredients_text": "Chicken Cutlet",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.chicken_cutlet_cheese",
+      "name": "Chicken Cutlet & Cheese",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.95,
+        "wrap": 7.95,
+        "sub": 9.95,
+        "panini": 7.95,
+        "bread": 7.95,
+        "toast": 7.95,
+        "small_dish": 7.95,
+        "large_dish": 9.95,
+        "mini_sub": 7.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.chicken_cutlet"
+        ],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: CC&C"
+        ]
+      },
+      "ingredients_text": "Chicken Cutlet, American Chee",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.chicken_cutlet_lettuce_tomato",
+      "name": "Chicken Cutlet, lettuce, tomato",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 8.95,
+        "wrap": 8.95,
+        "sub": 10.95,
+        "panini": 8.95,
+        "bread": 8.95,
+        "toast": 8.95,
+        "small_dish": 8.95,
+        "large_dish": 10.95,
+        "mini_sub": 8.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.chicken_cutlet"
+        ],
+        "cheeses": [],
+        "toppings": [
+          "topping.lettuce",
+          "topping.tomato"
+        ],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: CHICBLU"
+        ]
+      },
+      "ingredients_text": "Chicken Cutlet, lettuce, tomato",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.chicken_parm",
+      "name": "Chicken Parm",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": true,
+      "default_parm_cheese": "cheese.mozzarella",
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.95,
+        "wrap": 7.95,
+        "sub": 9.95,
+        "panini": 7.95,
+        "bread": 7.95,
+        "toast": 7.95,
+        "small_dish": 7.95,
+        "large_dish": 9.95,
+        "mini_sub": 7.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.chicken_cutlet"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: CP"
+        ]
+      },
+      "ingredients_text": "Chicken Cutlet, marinara sauce",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.chicken_salad_sandwich",
+      "name": "Chicken Salad Sandwich",
+      "category": "salad_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.95,
+        "wrap": 7.95,
+        "sub": 9.95,
+        "panini": 7.95,
+        "bread": 7.95,
+        "toast": 7.95,
+        "small_dish": null,
+        "large_dish": null,
+        "mini_sub": 7.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.chicken_salad"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: CHIXSS"
+        ]
+      },
+      "ingredients_text": "Chicken Salad",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      },
+      "normVariants": ["chicken salad sandwich", "chicken salad sub", "chicken salad wrap", "chicken salad roll"]
+    },
+    {
+      "id": "lunch.chrilled_cheese",
+      "name": "Grilled Cheese",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "panini": 5.95,
+        "roll": 5.95,
+        "wrap": 5.95,
+        "bread": 5.95,
+        "toast": 5.95,
+        "sub": 7.95,
+        "small_dish": null,
+        "large_dish": null,
+        "mini_sub": 5.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: GRLLCHEE"
+        ]
+      },
+      "ingredients_text": "American Cheese",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      },
+      "normVariants": [
+        "grilled cheese",
+        "american cheese"
+      ]
+    },
+    {
+      "id": "lunch.cold_roast_beef",
+      "name": "Roast Beef",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": null,
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.95,
+        "wrap": 7.95,
+        "sub": 9.95,
+        "panini": 7.95,
+        "bread": 7.95,
+        "toast": 7.95,
+        "small_dish": 7.95,
+        "large_dish": 9.95,
+        "mini_sub": 7.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.roast_beef"
+        ],
+        "cheeses": [
+          "cheese.provolone"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: CRB, HRB"
+        ]
+      },
+      "ingredients_text": "Roast Beef, Provolone Cheese",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      },
+      "aliases": [
+        "cold roast beef",
+        "cold roast beef sandwich",
+        "roast beef sandwich"
+      ]
+    },
+    {
+      "id": "lunch.cranberry_chicken_salad_sand",
+      "name": "Cranberry Chicken Salad Sandwich",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.95,
+        "wrap": 7.95,
+        "sub": 9.95,
+        "panini": 7.95,
+        "bread": 7.95,
+        "toast": 7.95,
+        "small_dish": null,
+        "large_dish": null,
+        "mini_sub": 7.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.cranberry_chicken_salad"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: CRANCSS"
+        ]
+      },
+      "ingredients_text": "Cranberry Chicken Salad",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.deli_chicken_sandwich",
+      "name": "Deli Chicken Sandwich",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.95,
+        "wrap": 7.95,
+        "sub": 9.95,
+        "panini": 7.95,
+        "bread": 7.95,
+        "toast": 7.95,
+        "small_dish": 7.95,
+        "large_dish": 9.95,
+        "mini_sub": 7.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.deli_chicken"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: DCHIX"
+        ]
+      },
+      "ingredients_text": "Deli Chicken",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.egg_salad_sandwich",
+      "name": "Egg Salad Sandwich",
+      "category": "salad_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 6.95,
+        "wrap": 6.95,
+        "sub": 6.95,
+        "panini": 6.95,
+        "bread": 6.95,
+        "toast": 6.95,
+        "small_dish": null,
+        "large_dish": null,
+        "mini_sub": 6.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.egg_salad"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: EGGSS"
+        ]
+      },
+      "ingredients_text": "Egg Salad",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      },
+      "normVariants": ["egg salad sandwich", "egg salad sub", "egg salad wrap", "egg salad roll"]
+    },
+    {
+      "id": "lunch.eggplant_parm",
+      "name": "Eggplant Parm",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": true,
+      "default_parm_cheese": "cheese.mozzarella",
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.95,
+        "wrap": 7.95,
+        "sub": 9.95,
+        "panini": 7.95,
+        "bread": 7.95,
+        "toast": 7.95,
+        "small_dish": 7.95,
+        "large_dish": 9.95,
+        "mini_sub": 7.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: EP"
+        ]
+      },
+      "ingredients_text": "Eggplant, Marinara sauce",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.genoa_salami_cheese",
+      "name": "Genoa Salami & Cheese",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "sub": 10.95,
+        "panini": 8.95,
+        "roll": 8.95,
+        "wrap": 8.95,
+        "bread": 8.95,
+        "toast": 8.95,
+        "small_dish": 8.95,
+        "large_dish": 10.95,
+        "mini_sub": 8.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.genoa_salami"
+        ],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: GENOASAL"
+        ]
+      },
+      "ingredients_text": "Genoa Salami, American Chee",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.grilled_chicken",
+      "name": "Grilled Chicken",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 8.95,
+        "wrap": 8.95,
+        "sub": 10.95,
+        "panini": 8.95,
+        "bread": 8.95,
+        "toast": 8.95,
+        "small_dish": 8.95,
+        "large_dish": 10.95,
+        "mini_sub": 8.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.grilled_chicken"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: GCHIX"
+        ]
+      },
+      "ingredients_text": "Grilled Chicken",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.ham_cheese",
+      "name": "Ham & Cheese",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.95,
+        "wrap": 7.95,
+        "sub": 9.95,
+        "panini": 7.95,
+        "bread": 7.95,
+        "toast": 7.95,
+        "small_dish": 7.95,
+        "large_dish": 9.95,
+        "mini_sub": 7.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.ham"
+        ],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: H&C, HOTHAM"
+        ]
+      },
+      "ingredients_text": "Ham, American Cheese",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.ham_sandwich",
+      "name": "Ham Sandwich",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.25,
+        "wrap": 7.25,
+        "sub": 9.25,
+        "panini": 7.25,
+        "bread": 7.25,
+        "toast": 7.25,
+        "small_dish": 7.25,
+        "large_dish": 9.25,
+        "mini_sub": 7.25
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.ham"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: HAM"
+        ]
+      },
+      "ingredients_text": "Ham",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      },
+      "normVariants": []
+    },
+    {
+      "id": "lunch.honey_ham",
+      "name": "Honey Ham",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.95,
+        "wrap": 7.95,
+        "sub": 9.95,
+        "panini": 7.95,
+        "bread": 7.95,
+        "toast": 7.95,
+        "small_dish": 7.95,
+        "large_dish": 9.95,
+        "mini_sub": 7.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.honey_ham"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: HH"
+        ]
+      },
+      "ingredients_text": "Honey Ham",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.honey_ham_cheese",
+      "name": "Honey Ham & Cheese",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.95,
+        "wrap": 7.95,
+        "sub": 9.95,
+        "panini": 7.95,
+        "bread": 7.95,
+        "toast": 7.95,
+        "small_dish": 7.95,
+        "large_dish": 9.95,
+        "mini_sub": 7.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.honey_ham"
+        ],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: HH&C"
+        ]
+      },
+      "ingredients_text": "Honey Hame, American Chees",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.hot_pepperoni_cheese",
+      "name": "Hot pepperoni & Cheese",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 8.95,
+        "wrap": 8.95,
+        "sub": 10.95,
+        "panini": 8.95,
+        "bread": 8.95,
+        "toast": 8.95,
+        "small_dish": 8.95,
+        "large_dish": 10.95,
+        "mini_sub": 8.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.pepperoni"
+        ],
+        "cheeses": [
+          "cheese.mozzarella"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: HOTPEP, PEP&C"
+        ]
+      },
+      "ingredients_text": "grilled Pepperoni, mozzarella",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.italian_cold_cut_combo",
+      "name": "Italian Cold Cut Combo",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.95,
+        "wrap": 7.95,
+        "sub": 9.95,
+        "panini": 7.95,
+        "bread": 7.95,
+        "toast": 7.95,
+        "small_dish": 7.95,
+        "large_dish": 9.95,
+        "mini_sub": 7.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.ham",
+          "meat.salami"
+        ],
+        "cheeses": [
+          "cheese.provolone"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: Combo"
+        ]
+      },
+      "ingredients_text": "Ham, Salami, Provolone Chees",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.liverwurst_cheese",
+      "name": "Liverwurst & Cheese",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 6.95,
+        "wrap": 6.95,
+        "sub": 8.95,
+        "panini": 6.95,
+        "bread": 6.95,
+        "toast": 6.95,
+        "small_dish": 6.95,
+        "large_dish": 8.95,
+        "mini_sub": 6.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.liverwurst"
+        ],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: LIVER"
+        ]
+      },
+      "ingredients_text": "Liverwurst, American Cheese",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.meatball",
+      "name": "Meatball",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 6.25,
+        "wrap": 6.25,
+        "sub": 8.25,
+        "panini": 6.25,
+        "bread": 6.25,
+        "toast": 6.25,
+        "small_dish": 6.25,
+        "large_dish": 8.25,
+        "mini_sub": 6.25
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.meatball"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: MTB"
+        ]
+      },
+      "ingredients_text": "Meatball, Marinara Sauce",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.meatball_parm",
+      "name": "Meatball Parm",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": true,
+      "default_parm_cheese": "cheese.mozzarella",
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 6.25,
+        "wrap": 6.25,
+        "sub": 8.95,
+        "panini": 6.25,
+        "bread": 6.25,
+        "toast": 6.25,
+        "small_dish": 6.95,
+        "large_dish": 8.95,
+        "mini_sub": 6.25
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.meatball"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: MTBPARM"
+        ]
+      },
+      "ingredients_text": "Meatball, Marinare Sauce",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.meatball_parm_pepperoni",
+      "name": "Meatball Parm & Pepperoni",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": true,
+      "default_parm_cheese": "cheese.mozzarella",
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.5,
+        "wrap": 7.5,
+        "sub": 9.5,
+        "panini": 7.5,
+        "bread": 7.5,
+        "toast": 7.5,
+        "small_dish": 7.5,
+        "large_dish": 9.5,
+        "mini_sub": 7.5
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.meatball",
+          "meat.pepperoni"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: MTBPPEP"
+        ]
+      },
+      "ingredients_text": "Meatball, pepperoni, marinara",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.meatball_pepper_parm",
+      "name": "Meatball & Pepper parm",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": true,
+      "default_parm_cheese": "cheese.mozzarella",
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.0,
+        "wrap": 7.0,
+        "sub": 9.0,
+        "panini": 7.0,
+        "bread": 7.0,
+        "toast": 7.0,
+        "small_dish": 7.0,
+        "large_dish": 9.0,
+        "mini_sub": 7.0
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.meatball"
+        ],
+        "cheeses": [],
+        "toppings": [
+          "topping.sweet_peppers"
+        ],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: MTBPP"
+        ]
+      },
+      "ingredients_text": "Meatball, sweet peppers, mari",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.meatball_peppers",
+      "name": "Meatball & peppers",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.0,
+        "wrap": 7.0,
+        "sub": 9.0,
+        "panini": 7.0,
+        "bread": 7.0,
+        "toast": 7.0,
+        "small_dish": 7.0,
+        "large_dish": 9.0,
+        "mini_sub": 7.0
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.meatball"
+        ],
+        "cheeses": [],
+        "toppings": [
+          "topping.sweet_peppers"
+        ],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: MTBPEP"
+        ]
+      },
+      "ingredients_text": "Meatball, sweet peppers",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.pastrami",
+      "name": "Pastrami",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.25,
+        "wrap": 7.25,
+        "sub": 9.25,
+        "panini": 7.25,
+        "bread": 7.25,
+        "toast": 7.25,
+        "small_dish": 7.25,
+        "large_dish": 9.25,
+        "mini_sub": 7.25
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.pastrami"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: PAST"
+        ]
+      },
+      "ingredients_text": "Pastrami",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.pastrami_cheese",
+      "name": "Pastrami & Cheese",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.95,
+        "wrap": 7.95,
+        "sub": 9.95,
+        "panini": 7.95,
+        "bread": 7.95,
+        "toast": 7.95,
+        "small_dish": 7.95,
+        "large_dish": 9.95,
+        "mini_sub": 7.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.pastrami"
+        ],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: PAST&C"
+        ]
+      },
+      "ingredients_text": "Pastrami, American Cheese",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.pepper_turkey",
+      "name": "Pepper Turkey",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.95,
+        "wrap": 7.95,
+        "sub": 9.95,
+        "panini": 7.95,
+        "bread": 7.95,
+        "toast": 7.95,
+        "small_dish": 7.95,
+        "large_dish": 9.95,
+        "mini_sub": 7.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.pepper_turkey"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: PTK"
+        ]
+      },
+      "ingredients_text": "Pepper Turkey",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.pepper_turkey_cheese",
+      "name": "Pepper Turkey & Cheese",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.95,
+        "wrap": 7.95,
+        "sub": 9.95,
+        "panini": 7.95,
+        "bread": 7.95,
+        "toast": 7.95,
+        "small_dish": 7.95,
+        "large_dish": 9.95,
+        "mini_sub": 7.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.pepper_turkey"
+        ],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: PTK&C"
+        ]
+      },
+      "ingredients_text": "Pepper Turkey, American Chee",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.pepperoni",
+      "name": "Pepperoni",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 8.95,
+        "wrap": 8.95,
+        "sub": 10.95,
+        "panini": 8.95,
+        "bread": 8.95,
+        "toast": 8.95,
+        "small_dish": 8.95,
+        "large_dish": 10.95,
+        "mini_sub": 8.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.pepperoni"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: PEP"
+        ]
+      },
+      "ingredients_text": "Pepperoni",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.pickle_pimento_cheese",
+      "name": "Pickle & Pimento & Cheese",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 6.95,
+        "wrap": 6.95,
+        "sub": 8.95,
+        "panini": 6.95,
+        "bread": 6.95,
+        "toast": 6.95,
+        "small_dish": 6.95,
+        "large_dish": 8.95,
+        "mini_sub": 6.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: PPC"
+        ]
+      },
+      "ingredients_text": "Pickle & Pimento, American Ch",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.prosciutto",
+      "name": "Prosciutto",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 9.95,
+        "wrap": 9.95,
+        "sub": 11.95,
+        "panini": 9.95,
+        "bread": 9.95,
+        "toast": 9.95,
+        "small_dish": 9.95,
+        "large_dish": 11.95,
+        "mini_sub": 9.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.prosciutto"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: PROS"
+        ]
+      },
+      "ingredients_text": "Prosciutto",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.prosciutto_cheese",
+      "name": "Prosciutto & Cheese",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 8.95,
+        "wrap": 8.95,
+        "sub": 10.95,
+        "panini": 8.95,
+        "bread": 8.95,
+        "toast": 8.95,
+        "small_dish": 8.95,
+        "large_dish": 10.95,
+        "mini_sub": 8.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.prosciutto"
+        ],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: PROS&C"
+        ]
+      },
+      "ingredients_text": "Prosciutto, American Cheese",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.sausage_peppers",
+      "name": "Sausage & peppers",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 8.95,
+        "wrap": 8.95,
+        "sub": 10.95,
+        "panini": 8.95,
+        "bread": 8.95,
+        "toast": 8.95,
+        "small_dish": 8.95,
+        "large_dish": 10.95,
+        "mini_sub": 8.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.italian_sausage"
+        ],
+        "cheeses": [],
+        "toppings": [
+          "topping.sweet_peppers"
+        ],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: SAUSPEP"
+        ]
+      },
+      "ingredients_text": "Italian Sausage, sweet peppers",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.salami_cheese",
+      "name": "Salami & Cheese",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.95,
+        "wrap": 7.95,
+        "sub": 9.95,
+        "panini": 7.95,
+        "bread": 7.95,
+        "toast": 7.95,
+        "small_dish": 7.95,
+        "large_dish": 9.95,
+        "mini_sub": 7.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.salami"
+        ],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: SALC, HOTSAL"
+        ]
+      },
+      "ingredients_text": "Salami, American Cheese",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.sausage",
+      "name": "Sausage",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.25,
+        "wrap": 7.25,
+        "sub": 9.25,
+        "panini": 7.25,
+        "bread": 7.25,
+        "toast": 7.25,
+        "small_dish": 7.25,
+        "large_dish": 9.25,
+        "mini_sub": 7.25
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.italian_sausage"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: SAUS"
+        ]
+      },
+      "ingredients_text": "Italian Sausage",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.sausage_parm",
+      "name": "Sausage Parm",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": true,
+      "default_parm_cheese": "cheese.mozzarella",
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.95,
+        "wrap": 7.95,
+        "sub": 9.95,
+        "panini": 7.95,
+        "bread": 7.95,
+        "toast": 7.95,
+        "small_dish": 7.95,
+        "large_dish": 9.95,
+        "mini_sub": 7.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.italian_sausage"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: SAUSPARM"
+        ]
+      },
+      "ingredients_text": "Italian Sausage, Marinara Sauc",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.sausage_pepper_parm",
+      "name": "Sausage & Pepper parm",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": true,
+      "default_parm_cheese": "cheese.mozzarella",
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 8.5,
+        "wrap": 8.5,
+        "sub": 10.5,
+        "panini": 8.5,
+        "bread": 8.5,
+        "toast": 8.5,
+        "small_dish": 8.5,
+        "large_dish": 10.5,
+        "mini_sub": 8.5
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.italian_sausage"
+        ],
+        "cheeses": [],
+        "toppings": [
+          "topping.sweet_peppers"
+        ],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: SAUSPP"
+        ]
+      },
+      "ingredients_text": "Italian sausage, sweet peppers",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.sporesata",
+      "name": "Sporesata",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.95,
+        "wrap": 7.95,
+        "sub": 9.95,
+        "panini": 7.95,
+        "bread": 7.95,
+        "toast": 7.95,
+        "small_dish": 7.95,
+        "large_dish": 9.95,
+        "mini_sub": 7.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: SPOR"
+        ]
+      },
+      "ingredients_text": "Sporesata",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.steak",
+      "name": "Steak",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 8.95,
+        "wrap": 8.95,
+        "sub": 10.95,
+        "panini": 8.95,
+        "bread": 8.95,
+        "toast": 8.95,
+        "small_dish": 8.95,
+        "large_dish": 10.95,
+        "mini_sub": 8.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.steak"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: Stk"
+        ]
+      },
+      "ingredients_text": "Steak",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.steak_and_cheese",
+      "name": "Steak and Cheese",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 9.25,
+        "wrap": 9.25,
+        "sub": 11.25,
+        "panini": 9.25,
+        "bread": 9.25,
+        "toast": 9.25,
+        "small_dish": 9.25,
+        "large_dish": 11.25,
+        "mini_sub": 9.25
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.steak"
+        ],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: STK&C"
+        ]
+      },
+      "ingredients_text": "Steak, American Cheese",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.steak_and_fried_onions",
+      "name": "Steak and fried onions",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 8.95,
+        "wrap": 8.95,
+        "sub": 10.95,
+        "panini": 8.95,
+        "bread": 8.95,
+        "toast": 8.95,
+        "small_dish": 8.95,
+        "large_dish": 10.95,
+        "mini_sub": 8.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.steak"
+        ],
+        "cheeses": [],
+        "toppings": [
+          "topping.onion"
+        ],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: STKO"
+        ]
+      },
+      "ingredients_text": "Steak, fried onions",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.steak_fried_onions_cheese",
+      "name": "Steak fried onions & cheese",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "sub": 11.25,
+        "panini": 9.25,
+        "roll": 9.25,
+        "wrap": 9.25,
+        "bread": 9.25,
+        "toast": 9.25,
+        "small_dish": 9.25,
+        "large_dish": 11.25,
+        "mini_sub": 9.25
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.steak"
+        ],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [
+          "topping.onion"
+        ],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: STKO&C"
+        ]
+      },
+      "ingredients_text": "Steak, fried onions, American",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.steak_peppers_onions",
+      "name": "Steak Peppers & Onions",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot"
+      ],
+      "default_temp": "hot",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 9.75,
+        "wrap": 9.75,
+        "sub": 11.75,
+        "panini": 9.75,
+        "bread": 9.75,
+        "toast": 9.75,
+        "small_dish": 9.75,
+        "large_dish": 11.75,
+        "mini_sub": 9.75
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.steak"
+        ],
+        "cheeses": [],
+        "toppings": [
+          "topping.onion"
+        ],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: STKPO"
+        ]
+      },
+      "ingredients_text": "Steak, fried onions, sweet pep",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.the_columbo",
+      "name": "The Columbo",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 8.95,
+        "wrap": 8.95,
+        "sub": 10.95,
+        "panini": 8.95,
+        "bread": 8.95,
+        "toast": 8.95,
+        "small_dish": 8.95,
+        "large_dish": 10.95,
+        "mini_sub": 8.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.grilled_teriyaki_chicken"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: COLUM"
+        ]
+      },
+      "ingredients_text": "Grilled teriyaki chicken, melted",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.the_davinci",
+      "name": "The Davinci",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 9.95,
+        "wrap": 9.95,
+        "sub": 12.95,
+        "panini": 9.95,
+        "bread": 9.95,
+        "toast": 9.95,
+        "small_dish": 9.95,
+        "large_dish": 12.95,
+        "mini_sub": 9.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [],
+        "cheeses": [
+          "cheese.mozzarella",
+          "cheese.fresh_mozzarella"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: DAVINCI"
+        ]
+      },
+      "ingredients_text": "Prosciutto, Fresh mozzarella, r",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.the_florance",
+      "name": "The Florance",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "sub": 10.95,
+        "panini": 8.95,
+        "roll": 8.95,
+        "wrap": 8.95,
+        "bread": 8.95,
+        "toast": 8.95,
+        "small_dish": 8.95,
+        "large_dish": 10.95,
+        "mini_sub": 8.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.chicken_cutlet"
+        ],
+        "cheeses": [
+          "cheese.cheddar"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: FLO"
+        ]
+      },
+      "ingredients_text": "Chicken cutlet, cheddar chees",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.the_leaning_tower",
+      "name": "The Leaning Tower",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "sub": 10.95,
+        "panini": 8.95,
+        "roll": 8.95,
+        "wrap": 8.95,
+        "bread": 8.95,
+        "toast": 8.95,
+        "small_dish": 8.95,
+        "large_dish": 10.95,
+        "mini_sub": 8.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.italian_sausage"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: LEANINGT"
+        ]
+      },
+      "ingredients_text": "Italian sausage, roccolu rabe,",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.the_palermo",
+      "name": "The Palermo",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 8.95,
+        "wrap": 8.95,
+        "sub": 10.95,
+        "panini": 8.95,
+        "bread": 8.95,
+        "toast": 8.95,
+        "small_dish": 8.95,
+        "large_dish": 10.95,
+        "mini_sub": 8.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.chicken_cutlet"
+        ],
+        "cheeses": [],
+        "toppings": [
+          "topping.broccoli_rabe"
+        ],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: PALERMO"
+        ]
+      },
+      "ingredients_text": "chicken cutlet, broccoli rabe, m",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.the_parma",
+      "name": "The Parma",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 9.95,
+        "wrap": 9.95,
+        "sub": 11.95,
+        "panini": 9.95,
+        "bread": 9.95,
+        "toast": 9.95,
+        "small_dish": 9.95,
+        "large_dish": 11.95,
+        "mini_sub": 9.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [],
+        "cheeses": [
+          "cheese.provolone",
+          "cheese.sharp_provolone"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: PARMA"
+        ]
+      },
+      "ingredients_text": "Prosciutto, Sharp provolone, b",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.the_torino",
+      "name": "The Torino",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "sub": 10.95,
+        "panini": 8.95,
+        "roll": 8.95,
+        "wrap": 8.95,
+        "bread": 8.95,
+        "toast": 8.95,
+        "small_dish": 8.95,
+        "large_dish": 10.95,
+        "mini_sub": 8.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.chicken_cutlet"
+        ],
+        "cheeses": [
+          "cheese.monterey_jack"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: TORINO"
+        ]
+      },
+      "ingredients_text": "Chicken cutlet, monterey jack",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.tuna",
+      "name": "Tuna",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.95,
+        "wrap": 7.95,
+        "sub": 9.95,
+        "panini": 7.95,
+        "bread": 7.95,
+        "toast": 7.95,
+        "small_dish": 7.95,
+        "large_dish": 9.95,
+        "mini_sub": 7.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.tuna"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: TUNA"
+        ]
+      },
+      "ingredients_text": "Tuna",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.tuna_cheese",
+      "name": "Tuna & Cheese",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.95,
+        "wrap": 7.95,
+        "sub": 9.95,
+        "panini": 7.95,
+        "bread": 7.95,
+        "toast": 7.95,
+        "small_dish": 7.95,
+        "large_dish": 9.95,
+        "mini_sub": 7.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.tuna"
+        ],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: TUNA&C"
+        ]
+      },
+      "ingredients_text": "Tuna & American Cheese",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.turkey_cheese",
+      "name": "Turkey & Cheese",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 8.25,
+        "wrap": 8.25,
+        "sub": 10.5,
+        "panini": 8.25,
+        "bread": 8.25,
+        "toast": 8.25,
+        "small_dish": 8.25,
+        "large_dish": 10.5,
+        "mini_sub": 8.25
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.turkey"
+        ],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: T&C"
+        ]
+      },
+      "ingredients_text": "Turkey, American Cheese",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.turkey_ham_cheese",
+      "name": "Turkey Ham & Cheese",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 8.25,
+        "wrap": 8.25,
+        "sub": 10.5,
+        "panini": 8.25,
+        "bread": 8.25,
+        "toast": 8.25,
+        "small_dish": null,
+        "large_dish": null,
+        "mini_sub": 8.25
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.ham",
+          "meat.turkey"
+        ],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: TH&C"
+        ]
+      },
+      "ingredients_text": "Turkey, Ham, American Chees",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.turkey_pastrami",
+      "name": "Turkey Pastrami",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.95,
+        "wrap": 7.95,
+        "sub": 9.95,
+        "panini": 7.95,
+        "bread": 7.95,
+        "toast": 7.95,
+        "small_dish": 7.95,
+        "large_dish": 9.95,
+        "mini_sub": 7.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.turkey_pastrami"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: TPAST"
+        ]
+      },
+      "ingredients_text": "Turkey Pastrami",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.turkey_pastrami_cheese",
+      "name": "Turkey Pastrami & Cheese",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.95,
+        "wrap": 7.95,
+        "sub": 9.95,
+        "panini": 7.95,
+        "bread": 7.95,
+        "toast": 7.95,
+        "small_dish": 7.95,
+        "large_dish": 9.95,
+        "mini_sub": 7.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.turkey_pastrami"
+        ],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: TPAST&C"
+        ]
+      },
+      "ingredients_text": "Turkey Pastrami, American Che",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    },
+    {
+      "id": "lunch.turkey_sandwich",
+      "name": "Turkey Sandwich",
+      "category": "lunch_sandwich",
+      "allowed_formats": [
+        "bread",
+        "large_dish",
+        "panini",
+        "roll",
+        "small_dish",
+        "sub",
+        "mini_sub",
+        "toast",
+        "wrap"
+      ],
+      "default_format": "roll",
+      "category_requires_bread": true,
+      "allowed_temps": [
+        "hot",
+        "cold"
+      ],
+      "default_temp": "cold",
+      "needs_condiments": true,
+      "contains_egg": false,
+      "parm_item": false,
+      "default_parm_cheese": null,
+      "is_deli_by_weight": false,
+      "price_per_lb": null,
+      "meats_allowed": false,
+      "meat_options": [],
+      "allows_half_half": true,
+      "allows_double_meat": true,
+      "price": null,
+      "price_by_format": {
+        "roll": 7.95,
+        "wrap": 7.95,
+        "sub": 9.95,
+        "panini": 7.95,
+        "bread": 7.95,
+        "toast": 7.95,
+        "small_dish": 7.95,
+        "large_dish": 9.95,
+        "mini_sub": 7.95
+      },
+      "portion_sizes_by_format": {},
+      "ingredient_ids": {
+        "meats": [
+          "meat.turkey"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": [
+          "source_item_ids: Turk"
+        ]
+      },
+      "ingredients_text": "Turkey",
+      "forces_pressed": false,
+      "allows_addons": true,
+      "default_addons": [],
+      "addon_groups_allowed": [
+        "sandwich_addons",
+        "pricing_modifiers"
+      ],
+      "addon_pricing_key": "sandwich_formats",
+      "addon_daypart": "lunch",
+      "hidden_format_defaults": {
+        "panini_price_defaults_to": "roll",
+        "bread_price_defaults_to": "roll",
+        "toast_price_defaults_to": "roll",
+        "dish_formats_hidden": [
+          "small_dish",
+          "large_dish"
+        ]
+      }
+    }
+  ],
+  "addons_config": {
+    "source_file_hint": "addons.json",
+    "sandwich_addons_group": "sandwich_addons",
+    "salad_addons_group": "salad_addons",
+    "pricing_modifiers_group": "pricing_modifiers",
+    "sandwich_pricing_key": "sandwich_formats"
+  }
+}

@@ -1,0 +1,1899 @@
+{
+  "schema_version": "1.0",
+  "menu_id": "menu_deli_by_weight",
+  "items": [
+    {
+      "id": "deli.ham",
+      "name": "Ham",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 8.99
+      },
+      "price_per_lb": 8.99,
+      "ingredient_ids": {
+        "meats": [
+          "meat.ham"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Ham",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true,
+        "source_item_code": "HAM"
+      }
+    },
+    {
+      "id": "deli.turkey",
+      "name": "Turkey",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 9.99
+      },
+      "price_per_lb": 9.99,
+      "ingredient_ids": {
+        "meats": [
+          "meat.turkey"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Turkey",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true,
+        "source_item_code": "TUKREY"
+      }
+    },
+    {
+      "id": "deli.salami",
+      "name": "Salami",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 8.99
+      },
+      "price_per_lb": 8.99,
+      "ingredient_ids": {
+        "meats": [
+          "meat.salami"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Salami",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true,
+        "source_item_code": "SALAMI"
+      }
+    },
+    {
+      "id": "deli.gensal",
+      "name": "Genoa Salami",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 9.99
+      },
+      "price_per_lb": 9.99,
+      "ingredient_ids": {
+        "meats": [
+          "meat.genoa_salami"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Genoa Salami",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true,
+        "source_item_code": "GENSAL"
+      }
+    },
+    {
+      "id": "deli.bal",
+      "name": "Bologna",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 7.99
+      },
+      "price_per_lb": 7.99,
+      "ingredient_ids": {
+        "meats": [
+          "meat.bologna"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Bologna",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true,
+        "source_item_code": "BAL"
+      }
+    },
+    {
+      "id": "deli.rb",
+      "name": "Roast Beef",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 10.99
+      },
+      "price_per_lb": 10.99,
+      "ingredient_ids": {
+        "meats": [
+          "meat.roast_beef"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Roast Beef",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true,
+        "source_item_code": "RB"
+      }
+    },
+    {
+      "id": "deli.pep",
+      "name": "Pepperoni",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 8.99
+      },
+      "price_per_lb": 8.99,
+      "ingredient_ids": {
+        "meats": [
+          "meat.pepperoni"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Pepperoni",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true,
+        "source_item_code": "PEP"
+      }
+    },
+    {
+      "id": "deli.pros",
+      "name": "Prosciutto",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 12.99
+      },
+      "price_per_lb": 12.99,
+      "ingredient_ids": {
+        "meats": [
+          "meat.prosciutto"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Proscuitto",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true,
+        "source_item_code": "PROS"
+      }
+    },
+    {
+      "id": "deli.pepturk",
+      "name": "Pepper Turkey",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 9.99
+      },
+      "price_per_lb": 9.99,
+      "ingredient_ids": {
+        "meats": [
+          "meat.pepper_turkey"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Pepper Turkey",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true,
+        "source_item_code": "PEPTURK"
+      }
+    },
+    {
+      "id": "deli.bham",
+      "name": "Baked Ham",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 8.99
+      },
+      "price_per_lb": 8.99,
+      "ingredient_ids": {
+        "meats": [
+          "meat.baked_ham"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Baked Ham",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true,
+        "source_item_code": "BHAM"
+      }
+    },
+    {
+      "id": "deli.honturk",
+      "name": "Honey Turkey",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 9.99
+      },
+      "price_per_lb": 9.99,
+      "ingredient_ids": {
+        "meats": [
+          "meat.honey_turkey"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Honey Turkey",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true,
+        "source_item_code": "HONTURK"
+      }
+    },
+    {
+      "id": "deli.delchix",
+      "name": "Chicken",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 9.99
+      },
+      "price_per_lb": 9.99,
+      "ingredient_ids": {
+        "meats": [
+          "meat.deli_chicken"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Chicken",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true,
+        "source_item_code": "DELCHIX"
+      }
+    },
+    {
+      "id": "deli.pp",
+      "name": "Pickle & Pimento",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 7.99
+      },
+      "price_per_lb": 7.99,
+      "ingredient_ids": {
+        "meats": [
+          "meat.pickle_pimento"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Pickle & Pimento",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true,
+        "source_item_code": "PP"
+      }
+    },
+    {
+      "id": "deli.am",
+      "name": "American Cheese",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 6.99
+      },
+      "price_per_lb": 6.99,
+      "ingredient_ids": {
+        "meats": [],
+        "cheeses": [
+          "cheese.american"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "American Cheese",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true,
+        "source_item_code": "AM"
+      }
+    },
+    {
+      "id": "deli.swiss",
+      "name": "Swiss Cheese",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 7.99
+      },
+      "price_per_lb": 7.99,
+      "ingredient_ids": {
+        "meats": [],
+        "cheeses": [
+          "cheese.swiss"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Swiss Cheese",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true,
+        "source_item_code": "SWISS"
+      }
+    },
+    {
+      "id": "deli.prov",
+      "name": "Provolone Cheese",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 7.99
+      },
+      "price_per_lb": 7.99,
+      "ingredient_ids": {
+        "meats": [],
+        "cheeses": [
+          "cheese.provolone"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Prololone Cheese",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true,
+        "source_item_code": "PROV"
+      }
+    },
+    {
+      "id": "deli.mozz",
+      "name": "Mozzarella Cheese",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 7.99
+      },
+      "price_per_lb": 7.99,
+      "ingredient_ids": {
+        "meats": [],
+        "cheeses": [
+          "cheese.mozzarella"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Mozzarella Cheese",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true,
+        "source_item_code": "MOZZ"
+      }
+    },
+    {
+      "id": "deli.mj",
+      "name": "Monterey Jack Cheese",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 7.99
+      },
+      "price_per_lb": 7.99,
+      "ingredient_ids": {
+        "meats": [],
+        "cheeses": [
+          "cheese.monterey_jack"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Monterey Jack Cheese",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true,
+        "source_item_code": "MJ"
+      }
+    },
+    {
+      "id": "deli.ched",
+      "name": "Cheddar Cheese",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 7.99
+      },
+      "price_per_lb": 7.99,
+      "ingredient_ids": {
+        "meats": [],
+        "cheeses": [
+          "cheese.cheddar"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Cheddar Cheese",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true,
+        "source_item_code": "CHED"
+      }
+    },
+    {
+      "id": "deli.pj",
+      "name": "Pepper Jack Cheese",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 7.99
+      },
+      "price_per_lb": 7.99,
+      "ingredient_ids": {
+        "meats": [],
+        "cheeses": [
+          "cheese.pepperjack"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Pepper Jack Cheese",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true,
+        "source_item_code": "PJ"
+      }
+    },
+    {
+      "id": "deli.pastrami",
+      "name": "Pastrami",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 9.99
+      },
+      "price_per_lb": 9.99,
+      "ingredient_ids": {
+        "meats": [
+          "meat.pastrami"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Pastrami",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true
+      }
+    },
+    {
+      "id": "deli.turkey_pastrami",
+      "name": "Turkey Pastrami",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 9.99
+      },
+      "price_per_lb": 9.99,
+      "ingredient_ids": {
+        "meats": [
+          "meat.turkey_pastrami"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Turkey Pastrami",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true
+      }
+    },
+    {
+      "id": "deli.soppressata",
+      "name": "Soppressata",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 8.99
+      },
+      "price_per_lb": 8.99,
+      "ingredient_ids": {
+        "meats": [
+          "meat.soppressata"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Soppressata",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true
+      }
+    },
+    {
+      "id": "deli.capicola",
+      "name": "Capicola",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 8.99
+      },
+      "price_per_lb": 8.99,
+      "ingredient_ids": {
+        "meats": [
+          "meat.capicola"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Capicola",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true
+      }
+    },
+    {
+      "id": "deli.mortadella",
+      "name": "Mortadella",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 6.99
+      },
+      "price_per_lb": 6.99,
+      "ingredient_ids": {
+        "meats": [
+          "meat.mortadella"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Mortadella",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true
+      }
+    },
+    {
+      "id": "deli.fresh_mozzarella",
+      "name": "Fresh Mozzarella",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 12.99
+      },
+      "price_per_lb": 12.99,
+      "ingredient_ids": {
+        "meats": [],
+        "cheeses": [
+          "cheese.fresh_mozzarella"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Fresh Mozzarella",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true
+      }
+    },
+    {
+      "id": "deli.sharp_provolone",
+      "name": "Sharp Provolone",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 14.99
+      },
+      "price_per_lb": 14.99,
+      "ingredient_ids": {
+        "meats": [],
+        "cheeses": [
+          "cheese.sharp_provolone"
+        ],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Sharp Provolone",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true
+      }
+    },
+    {
+      "id": "deli.salad_chicken",
+      "name": "Chicken Salad",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 8.99
+      },
+      "price_per_lb": 8.99,
+      "ingredient_ids": {
+        "meats": [
+          "meat.chicken_salad"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Chicken Salad",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true,
+        "product_type": "prepared_salad"
+      }
+    },
+    {
+      "id": "deli.salad_cranberry_chicken",
+      "name": "Cranberry Chicken Salad",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 8.99
+      },
+      "price_per_lb": 8.99,
+      "ingredient_ids": {
+        "meats": [
+          "meat.cranberry_chicken_salad"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Cranberry Chicken Salad",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true,
+        "product_type": "prepared_salad"
+      }
+    },
+    {
+      "id": "deli.salad_tuna",
+      "name": "Tuna Salad",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 8.99
+      },
+      "price_per_lb": 8.99,
+      "ingredient_ids": {
+        "meats": [
+          "meat.tuna_salad"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Tuna Salad",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true,
+        "product_type": "prepared_salad"
+      }
+    },
+    {
+      "id": "deli.salad_egg",
+      "name": "Egg Salad",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 5.99
+      },
+      "price_per_lb": 5.99,
+      "ingredient_ids": {
+        "meats": [
+          "meat.egg_salad"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Egg Salad",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true,
+        "product_type": "prepared_salad"
+      }
+    },
+    {
+      "id": "deli.salad_macaroni",
+      "name": "Macaroni Salad",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 5.99
+      },
+      "price_per_lb": 5.99,
+      "ingredient_ids": {
+        "meats": [
+          "meat.macaroni_salad"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Macaroni Salad",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true,
+        "product_type": "prepared_salad"
+      }
+    },
+    {
+      "id": "deli.salad_potato",
+      "name": "Potato Salad",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 4.99
+      },
+      "price_per_lb": 4.99,
+      "ingredient_ids": {
+        "meats": [
+          "meat.potato_salad"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Potato Salad",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true,
+        "product_type": "prepared_salad"
+      }
+    },
+    {
+      "id": "deli.salad_cole_slaw",
+      "name": "Cole Slaw",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 5.99
+      },
+      "price_per_lb": 5.99,
+      "ingredient_ids": {
+        "meats": [
+          "meat.cole_slaw"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Cole Slaw",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true,
+        "product_type": "prepared_salad"
+      }
+    },
+    {
+      "id": "deli.salad_pasta",
+      "name": "Pasta Salad",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 6.99
+      },
+      "price_per_lb": 6.99,
+      "ingredient_ids": {
+        "meats": [
+          "meat.pasta_salad"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Pasta Salad",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true,
+        "product_type": "prepared_salad"
+      }
+    },
+    {
+      "id": "deli.salad_tuna_mac",
+      "name": "Tuna Mac Salad",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 8.99
+      },
+      "price_per_lb": 8.99,
+      "ingredient_ids": {
+        "meats": [
+          "meat.tuna_mac_salad"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Tuna Mac Salad",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true,
+        "product_type": "prepared_salad"
+      }
+    },
+    {
+      "id": "deli.salad_olive",
+      "name": "Olive Salad",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 7.99
+      },
+      "price_per_lb": 7.99,
+      "ingredient_ids": {
+        "meats": [
+          "meat.olive_salad"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Olive Salad",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true,
+        "product_type": "prepared_salad"
+      }
+    },
+    {
+      "id": "deli.salad_toc",
+      "name": "Tomato Onion & Cucumber Salad",
+      "category": "deli_by_weight",
+      "allowed_formats": [
+        "by_weight"
+      ],
+      "default_format": "by_weight",
+      "category_requires_bread": false,
+      "allowed_temps": [
+        "cold"
+      ],
+      "default_temp": "cold",
+      "price_by_format": {
+        "by_weight": 7.99
+      },
+      "price_per_lb": 7.99,
+      "ingredient_ids": {
+        "meats": [
+          "meat.tomato_onion_cucumber_salad"
+        ],
+        "cheeses": [],
+        "toppings": [],
+        "condiments": [],
+        "unmapped": []
+      },
+      "ingredients_text": "Tomato Onion & Cucumber Salad",
+      "forces_pressed": false,
+      "allows_addons": false,
+      "default_addons": [],
+      "addon_groups_allowed": [],
+      "addon_pricing_key": null,
+      "addon_daypart": null,
+      "is_deli_by_weight": true,
+      "meta": {
+        "min_weight_lb": 0.25,
+        "max_weight_lb": 2.0,
+        "accepted_examples_lb": [
+          0.25,
+          0.3333333333333333,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "price_is_estimate": true,
+        "product_type": "prepared_salad"
+      }
+    }
+  ]
+}

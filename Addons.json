@@ -1,0 +1,1133 @@
+{
+  "pricing_keys": {
+    "sandwich_formats": [
+      "roll",
+      "sub",
+      "wrap",
+      "panini",
+      "bread",
+      "toast",
+      "small_dish",
+      "large_dish",
+      "mini_sub"
+    ],
+    "notes": [
+      "PDF column 'Roll/Wrap_Price' is applied to both roll and wrap.",
+      "Condiments are not represented here because they are not priced add-ons; see reference.json for condiment canonical IDs."
+    ]
+  },
+  "sandwich_addons": [
+    {
+      "id": "addon.bacon_lunch",
+      "name": "Bacon",
+      "type": "meat",
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      },
+      "price_by_format": {
+        "roll": 1.5,
+        "wrap": 1.5,
+        "sub": 3.0,
+        "small_dish": 1.5,
+        "large_dish": 3.0,
+        "panini": 1.5,
+        "bread": 1.5,
+        "toast": 1.5,
+        "mini_sub": 1.5
+      },
+      "links": {
+        "meat_id": "meat.bacon"
+      }
+    },
+    {
+      "id": "addon.breakfast.arugula",
+      "name": "Arugula",
+      "type": "veg",
+      "applies_to": {
+        "daypart": [
+          "breakfast"
+        ]
+      },
+      "price_by_format": {
+        "roll": 0.25,
+        "wrap": 0.25,
+        "sub": 0.5,
+        "small_dish": 0.25,
+        "large_dish": 0.5,
+        "panini": 0.25,
+        "bread": 0.25,
+        "toast": 0.25,
+        "mini_sub": 0.25
+      },
+      "links": {
+        "topping_id": "topping.arugula"
+      }
+    },
+    {
+      "id": "addon.breakfast.banana_peppers",
+      "name": "Banana Peppers",
+      "type": "veg",
+      "applies_to": {
+        "daypart": [
+          "breakfast"
+        ]
+      },
+      "price_by_format": {
+        "roll": 0.75,
+        "wrap": 0.75,
+        "sub": 1.5,
+        "small_dish": 0.75,
+        "large_dish": 1.5,
+        "panini": 0.75,
+        "bread": 0.75,
+        "toast": 0.75,
+        "mini_sub": 0.75
+      },
+      "links": {
+        "topping_id": "topping.banana_peppers"
+      }
+    },
+    {
+      "id": "addon.breakfast.hot_peppers",
+      "name": "Hot Peppers",
+      "type": "veg",
+      "applies_to": {
+        "daypart": [
+          "breakfast"
+        ]
+      },
+      "price_by_format": {
+        "roll": 0.75,
+        "wrap": 0.75,
+        "sub": 1.5,
+        "small_dish": 0.75,
+        "large_dish": 1.5,
+        "panini": 0.75,
+        "bread": 0.75,
+        "toast": 0.75,
+        "mini_sub": 0.75
+      },
+      "links": {
+        "topping_id": "topping.hot_peppers"
+      }
+    },
+    {
+      "id": "addon.breakfast.sweet_peppers",
+      "name": "Sweet Peppers",
+      "type": "veg",
+      "applies_to": {
+        "daypart": [
+          "breakfast"
+        ]
+      },
+      "price_by_format": {
+        "roll": 0.75,
+        "wrap": 0.75,
+        "sub": 1.5,
+        "small_dish": 0.75,
+        "large_dish": 1.5,
+        "panini": 0.75,
+        "bread": 0.75,
+        "toast": 0.75,
+        "mini_sub": 0.75
+      },
+      "links": {
+        "topping_id": "topping.sweet_peppers"
+      }
+    },
+    {
+      "id": "addon.breakfast.lettuce",
+      "name": "Lettuce",
+      "type": "veg",
+      "applies_to": {
+        "daypart": [
+          "breakfast"
+        ]
+      },
+      "price_by_format": {
+        "roll": 0.25,
+        "wrap": 0.25,
+        "sub": 0.5,
+        "small_dish": 0.25,
+        "large_dish": 0.5,
+        "panini": 0.25,
+        "bread": 0.25,
+        "toast": 0.25,
+        "mini_sub": 0.25
+      },
+      "links": {
+        "topping_id": "topping.lettuce"
+      }
+    },
+    {
+      "id": "addon.breakfast.mushroom",
+      "name": "Mushroom",
+      "type": "veg",
+      "applies_to": {
+        "daypart": [
+          "breakfast"
+        ]
+        },
+      "price_by_format": {
+        "roll": 0.25,
+        "wrap": 0.25,
+        "sub": 0.5,
+        "small_dish": 0.25,
+        "large_dish": 0.5,
+        "panini": 0.25,
+        "bread": 0.25,
+        "toast": 0.25,
+        "mini_sub": 0.25
+      },
+      "links": {
+        "topping_id": "topping.mushroom"
+      }
+    },
+    {
+      "id": "addon.breakfast.onion",
+      "name": "Onion",
+      "type": "veg",
+      "applies_to": {
+        "daypart": [
+          "breakfast"
+        ]
+      },
+      "price_by_format": {
+        "roll": 0.0,
+        "wrap": 0.0,
+        "sub": 0.0,
+        "small_dish": 0.0,
+        "large_dish": 0.0,
+        "panini": 0.0,
+        "bread": 0.0,
+        "toast": 0.0,
+        "mini_sub": 0.0
+      },
+      "links": {
+        "topping_id": "topping.onion"
+      }
+    },
+    {
+      "id": "addon.breakfast.roasted_red_peppers",
+      "name": "Roasted Red Peppers",
+      "type": "veg",
+      "applies_to": {
+        "daypart": [
+          "breakfast"
+        ]
+      },
+      "price_by_format": {
+        "roll": 0.75,
+        "wrap": 0.75,
+        "sub": 1.5,
+        "small_dish": 0.75,
+        "large_dish": 1.5,
+        "panini": 0.75,
+        "bread": 0.75,
+        "toast": 0.75,
+        "mini_sub": 0.75
+      },
+      "links": {
+        "topping_id": "topping.roasted_red_peppers"
+      }
+    },
+    {
+      "id": "addon.breakfast.spinach",
+      "name": "Spinach",
+      "type": "veg",
+      "applies_to": {
+        "daypart": [
+          "breakfast"
+        ]
+      },
+      "price_by_format": {
+        "roll": 0.25,
+        "wrap": 0.25,
+        "sub": 0.5,
+        "small_dish": 0.25,
+        "large_dish": 0.5,
+        "panini": 0.25,
+        "bread": 0.25,
+        "toast": 0.25,
+        "mini_sub": 0.25
+      },
+      "links": {
+        "topping_id": "topping.spinach"
+      }
+    },
+    {
+      "id": "addon.breakfast.tomato",
+      "name": "Tomato",
+      "type": "veg",
+      "applies_to": {
+        "daypart": [
+          "breakfast"
+        ]
+      },
+      "price_by_format": {
+        "roll": 0.25,
+        "wrap": 0.25,
+        "sub": 0.5,
+        "small_dish": 0.25,
+        "large_dish": 0.5,
+        "panini": 0.25,
+        "bread": 0.25,
+        "toast": 0.25,
+        "mini_sub": 0.25
+      },
+      "links": {
+        "topping_id": "topping.tomato"
+      }
+    },
+    {
+      "id": "addon.egg_lunch",
+      "name": "Egg",
+      "type": "egg",
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      },
+      "price_by_format": {
+        "roll": 1.0,
+        "wrap": 1.0,
+        "sub": 2.0,
+        "small_dish": 1.0,
+        "large_dish": 2.0,
+        "panini": 1.0,
+        "bread": 1.0,
+        "toast": 1.0,
+        "mini_sub": 1.0
+      },
+      "links": {}
+    },
+    {
+      "id": "addon.extra_bacon_breakfast",
+      "name": "Extra Bacon",
+      "type": "meat",
+      "applies_to": {
+        "daypart": [
+          "breakfast"
+        ]
+      },
+      "price_by_format": {
+        "roll": 1.5,
+        "wrap": 1.5,
+        "sub": 3.0,
+        "small_dish": 1.5,
+        "large_dish": 3.0,
+        "panini": 1.5,
+        "bread": 1.5,
+        "toast": 1.5,
+        "mini_sub": 1.5
+      },
+      "links": {}
+    },
+    {
+      "id": "addon.extra_cheese",
+      "name": "Extra Cheese",
+      "type": "cheese",
+      "applies_to": {
+        "daypart": [
+          "breakfast",
+          "lunch"
+        ]
+      },
+      "price_by_format": {
+        "roll": 0.75,
+        "wrap": 0.75,
+        "sub": 1.5,
+        "small_dish": 0.75,
+        "large_dish": 1.5,
+        "panini": 0.75,
+        "bread": 0.75,
+        "toast": 0.75,
+        "mini_sub": 0.75
+      },
+      "links": {}
+    },
+    {
+      "id": "addon.extra_egg",
+      "name": "Extra Egg",
+      "type": "egg",
+      "applies_to": {
+        "daypart": [
+          "breakfast"
+        ]
+      },
+      "price_by_format": {
+        "roll": 1.0,
+        "wrap": 1.0,
+        "sub": 2.0,
+        "small_dish": 1.0,
+        "large_dish": 2.0,
+        "panini": 1.0,
+        "bread": 1.0,
+        "toast": 1.0,
+        "mini_sub": 1.0
+      },
+      "links": {}
+    },
+    {
+      "id": "addon.extra_ham_breakfast",
+      "name": "Extra Ham",
+      "type": "meat",
+      "applies_to": {
+        "daypart": [
+          "breakfast"
+        ]
+      },
+      "price_by_format": {
+        "roll": 1.5,
+        "wrap": 1.5,
+        "sub": 3.0,
+        "small_dish": 1.5,
+        "large_dish": 3.0,
+        "panini": 1.5,
+        "bread": 1.5,
+        "toast": 1.5,
+        "mini_sub": 1.5
+      },
+      "links": {}
+    },
+    {
+      "id": "addon.extra_pastrami_breakfast",
+      "name": "Extra Pastrami",
+      "type": "meat",
+      "applies_to": {
+        "daypart": [
+          "breakfast"
+        ]
+      },
+      "price_by_format": {
+        "roll": 1.5,
+        "wrap": 1.5,
+        "sub": 3.0,
+        "small_dish": 1.5,
+        "large_dish": 3.0,
+        "panini": 1.5,
+        "bread": 1.5,
+        "toast": 1.5,
+        "mini_sub": 1.5
+      },
+      "links": {}
+    },
+    {
+      "id": "addon.extra_sausage_breakfast",
+      "name": "Extra Sausage",
+      "type": "meat",
+      "applies_to": {
+        "daypart": [
+          "breakfast"
+        ]
+      },
+      "price_by_format": {
+        "roll": 1.5,
+        "wrap": 1.5,
+        "sub": 3.0,
+        "small_dish": 1.5,
+        "large_dish": 3.0,
+        "panini": 1.5,
+        "bread": 1.5,
+        "toast": 1.5,
+        "mini_sub": 1.5
+      },
+      "links": {}
+    },
+    {
+      "id": "addon.extra_turkey_bacon_breakfast",
+      "name": "Extra Turkey Bacon",
+      "type": "meat",
+      "applies_to": {
+        "daypart": [
+          "breakfast"
+        ]
+      },
+      "price_by_format": {
+        "roll": 1.5,
+        "wrap": 1.5,
+        "sub": 3.0,
+        "small_dish": 1.5,
+        "large_dish": 3.0,
+        "panini": 1.5,
+        "bread": 1.5,
+        "toast": 1.5,
+        "mini_sub": 1.5
+      },
+      "links": {}
+    },
+    {
+      "id": "addon.fresh_mozzarella",
+      "name": "Fresh Mozzarella",
+      "type": "cheese",
+      "applies_to": {
+        "daypart": [
+          "breakfast",
+          "lunch"
+        ]
+      },
+      "price_by_format": {
+        "roll": 1.5,
+        "wrap": 1.5,
+        "sub": 3.0,
+        "small_dish": 1.5,
+        "large_dish": 3.0,
+        "panini": 1.5,
+        "bread": 1.5,
+        "toast": 1.5,
+        "mini_sub": 1.5
+      },
+      "links": {
+        "cheese_id": "cheese.fresh_mozzarella"
+      }
+    },
+    {
+      "id": "addon.lunch.arugula",
+      "name": "Arugula",
+      "type": "veg",
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      },
+      "price_by_format": {
+        "roll": 0.25,
+        "wrap": 0.25,
+        "sub": 0.5,
+        "small_dish": 0.25,
+        "large_dish": 0.5,
+        "panini": 0.25,
+        "bread": 0.25,
+        "toast": 0.25,
+        "mini_sub": 0.25
+      },
+      "links": {
+        "topping_id": "topping.arugula"
+      }
+    },
+    {
+      "id": "addon.lunch.banana_peppers",
+      "name": "Banana Peppers",
+      "type": "veg",
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      },
+      "price_by_format": {
+        "roll": 0.75,
+        "wrap": 0.75,
+        "sub": 1.5,
+        "small_dish": 0.75,
+        "large_dish": 1.5,
+        "panini": 0.75,
+        "bread": 0.75,
+        "toast": 0.75,
+        "mini_sub": 0.75
+      },
+      "links": {
+        "topping_id": "topping.banana_peppers"
+      }
+    },
+    {
+      "id": "addon.lunch.broccoli_rabe",
+      "name": "Broccoli Rabe",
+      "type": "veg",
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      },
+      "price_by_format": {
+        "roll": 1.5,
+        "wrap": 1.5,
+        "sub": 3.0,
+        "small_dish": 1.5,
+        "large_dish": 3.0,
+        "panini": 1.5,
+        "bread": 1.5,
+        "toast": 1.5,
+        "mini_sub": 1.5
+      },
+      "links": {
+        "topping_id": "topping.broccoli_rabe"
+      }
+    },
+    {
+      "id": "addon.lunch.croutons",
+      "name": "Croutons",
+      "type": "veg",
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      },
+      "price_by_format": {
+        "roll": 0.0,
+        "wrap": 0.0,
+        "sub": 0.0,
+        "small_dish": 0.0,
+        "large_dish": 0.0,
+        "panini": 0.0,
+        "bread": 0.0,
+        "toast": 0.0,
+        "mini_sub": 0.0
+      },
+      "links": {
+        "topping_id": "topping.croutons"
+      }
+    },
+    {
+      "id": "addon.lunch.hot_peppers",
+      "name": "Hot Peppers",
+      "type": "veg",
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      },
+      "price_by_format": {
+        "roll": 0.75,
+        "wrap": 0.75,
+        "sub": 1.5,
+        "small_dish": 0.75,
+        "large_dish": 1.5,
+        "panini": 0.75,
+        "bread": 0.75,
+        "toast": 0.75,
+        "mini_sub": 0.75
+      },
+      "links": {
+        "topping_id": "topping.hot_peppers"
+      }
+    },
+    {
+      "id": "addon.lunch.sweet_peppers",
+      "name": "Sweet Peppers",
+      "type": "veg",
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      },
+      "price_by_format": {
+        "roll": 0.75,
+        "wrap": 0.75,
+        "sub": 1.5,
+        "small_dish": 0.75,
+        "large_dish": 1.5,
+        "panini": 0.75,
+        "bread": 0.75,
+        "toast": 0.75,
+        "mini_sub": 0.75
+      },
+      "links": {
+        "topping_id": "topping.sweet_peppers"
+      }
+    },
+    {
+      "id": "addon.lunch.lettuce",
+      "name": "Lettuce",
+      "type": "veg",
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      },
+      "price_by_format": {
+        "roll": 0.25,
+        "wrap": 0.25,
+        "sub": 0.5,
+        "small_dish": 0.25,
+        "large_dish": 0.5,
+        "panini": 0.25,
+        "bread": 0.25,
+        "toast": 0.25,
+        "mini_sub": 0.25
+      },
+      "links": {
+        "topping_id": "topping.lettuce"
+      }
+    },
+    {
+      "id": "addon.lunch.mushroom",
+      "name": "Mushroom",
+      "type": "veg",
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      },
+      "price_by_format": {
+        "roll": 0.0,
+        "wrap": 0.0,
+        "sub": 0.0,
+        "small_dish": 0.0,
+        "large_dish": 0.0,
+        "panini": 0.0,
+        "bread": 0.0,
+        "toast": 0.0,
+        "mini_sub": 0.0
+      },
+      "links": {
+        "topping_id": "topping.mushroom"
+      }
+    },
+    {
+      "id": "addon.lunch.onion",
+      "name": "Onion",
+      "type": "veg",
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      },
+      "price_by_format": {
+        "roll": 0.0,
+        "wrap": 0.0,
+        "sub": 0.0,
+        "small_dish": 0.0,
+        "large_dish": 0.0,
+        "panini": 0.0,
+        "bread": 0.0,
+        "toast": 0.0,
+        "mini_sub": 0.0
+      },
+      "links": {
+        "topping_id": "topping.onion"
+      }
+    },
+    {
+      "id": "addon.lunch.roasted_red_peppers",
+      "name": "Roasted Red Peppers",
+      "type": "veg",
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      },
+      "price_by_format": {
+        "roll": 0.75,
+        "wrap": 0.75,
+        "sub": 1.5,
+        "small_dish": 0.75,
+        "large_dish": 1.5,
+        "panini": 0.75,
+        "bread": 0.75,
+        "toast": 0.75,
+        "mini_sub": 0.75
+      },
+      "links": {
+        "topping_id": "topping.roasted_red_peppers"
+      }
+    },
+    {
+      "id": "addon.lunch.sharp_provolone",
+      "name": "Sharp Provolone",
+      "type": "cheese",
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      },
+      "price_by_format": {
+        "roll": 1.5,
+        "wrap": 1.5,
+        "sub": 3.0,
+        "small_dish": 1.5,
+        "large_dish": 3.0,
+        "panini": 1.5,
+        "bread": 1.5,
+        "toast": 1.5,
+        "mini_sub": 1.5
+      },
+      "links": {
+        "cheese_id": "cheese.sharp_provolone"
+      }
+    },
+    {
+      "id": "addon.lunch.sauerkraut",
+      "name": "sauerkraut",
+      "type": "veg",
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      },
+      "price_by_format": {
+        "roll": 0.25,
+        "wrap": 0.25,
+        "sub": 0.5,
+        "small_dish": 0.25,
+        "large_dish": 0.5,
+        "panini": 0.25,
+        "bread": 0.25,
+        "toast": 0.25,
+        "mini_sub": 0.25
+      },
+      "links": {
+        "topping_id": "topping.sauerkraut"
+      }
+    },
+    {
+      "id": "addon.lunch.spinach",
+      "name": "Spinach",
+      "type": "veg",
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      },
+      "price_by_format": {
+        "roll": 0.25,
+        "wrap": 0.25,
+        "sub": 0.5,
+        "small_dish": 0.25,
+        "large_dish": 0.5,
+        "panini": 0.25,
+        "bread": 0.25,
+        "toast": 0.25,
+        "mini_sub": 0.25
+      },
+      "links": {
+        "topping_id": "topping.spinach"
+      }
+    },
+    {
+      "id": "addon.lunch.sundried_tomatoes",
+      "name": "Sundried Tomatoes",
+      "type": "veg",
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      },
+      "price_by_format": {
+        "roll": 0.25,
+        "wrap": 0.25,
+        "sub": 0.5,
+        "small_dish": 0.25,
+        "large_dish": 0.5,
+        "panini": 0.25,
+        "bread": 0.25,
+        "toast": 0.25,
+        "mini_sub": 0.25
+      },
+      "links": {
+        "topping_id": "topping.sundried_tomatoes"
+      }
+    },
+    {
+      "id": "addon.lunch.tomato",
+      "name": "Tomato",
+      "type": "veg",
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      },
+      "price_by_format": {
+        "roll": 0.25,
+        "wrap": 0.25,
+        "sub": 0.5,
+        "small_dish": 0.25,
+        "large_dish": 0.5,
+        "panini": 0.25,
+        "bread": 0.25,
+        "toast": 0.25,
+        "mini_sub": 0.25
+      },
+      "links": {
+        "topping_id": "topping.tomato"
+      }
+    },
+    {
+      "id": "addon.lunch.guacamole",
+      "name": "Guacamole",
+      "type": "veg",
+      "applies_to": {
+        "daypart": [
+          "lunch",
+          "breakfast"
+        ]
+      },
+      "price_by_format": {
+        "roll": 1.5,
+        "wrap": 1.5,
+        "sub": 3.0,
+        "small_dish": 1.5,
+        "large_dish": 3.0,
+        "panini": 1.5,
+        "bread": 1.5,
+        "toast": 1.5,
+        "mini_sub": 1.5
+      },
+      "links": {
+        "topping_id": "topping.guacamole"
+      }
+    },
+    {
+      "id": "addon.lunch.hummus",
+      "name": "Hummus",
+      "type": "veg",
+      "applies_to": {
+        "daypart": [
+          "lunch",
+          "breakfast"
+        ]
+      },
+      "price_by_format": {
+        "roll": 1.5,
+        "wrap": 1.5,
+        "sub": 3.0,
+        "small_dish": 1.5,
+        "large_dish": 3.0,
+        "panini": 1.5,
+        "bread": 1.5,
+        "toast": 1.5,
+        "mini_sub": 1.5
+      },
+      "links": {
+        "topping_id": "topping.hummus"
+      }
+    },
+    {
+      "id": "addon.breakfast.pickles",
+      "name": "Pickles",
+      "type": "veg",
+      "applies_to": {
+        "daypart": [
+          "breakfast"
+        ]
+      },
+      "price_by_format": {
+        "roll": 0.25,
+        "wrap": 0.25,
+        "sub": 0.5,
+        "small_dish": 0.25,
+        "large_dish": 0.5,
+        "panini": 0.25,
+        "bread": 0.25,
+        "toast": 0.25,
+        "mini_sub": 0.25
+      },
+      "links": {
+        "topping_id": "topping.pickles"
+      }
+    },
+    {
+      "id": "addon.lunch.pickles",
+      "name": "Pickles",
+      "type": "veg",
+      "applies_to": {
+        "daypart": [
+          "lunch"
+        ]
+      },
+      "price_by_format": {
+        "roll": 0.25,
+        "wrap": 0.25,
+        "sub": 0.5,
+        "small_dish": 0.25,
+        "large_dish": 0.5,
+        "panini": 0.25,
+        "bread": 0.25,
+        "toast": 0.25,
+        "mini_sub": 0.25
+      },
+      "links": {
+        "topping_id": "topping.pickles"
+      }
+    }
+  ],
+  "salad_addons": [
+    {
+      "id": "addon.salad.chicken_salad",
+      "name": "Chicken Salad",
+      "type": "salad",
+      "applies_to": {
+        "item_categories": [
+          "salad"
+        ]
+      },
+      "price": 5.95,
+      "links": {}
+    },
+    {
+      "id": "addon.salad.cranberry_chicken_salad",
+      "name": "Cranberry Chicken Salad",
+      "type": "salad",
+      "applies_to": {
+        "item_categories": [
+          "salad"
+        ]
+      },
+      "price": 5.95,
+      "links": {}
+    },
+    {
+      "id": "addon.salad.tuna_salad",
+      "name": "Tuna Salad",
+      "type": "salad",
+      "applies_to": {
+        "item_categories": [
+          "salad"
+        ]
+      },
+      "price": 5.95,
+      "links": {}
+    },
+    {
+      "id": "addon.salad.ham",
+      "name": "Ham",
+      "type": "meat",
+      "applies_to": {
+        "item_categories": [
+          "salad"
+        ]
+      },
+      "price": 4.95,
+      "links": {
+        "meat_id": "meat.ham"
+      }
+    },
+    {
+      "id": "addon.salad.turkey",
+      "name": "Turkey",
+      "type": "meat",
+      "applies_to": {
+        "item_categories": [
+          "salad"
+        ]
+      },
+      "price": 4.95,
+      "links": {
+        "meat_id": "meat.turkey"
+      }
+    },
+    {
+      "id": "addon.salad.salami",
+      "name": "Salami",
+      "type": "meat",
+      "applies_to": {
+        "item_categories": [
+          "salad"
+        ]
+      },
+      "price": 4.95,
+      "links": {
+        "meat_id": "meat.salami"
+      }
+    },
+    {
+      "id": "addon.salad.american_cheese",
+      "name": "American Cheese",
+      "type": "cheese",
+      "applies_to": {
+        "item_categories": [
+          "salad"
+        ]
+      },
+      "price": 1.5,
+      "links": {
+        "cheese_id": "cheese.american"
+      }
+    },
+    {
+      "id": "addon.salad.provolone_cheese",
+      "name": "Provolone cheese",
+      "type": "cheese",
+      "applies_to": {
+        "item_categories": [
+          "salad"
+        ]
+      },
+      "price": 1.5,
+      "links": {
+        "cheese_id": "cheese.provolone"
+      }
+    },
+    {
+      "id": "addon.salad.cheddar_cheese",
+      "name": "Cheddar Cheese",
+      "type": "cheese",
+      "applies_to": {
+        "item_categories": [
+          "salad"
+        ]
+      },
+      "price": 1.5,
+      "links": {
+        "cheese_id": "cheese.cheddar"
+      }
+    },
+    {
+      "id": "addon.salad.grilled_chicken",
+      "name": "Grilled Chicken",
+      "type": "meat",
+      "applies_to": {
+        "item_categories": [
+          "salad"
+        ]
+      },
+      "price": 5.95,
+      "links": {
+        "meat_id": "meat.grilled_chicken"
+      }
+    },
+    {
+      "id": "addon.salad.chicken_cutlet",
+      "name": "Chicken Cutlet",
+      "type": "meat",
+      "applies_to": {
+        "item_categories": [
+          "salad"
+        ]
+      },
+      "price": 5.95,
+      "links": {
+        "meat_id": "meat.chicken_cutlet"
+      }
+    }
+  ],
+  "pricing_modifiers": [
+    {
+      "id": "modifier.double_meat",
+      "name": "Double Meat",
+      "type": "meat_rule",
+      "applies_to": {
+        "item_categories": [
+          "sandwich",
+          "lunch_sandwich"
+        ]
+      },
+      "pricing_rule": {
+        "rule": "multiply_base_meat_price",
+        "multiplier": 2,
+        "notes": "Double meat cost equals 2x the base meat price for the current format."
+      }
+    },
+    {
+      "id": "modifier.half_and_half_meat",
+      "name": "1/2 & 1/2 Meat",
+      "type": "meat_rule",
+      "applies_to": {
+        "item_categories": [
+          "sandwich",
+          "lunch_sandwich"
+        ]
+      },
+      "pricing_rule": {
+        "rule": "use_higher_priced_meat_base",
+        "notes": "When two meats are selected in half_half mode, price equals the base meat price of the higher-priced meat for the current format."
+      }
+    }
+  ],
+  "exclusions": {
+    "removed": [
+      "condiments"
+    ]
+  }
+}
