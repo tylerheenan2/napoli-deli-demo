@@ -318,7 +318,27 @@ inputEl.addEventListener("keydown", (e) => {
 });
 resetBtn.addEventListener("click", resetSession);
 
+// ── mobile viewport (keyboard-aware layout) ───────────────────────────────────
+
+function setupMobileViewport() {
+  if (!window.visualViewport) return;
+  const panel = document.getElementById('ordering-panel');
+  function resize() {
+    if (window.innerWidth > 767) {
+      panel.style.height = '';
+      panel.style.flex = '';
+      return;
+    }
+    panel.style.flex = 'none';
+    panel.style.height = window.visualViewport.height + 'px';
+  }
+  window.visualViewport.addEventListener('resize', resize);
+  window.visualViewport.addEventListener('scroll', resize);
+  resize(); // apply immediately on load
+}
+
 // ── init ──────────────────────────────────────────────────────────────────────
 
+setupMobileViewport();
 loadMenu();
 startSession();

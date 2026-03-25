@@ -518,8 +518,7 @@ body {
   #ordering-panel {
     display: none;
     width: 100%;
-    height: 100vh;
-    height: 100dvh;
+    height: 100%;
   }
 
   /* Switch: show ordering, hide menu */
@@ -579,4 +578,8 @@ body {
   /* Fix flex overflow so chat content scrolls and input stays pinned */
   #chat-panel { min-height: 0; }
   #messages   { min-height: 0; }
+
+  /* Menu descriptions: pin price to top, allow multi-line wrapping */
+  .menu-item          { align-items: flex-start; }
+  .menu-item-desc     { overflow-wrap: break-word; }
 }

@@ -2589,7 +2589,7 @@
           "source_item_ids: MTBPARM"
         ]
       },
-      "ingredients_text": "Meatball, Marinare Sauce",
+      "ingredients_text": "Meatball, Marinara Sauce",
       "forces_pressed": false,
       "allows_addons": true,
       "default_addons": [],
@@ -2742,7 +2742,7 @@
           "source_item_ids: MTBPP"
         ]
       },
-      "ingredients_text": "Meatball, sweet peppers, mari",
+      "ingredients_text": "Meatball, sweet peppers, marinara",
       "forces_pressed": false,
       "allows_addons": true,
       "default_addons": [],
