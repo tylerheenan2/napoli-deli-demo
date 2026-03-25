@@ -37,7 +37,7 @@ function appendMessages(lines, role) {
 }
 
 function setInputEnabled(enabled) {
-  inputEl.disabled = !enabled;
+  inputEl.readOnly = !enabled;
   sendBtn.disabled = !enabled;
 }
 
@@ -278,7 +278,7 @@ async function resetSession() {
 
 async function sendMessage() {
   const text = inputEl.value.trim();
-  if (!text || orderDone) return;
+  if (!text || orderDone || inputEl.readOnly) return;
   inputEl.value = "";
   appendMsg(text, "user");
   setInputEnabled(false);

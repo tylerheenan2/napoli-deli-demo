@@ -206,6 +206,9 @@ body {
 /* Mobile CTA button — hidden on desktop */
 #mobile-cta { display: none; }
 
+/* Readonly state while awaiting response */
+#user-input[readonly] { opacity: 0.55; cursor: default; }
+
 /* ══════════════════════════════════════════════════════
    RIGHT: ORDERING PANEL
 ══════════════════════════════════════════════════════ */
@@ -484,39 +487,53 @@ body {
 ══════════════════════════════════════════════════════ */
 
 @media (max-width: 767px) {
-  body { background: #F7F5F1; }
+  /* Prevent page-level scroll — only internal regions scroll */
+  html { height: 100%; overflow: hidden; }
+  body { height: 100%; overflow: hidden; background: #F7F5F1; }
 
   #app {
     flex-direction: column;
     max-width: 100%;
     border-radius: 0;
     box-shadow: none;
+    height: 100vh;
+    height: 100dvh;
   }
 
   /* Default: show menu full screen */
   #menu-panel {
     width: 100%;
     height: 100vh;
+    height: 100dvh;
     display: flex;
+    overflow: hidden;
   }
+
+  /* Hide decorative banner — reclaim vertical space */
+  #menu-banner { display: none; }
+
+  /* Allow menu content to scroll without expanding the panel */
+  #menu-content { min-height: 0; }
 
   #ordering-panel {
     display: none;
     width: 100%;
     height: 100vh;
+    height: 100dvh;
   }
 
   /* Switch: show ordering, hide menu */
   body.show-ordering #menu-panel    { display: none; }
   body.show-ordering #ordering-panel { display: flex; }
 
-  /* Mobile CTA at bottom of menu */
+  /* Mobile CTA — pinned at bottom, visually separated from menu content */
   #mobile-cta {
     display: block;
     flex-shrink: 0;
-    padding: 12px 16px;
+    padding: 12px 16px 16px;
     background: #FFFFFF;
     border-top: 1px solid #E8E2D8;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.06);
   }
 
   #btn-start-order {
@@ -556,6 +573,10 @@ body {
   }
   #btn-view-menu:hover { background: #fdf5f5; }
 
-  /* Tighter summary on mobile */
+  /* Tighter summary on mobile; allow internal scroll without overflow */
   #summary-panel { max-height: 30vh; }
+
+  /* Fix flex overflow so chat content scrolls and input stays pinned */
+  #chat-panel { min-height: 0; }
+  #messages   { min-height: 0; }
 }
