@@ -327,10 +327,13 @@ function setupMobileViewport() {
     if (window.innerWidth > 767) {
       panel.style.height = '';
       panel.style.flex = '';
+      document.body.classList.remove('keyboard-open');
       return;
     }
     panel.style.flex = 'none';
     panel.style.height = window.visualViewport.height + 'px';
+    const keyboardOpen = window.visualViewport.height < window.innerHeight * 0.80;
+    document.body.classList.toggle('keyboard-open', keyboardOpen);
   }
   window.visualViewport.addEventListener('resize', resize);
   window.visualViewport.addEventListener('scroll', resize);

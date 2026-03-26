@@ -582,4 +582,26 @@ body {
   /* Menu descriptions: pin price to top, allow multi-line wrapping */
   .menu-item          { align-items: flex-start; }
   .menu-item-desc     { overflow-wrap: break-word; }
+
+  /* ── Keyboard-open state: collapse non-essential chrome ── */
+
+  /* Summary: collapse to heading only — frees ~150–200px for chat */
+  body.keyboard-open #summary-panel {
+    max-height: 56px;
+  }
+
+  /* Hide keyboard shortcut hint — not relevant on mobile touch */
+  body.keyboard-open #input-hint {
+    display: none;
+  }
+
+  /* Tighten top bar and chat header padding */
+  body.keyboard-open #mobile-menu-bar {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  body.keyboard-open #chat-header {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
 }
