@@ -602,12 +602,35 @@ body {
     display: none;
   }
 
-  /* Tighten top bar and chat header padding */
+  /* Tighten top bar and chat header */
   body.keyboard-open #mobile-menu-bar {
     padding-top: 6px;
     padding-bottom: 6px;
   }
   body.keyboard-open #chat-header {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  body.keyboard-open #btn-reset {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 0.76rem;
+  }
+
+  /* Tighten summary panel chrome */
+  body.keyboard-open #summary-panel {
+    padding-top: 10px;
+  }
+  body.keyboard-open #summary-panel h2 {
+    margin-bottom: 6px;
+  }
+  body.keyboard-open .order-item {
+    padding: 7px 10px;
+    margin-bottom: 4px;
+  }
+
+  /* Tighten input row top spacing — connects input to conversation */
+  body.keyboard-open #input-row {
     padding-top: 8px;
     padding-bottom: 8px;
   }
