@@ -303,7 +303,9 @@ async function sendMessage() {
 
 document.getElementById("btn-start-order").addEventListener("click", () => {
   document.body.classList.add("show-ordering");
-  inputEl.focus();
+  // Desktop only: focus input immediately. On mobile, let user tap to open keyboard
+  // so the ordering screen opens in its natural full layout first.
+  if (window.innerWidth > 767) inputEl.focus();
 });
 
 document.getElementById("btn-view-menu").addEventListener("click", () => {
