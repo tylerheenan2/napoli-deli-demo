@@ -487,9 +487,11 @@ body {
 ══════════════════════════════════════════════════════ */
 
 @media (max-width: 767px) {
-  /* Prevent page-level scroll — only internal regions scroll */
-  html { height: 100%; overflow: hidden; }
-  body { height: 100%; overflow: hidden; background: #F7F5F1; }
+  /* Prevent page-level scroll — only internal regions scroll.
+     position:fixed on html/body is required on iOS Safari to prevent
+     the body from scrolling when an input is focused. */
+  html { height: 100%; overflow: hidden; position: fixed; width: 100%; }
+  body { height: 100%; overflow: hidden; background: #F7F5F1; position: fixed; width: 100%; }
 
   #app {
     flex-direction: column;
@@ -578,6 +580,9 @@ body {
   /* Fix flex overflow so chat content scrolls and input stays pinned */
   #chat-panel { min-height: 0; }
   #messages   { min-height: 0; }
+
+  /* Prevent iPhone Safari auto-zoom on input focus (requires font-size >= 16px) */
+  #user-input { font-size: 16px; }
 
   /* Menu descriptions: pin price to top, allow multi-line wrapping */
   .menu-item          { align-items: flex-start; }
