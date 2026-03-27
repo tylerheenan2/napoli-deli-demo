@@ -327,14 +327,25 @@ function setupMobileViewport() {
   const panel = document.getElementById('ordering-panel');
   function resize() {
     if (window.innerWidth > 767) {
+      panel.style.position = '';
+      panel.style.top = '';
+      panel.style.left = '';
+      panel.style.right = '';
       panel.style.height = '';
       panel.style.flex = '';
       document.body.classList.remove('keyboard-open');
       return;
     }
+    const vv = window.visualViewport;
+    // Anchor panel to the visual viewport top, compensating for iOS offsetTop
+    // shift that occurs when the keyboard opens and iOS scrolls to center input.
+    panel.style.position = 'fixed';
+    panel.style.left = '0';
+    panel.style.right = '0';
+    panel.style.top = vv.offsetTop + 'px';
     panel.style.flex = 'none';
-    panel.style.height = window.visualViewport.height + 'px';
-    const keyboardOpen = window.visualViewport.height < window.innerHeight * 0.80;
+    panel.style.height = vv.height + 'px';
+    const keyboardOpen = vv.height < window.innerHeight * 0.80;
     document.body.classList.toggle('keyboard-open', keyboardOpen);
   }
   window.visualViewport.addEventListener('resize', resize);

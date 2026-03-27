@@ -525,7 +525,14 @@ body {
 
   /* Switch: show ordering, hide menu */
   body.show-ordering #menu-panel    { display: none; }
-  body.show-ordering #ordering-panel { display: flex; }
+  body.show-ordering #ordering-panel {
+    display: flex;
+    /* Fixed positioning baseline — JS overrides top/height via visualViewport */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
 
   /* Mobile CTA — pinned at bottom, visually separated from menu content */
   #mobile-cta {
@@ -575,7 +582,7 @@ body {
   #btn-view-menu:hover { background: #fdf5f5; }
 
   /* Summary: proportional to panel height so it responds to keyboard open/close */
-  #summary-panel { max-height: 24%; min-height: 56px; }
+  #summary-panel { max-height: 24%; min-height: 80px; }
 
   /* Fix flex overflow so chat content scrolls and input stays pinned */
   #chat-panel { min-height: 0; }
