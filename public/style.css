@@ -597,41 +597,43 @@ body {
 
   /* ── Keyboard-open state: collapse non-essential chrome ── */
 
-  /* Hide keyboard shortcut hint — not relevant on mobile touch */
-  body.keyboard-open #input-hint {
-    display: none;
-  }
+  /* Hide non-essential elements */
+  body.keyboard-open #input-hint { display: none; }
+  body.keyboard-open #btn-reset  { display: none; }
 
-  /* Tighten top bar and chat header */
+  /* Top bar: already tight at 6px — keep */
   body.keyboard-open #mobile-menu-bar {
     padding-top: 6px;
     padding-bottom: 6px;
   }
-  body.keyboard-open #chat-header {
-    padding-top: 6px;
-    padding-bottom: 6px;
-  }
-  body.keyboard-open #btn-reset {
-    padding-top: 3px;
-    padding-bottom: 3px;
-    font-size: 0.76rem;
-  }
 
-  /* Tighten summary panel chrome */
-  body.keyboard-open #summary-panel {
-    padding-top: 10px;
+  /* Chat header: minimal — just the logo, no button */
+  body.keyboard-open #chat-header {
+    padding-top: 4px;
+    padding-bottom: 4px;
   }
-  body.keyboard-open #summary-panel h2 {
-    margin-bottom: 6px;
-  }
+  body.keyboard-open .logo { font-size: 0.88rem; }
+
+  /* Summary: compact status bar */
+  body.keyboard-open #summary-panel { padding-top: 6px; }
+  body.keyboard-open #summary-panel h2 { margin-bottom: 4px; }
   body.keyboard-open .order-item {
     padding: 7px 10px;
     margin-bottom: 4px;
   }
 
-  /* Tighten input row top spacing — connects input to conversation */
+  /* Messages: tighter container spacing and bubbles */
+  body.keyboard-open #messages {
+    padding: 10px 14px;
+    gap: 8px;
+  }
+  body.keyboard-open .msg {
+    padding: 8px 12px;
+  }
+
+  /* Input row: slightly tighter, visually connected to chat */
   body.keyboard-open #input-row {
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
   }
 }
