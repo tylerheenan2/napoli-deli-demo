@@ -482,6 +482,26 @@ body {
   background: #FFFFFF;
 }
 
+#report-row {
+  flex-shrink: 0;
+  text-align: right;
+  padding: 0 12px 6px;
+  background: #FFFFFF;
+}
+#btn-report {
+  font-size: 0.68rem;
+  color: #bbb;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 2px 0;
+  font-style: italic;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+#btn-report:hover  { color: #888; }
+#btn-report:disabled { color: #bbb; cursor: default; text-decoration: none; }
+
 /* ══════════════════════════════════════════════════════
    MOBILE  (< 768px)
 ══════════════════════════════════════════════════════ */
@@ -598,8 +618,9 @@ body {
   /* ── Keyboard-open state: collapse non-essential chrome ── */
 
   /* Hide non-essential elements */
-  body.keyboard-open #input-hint { display: none; }
-  body.keyboard-open #btn-reset  { display: none; }
+  body.keyboard-open #input-hint  { display: none; }
+  body.keyboard-open #btn-reset   { display: none; }
+  body.keyboard-open #report-row  { display: none; }
 
   /* Top bar: already tight at 6px — keep */
   body.keyboard-open #mobile-menu-bar {

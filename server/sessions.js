@@ -1,6 +1,7 @@
 "use strict";
 
-const path = require("path");
+const path   = require("path");
+const logger = require("./session-logger.js");
 const {
   loadConfig,
   initState,
@@ -28,10 +29,12 @@ function createSession(sessionId) {
   const state = initState(config);
   const greeting = _emitGreeting(state);
   sessions.set(sessionId, { state });
+  logger.init(sessionId);
   return { messages: greeting, orderSummary: _orderSummary(state) };
 }
 
 function resetSession(sessionId) {
+  logger.markReset(sessionId);
   sessions.delete(sessionId);
   return createSession(sessionId);
 }
@@ -42,6 +45,8 @@ function sendMessage(sessionId, text) {
   }
   const { state } = sessions.get(sessionId);
   const { responses, done } = processTurn(state, config, text);
+  logger.appendTurn(sessionId, { userText: text, systemMessages: responses, state, done });
+  if (done) logger.finalize(sessionId, state);
   return {
     messages: responses,
     orderSummary: _orderSummary(state),

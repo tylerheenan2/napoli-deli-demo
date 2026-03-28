@@ -320,6 +320,15 @@ inputEl.addEventListener("keydown", (e) => {
 });
 resetBtn.addEventListener("click", resetSession);
 
+const reportBtn = document.getElementById("btn-report");
+reportBtn.addEventListener("click", async () => {
+  try {
+    await apiPost("/api/report", { sessionId: SESSION_ID });
+    reportBtn.textContent = "Reported ✓";
+    reportBtn.disabled = true;
+  } catch (_) {}
+});
+
 // ── mobile viewport (keyboard-aware layout) ───────────────────────────────────
 
 function setupMobileViewport() {

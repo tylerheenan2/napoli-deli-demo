@@ -4,6 +4,7 @@ const express = require("express");
 const path = require("path");
 const { createSession, resetSession, sendMessage } = require("./sessions.js");
 const { getMenu } = require("./menu-data.js");
+const logger = require("./session-logger.js");
 
 const app = express();
 app.use(express.json());
@@ -37,7 +38,19 @@ app.get("/api/menu", (_req, res) => {
   res.json(getMenu());
 });
 
+// POST /api/report — tester manually flags a session for review
+app.post("/api/report", (req, res) => {
+  const sessionId = req.body.sessionId || "default";
+  logger.markReported(sessionId);
+  res.json({ ok: true });
+});
+
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
+const server = app.listen(PORT, () => {
   console.log(`Napoli Deli demo running at http://localhost:${PORT}`);
 });
+
+// Flush in-progress session logs on graceful shutdown.
+function shutdown() { logger.flush(); server.close(); process.exit(0); }
+process.on("SIGINT",  shutdown);
+process.on("SIGTERM", shutdown);
