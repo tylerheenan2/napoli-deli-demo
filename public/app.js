@@ -360,6 +360,10 @@ function setupMobileViewport() {
     panel.style.height   = vv.height + 'px';
   }
 
+  function snapToBottom() {
+    messagesEl.scrollTop = messagesEl.scrollHeight;
+  }
+
   function onVVResize() {
     anchorPanel();
     if (window.innerWidth > 767) return;
@@ -372,6 +376,7 @@ function setupMobileViewport() {
     }
     // Do NOT remove keyboard-open here — blur handles removal.
     // This prevents flickering during the keyboard animation frames.
+    snapToBottom();
   }
 
   function onInputFocus() {
@@ -383,6 +388,7 @@ function setupMobileViewport() {
       if (vv.height < baselineVVH * 0.75) {
         document.body.classList.add('keyboard-open');
       }
+      snapToBottom();
     }, 350);
   }
 
