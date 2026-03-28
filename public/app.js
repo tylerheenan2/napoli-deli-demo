@@ -325,32 +325,83 @@ resetBtn.addEventListener("click", resetSession);
 function setupMobileViewport() {
   if (!window.visualViewport) return;
   const panel = document.getElementById('ordering-panel');
-  function resize() {
+  const vv = window.visualViewport;
+
+  // Baseline: captured once at load, and only updated when vv.height grows
+  // meaningfully larger (orientation change / toolbar collapse after load).
+  // Never overwritten during keyboard-open transitions.
+  let baselineVVH = vv.height;
+  let focusTimer = null;
+
+  function updateBaseline() {
+    // Only raise the baseline — never lower it mid-session.
+    // "Meaningfully larger" = at least 5% bigger than current baseline.
+    if (vv.height > baselineVVH * 1.05) {
+      baselineVVH = vv.height;
+    }
+  }
+
+  function anchorPanel() {
     if (window.innerWidth > 767) {
       panel.style.position = '';
-      panel.style.top = '';
-      panel.style.left = '';
-      panel.style.right = '';
+      panel.style.top    = '';
+      panel.style.left   = '';
+      panel.style.right  = '';
       panel.style.height = '';
-      panel.style.flex = '';
+      panel.style.flex   = '';
       document.body.classList.remove('keyboard-open');
       return;
     }
-    const vv = window.visualViewport;
-    // Anchor panel to the visual viewport top, compensating for iOS offsetTop
-    // shift that occurs when the keyboard opens and iOS scrolls to center input.
     panel.style.position = 'fixed';
-    panel.style.left = '0';
-    panel.style.right = '0';
-    panel.style.top = vv.offsetTop + 'px';
-    panel.style.flex = 'none';
-    panel.style.height = vv.height + 'px';
-    const keyboardOpen = vv.height < window.innerHeight * 0.80;
-    document.body.classList.toggle('keyboard-open', keyboardOpen);
+    panel.style.left     = '0';
+    panel.style.right    = '0';
+    panel.style.top      = vv.offsetTop + 'px';
+    panel.style.flex     = 'none';
+    panel.style.height   = vv.height + 'px';
   }
-  window.visualViewport.addEventListener('resize', resize);
-  window.visualViewport.addEventListener('scroll', resize);
-  resize(); // apply immediately on load
+
+  function onVVResize() {
+    anchorPanel();
+    if (window.innerWidth > 767) return;
+    // Update baseline only when vv.height is clearly larger (no active keyboard).
+    updateBaseline();
+    // Secondary confirmation: if vv.height is clearly keyboard-shrunk, ensure
+    // the class is on. This catches cases where focus signal was missed.
+    if (vv.height < baselineVVH * 0.75) {
+      document.body.classList.add('keyboard-open');
+    }
+    // Do NOT remove keyboard-open here — blur handles removal.
+    // This prevents flickering during the keyboard animation frames.
+  }
+
+  function onInputFocus() {
+    if (window.innerWidth > 767) return;
+    clearTimeout(focusTimer);
+    // Delay lets the iOS keyboard animation complete before we measure.
+    focusTimer = setTimeout(() => {
+      anchorPanel();
+      if (vv.height < baselineVVH * 0.75) {
+        document.body.classList.add('keyboard-open');
+      }
+    }, 350);
+  }
+
+  function onInputBlur() {
+    clearTimeout(focusTimer);
+    document.body.classList.remove('keyboard-open');
+  }
+
+  // Orientation change resets the baseline after the new layout settles.
+  window.addEventListener('orientationchange', () => {
+    setTimeout(() => { baselineVVH = vv.height; anchorPanel(); }, 400);
+  });
+
+  vv.addEventListener('resize', onVVResize);
+  vv.addEventListener('scroll', anchorPanel);
+  inputEl.addEventListener('focus', onInputFocus);
+  inputEl.addEventListener('blur',  onInputBlur);
+
+  anchorPanel(); // apply immediately on load
 }
 
 // ── init ──────────────────────────────────────────────────────────────────────
